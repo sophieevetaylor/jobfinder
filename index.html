@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Role Scan</title>
+<link rel="icon" href="icon-512.png" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#F3F0E9">
+<meta name="apple-mobile-web-app-title" content="Role Scan">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400;0,500;0,600;1,400&family=Cormorant+Garamond:ital,wght@1,500;1,600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #F3F0E9;
+    --ink: #26251F;
+    --stone: #8B8577;
+    --hairline: #DFD9CC;
+    --card: #FAF8F3;
+    --sage: #74855F;
+    --sage-soft: #E4E8DC;
+    --alert: #A4543B;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; overscroll-behavior-y: none; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Schibsted Grotesk", system-ui, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0 20px 96px;
+    overscroll-behavior-y: contain;
+    position: relative;
+  }
+  .wrap { max-width: 680px; margin: 0 auto; }
+  .wrap.snap { transition: transform .25s ease-out; }
+
+  /* ---------- pull to refresh ---------- */
+  .ptr {
+    position: absolute;
+    top: 14px; left: 0; right: 0;
+    text-align: center;
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--stone);
+    opacity: 0;
+    pointer-events: none;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  .ptr.ready { color: var(--sage); }
+
+  /* ---------- masthead ---------- */
+  header { padding: 44px 0 26px; }
+  .eyebrow {
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--stone);
+    font-weight: 500;
+  }
+  .headline {
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: clamp(38px, 8vw, 54px);
+    line-height: 1.05;
+    margin-top: 10px;
+    letter-spacing: -0.01em;
+  }
+  .headline .accent { color: var(--sage); }
+  .dateline {
+    margin-top: 10px;
+    font-size: 13px;
+    color: var(--stone);
+  }
+  .dateline .fail { color: var(--alert); }
+
+  /* ---------- controls ---------- */
+  .controls {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 14px 0;
+    border-top: 1px solid var(--hairline);
+    border-bottom: 1px solid var(--hairline);
+    flex-wrap: wrap;
+  }
+  .chip {
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background: transparent;
+    color: var(--stone);
+    border: 1px solid var(--hairline);
+    border-radius: 999px;
+    padding: 6px 14px;
+    cursor: pointer;
+    transition: color .15s, border-color .15s, background .15s;
+  }
+  .chip:hover { color: var(--ink); border-color: var(--stone); }
+  .chip[aria-pressed="true"] {
+    background: var(--ink);
+    color: var(--paper);
+    border-color: var(--ink);
+  }
+  .search {
+    flex: 1;
+    min-width: 140px;
+    font-family: inherit;
+    font-size: 14px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid transparent;
+    padding: 6px 2px;
+    color: var(--ink);
+    outline: none;
+  }
+  .search::placeholder { color: var(--stone); }
+  .search:focus { border-bottom-color: var(--sage); }
+
+  /* ---------- companies ---------- */
+  .company { padding: 26px 0 8px; }
+  .company-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 10px;
+  }
+  .company-name {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+  .company-meta { font-size: 12px; color: var(--stone); white-space: nowrap; }
+  .company-meta.fail { color: var(--alert); }
+  .company-meta a { color: inherit; }
+
+  .role {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    background: var(--card);
+    border: 1px solid var(--hairline);
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin-bottom: 8px;
+    transition: border-color .15s, transform .15s;
+  }
+  .role:hover { border-color: var(--sage); }
+  .role:focus-visible { outline: 2px solid var(--sage); outline-offset: 2px; }
+  .role-top { display: flex; align-items: baseline; gap: 10px; }
+  .role-title { font-weight: 500; font-size: 15px; flex: 1; }
+  .tag-new {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    color: var(--sage);
+    background: var(--sage-soft);
+    border-radius: 999px;
+    padding: 3px 9px;
+    white-space: nowrap;
+  }
+  .role-loc { margin-top: 3px; font-size: 12.5px; color: var(--stone); }
+
+  /* ---------- states ---------- */
+  .status { padding: 40px 0; color: var(--stone); font-size: 14px; }
+  .empty {
+    padding: 48px 0;
+    color: var(--stone);
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 1px solid var(--hairline);
+  }
+
+  /* ---------- settings ---------- */
+  details.settings { margin-top: 44px; border-top: 1px solid var(--hairline); padding-top: 18px; }
+  details.settings summary {
+    cursor: pointer;
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--stone);
+    font-weight: 500;
+    list-style: none;
+  }
+  details.settings summary::-webkit-details-marker { display: none; }
+  details.settings summary:hover { color: var(--ink); }
+  .settings-body { padding: 14px 0; font-size: 13px; color: var(--stone); }
+  .settings-body label { display: block; margin: 10px 0 4px; color: var(--ink); font-weight: 500; }
+  .settings-body textarea {
+    width: 100%;
+    min-height: 64px;
+    font-family: inherit;
+    font-size: 13px;
+    color: var(--ink);
+    background: var(--card);
+    border: 1px solid var(--hairline);
+    border-radius: 8px;
+    padding: 10px;
+    resize: vertical;
+  }
+  .settings-body button {
+    margin-top: 10px;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background: var(--ink);
+    color: var(--paper);
+    border: none;
+    border-radius: 999px;
+    padding: 8px 18px;
+    cursor: pointer;
+  }
+  .footnote { margin-top: 28px; font-size: 12px; color: var(--stone); }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; }
+  }
+</style>
+</head>
+<body>
+<div class="ptr" id="ptr" aria-hidden="true">Pull to refresh</div>
+<div class="wrap" id="wrap">
+  <header>
+    <div class="eyebrow">The Role Scan</div>
+    <h1 class="headline" id="headline">Checking the boards&hellip;</h1>
+    <div class="dateline" id="dateline"></div>
+  </header>
+
+  <div class="controls">
+    <button class="chip" id="chipAll" aria-pressed="true">All open</button>
+    <button class="chip" id="chipNew" aria-pressed="false">New only</button>
+    <input class="search" id="search" type="search" placeholder="Filter by title or company" aria-label="Filter roles">
+  </div>
+
+  <main id="results"><div class="status">Fetching live listings from eleven job boards&hellip;</div></main>
+
+  <details class="settings">
+    <summary>Keywords &amp; tracking</summary>
+    <div class="settings-body">
+      <p>Roles are matched on title, case-insensitive. One keyword per line.</p>
+      <label for="kwInclude">Include if title contains</label>
+      <textarea id="kwInclude"></textarea>
+      <label for="kwExclude">Exclude if title contains</label>
+      <textarea id="kwExclude"></textarea>
+      <button id="saveKw">Save and rescan</button>
+      <p class="footnote">Every open of this page fetches the boards live, so everything listed is open right now. "New" means published since your previous visit (tracked on this device). If a board can't be reached, its row links you to the careers page directly.</p>
+    </div>
+  </details>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  /* ---------------- config ---------------- */
+
+  const BOARDS = [
+    { company: "Anthropic",  provider: "greenhouse", token: "anthropic",         careers: "https://job-boards.greenhouse.io/anthropic" },
+    { company: "Databricks", provider: "greenhouse", token: "databricks",        careers: "https://www.databricks.com/company/careers/open-positions" },
+    { company: "Stripe",     provider: "greenhouse", token: "stripe",            careers: "https://stripe.com/jobs/search" },
+    { company: "Vercel",     provider: "greenhouse", token: "vercel",            careers: "https://vercel.com/careers" },
+    { company: "Anduril",    provider: "greenhouse", token: "andurilindustries", careers: "https://www.anduril.com/careers/" },
+    { company: "Lovable",    provider: "ashby",      token: "lovable",           careers: "https://lovable.dev/careers" },
+    { company: "OpenAI",     provider: "ashby",      token: "openai",            careers: "https://openai.com/careers/search/" },
+    { company: "Cursor",     provider: "ashby",      token: "cursor",            careers: "https://cursor.com/careers" },
+    { company: "Ramp",       provider: "ashby",      token: "ramp",              careers: "https://ramp.com/careers" },
+    { company: "Harvey",     provider: "ashby",      token: "harvey",            careers: "https://www.harvey.ai/careers" },
+    { company: "Perplexity", provider: "ashby",      token: "perplexity",        careers: "https://www.perplexity.ai/hub/careers" },
+    { company: "Canva",      provider: "lever",      token: "canva",             careers: "https://www.canva.com/careers/jobs/" }
+  ];
+
+  const DEFAULT_INCLUDE = [
+    "chief of staff", "strategy & operations", "strategy and operations",
+    "strategy & ops", "business operations", "bizops", "biz ops",
+    "investor relations", "capital markets", "corporate development",
+    "office of the ceo", "office of the cfo", "strategic finance",
+    "head of strategy", "strategy lead", "strategic initiatives",
+    "strategic operations"
+  ];
+  const DEFAULT_EXCLUDE = [
+    "engineer", "engineering", "intern", "software",
+    "solutions", "sales strategy", "developer"
+  ];
+
+  const SESSION_HOURS = 6; // refreshes within this window keep the same "new" baseline
+
+  /* ---------------- safe storage ---------------- */
+  // Guarded so the app still works where storage is unavailable
+  // (e.g. some embedded previews); badges simply won't persist.
+
+  const store = {
+    get(key) {
+      try { return JSON.parse(localStorage.getItem(key)); } catch (e) { return null; }
+    },
+    set(key, val) {
+      try { localStorage.setItem(key, JSON.stringify(val)); return true; } catch (e) { return false; }
+    }
+  };
+
+  /* ---------------- keywords ---------------- */
+
+  function loadKeywords() {
+    const saved = store.get("rolescan-keywords");
+    return {
+      include: (saved && saved.include && saved.include.length) ? saved.include : DEFAULT_INCLUDE.slice(),
+      exclude: (saved && saved.exclude) ? saved.exclude : DEFAULT_EXCLUDE.slice()
+    };
+  }
+  let keywords = loadKeywords();
+
+  function relevant(title) {
+    const t = title.toLowerCase();
+    return keywords.include.some(k => t.includes(k)) &&
+           !keywords.exclude.some(k => k && t.includes(k));
+  }
+
+  /* ---------------- fetchers ---------------- */
+
+  async function fetchBoard(b) {
+    if (b.provider === "greenhouse") {
+      const r = await fetch("https://boards-api.greenhouse.io/v1/boards/" + b.token + "/jobs");
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      const data = await r.json();
+      return (data.jobs || []).map(j => ({
+        id: "gh:" + b.token + ":" + j.id,
+        title: (j.title || "").trim(),
+        location: (j.location && j.location.name) || "",
+        url: j.absolute_url || b.careers
+      }));
+    }
+    if (b.provider === "ashby") {
+      const r = await fetch("https://api.ashbyhq.com/posting-api/job-board/" + b.token);
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      const data = await r.json();
+      return (data.jobs || []).filter(j => j.isListed !== false).map(j => ({
+        id: "ashby:" + b.token + ":" + j.id,
+        title: (j.title || "").trim(),
+        location: j.location || "",
+        url: j.jobUrl || j.applyUrl || b.careers
+      }));
+    }
+    const r = await fetch("https://api.lever.co/v0/postings/" + b.token + "?mode=json");
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    const data = await r.json();
+    return (data || []).map(j => ({
+      id: "lever:" + b.token + ":" + j.id,
+      title: (j.text || "").trim(),
+      location: (j.categories && j.categories.location) || "",
+      url: j.hostedUrl || b.careers
+    }));
+  }
+
+  /* ---------------- new-since-last-visit ---------------- */
+
+  function computeNewSet(currentIds) {
+    const state = store.get("rolescan-seen"); // { prev: [], curr: [], ts: number }
+    const now = Date.now();
+    let prev;
+    if (!state) {
+      prev = null; // first ever visit: nothing is "new", everything is baseline
+      store.set("rolescan-seen", { prev: currentIds, curr: currentIds, ts: now });
+    } else if (now - state.ts > SESSION_HOURS * 3600 * 1000) {
+      prev = new Set(state.curr); // fresh visit: diff against last visit's roles
+      store.set("rolescan-seen", { prev: state.curr, curr: currentIds, ts: now });
+    } else {
+      prev = new Set(state.prev); // same session refresh: keep the same baseline
+      store.set("rolescan-seen", { prev: state.prev, curr: currentIds, ts: state.ts });
+    }
+    if (!prev) return new Set();
+    return new Set(currentIds.filter(id => !prev.has(id)));
+  }
+
+  /* ---------------- rendering ---------------- */
+
+  const el = id => document.getElementById(id);
+  let results = [];   // [{board, jobs (relevant), totalOpen, error}]
+  let newSet = new Set();
+  let showNewOnly = false;
+  let query = "";
+
+  function esc(s) {
+    return String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  }
+
+  function render() {
+    const container = el("results");
+    const q = query.toLowerCase();
+    let shownRoles = 0;
+    let html = "";
+
+    for (const r of results) {
+      const companyMatch = r.board.company.toLowerCase().includes(q);
+      let jobs = r.jobs.filter(j =>
+        (!showNewOnly || newSet.has(j.id)) &&
+        (q === "" || companyMatch || j.title.toLowerCase().includes(q))
+      );
+      jobs.sort((a, b) =>
+        (newSet.has(b.id) ? 1 : 0) - (newSet.has(a.id) ? 1 : 0) ||
+        a.title.localeCompare(b.title)
+      );
+
+      if (r.error && (q === "" || companyMatch) && !showNewOnly) {
+        html += '<section class="company"><div class="company-head">' +
+          '<div class="company-name">' + esc(r.board.company) + '</div>' +
+          '<div class="company-meta fail">board unreachable &middot; <a href="' + esc(r.board.careers) + '" target="_blank" rel="noopener">open careers page</a></div>' +
+          '</div></section>';
+        continue;
+      }
+      if (!jobs.length) continue;
+
+      shownRoles += jobs.length;
+      html += '<section class="company"><div class="company-head">' +
+        '<div class="company-name">' + esc(r.board.company) + '</div>' +
+        '<div class="company-meta">' + jobs.length + ' relevant of ' + r.totalOpen + ' open</div>' +
+        '</div>';
+      for (const j of jobs) {
+        html += '<a class="role" href="' + esc(j.url) + '" target="_blank" rel="noopener">' +
+          '<div class="role-top"><div class="role-title">' + esc(j.title) + '</div>' +
+          (newSet.has(j.id) ? '<span class="tag-new">NEW</span>' : '') +
+          '</div>' +
+          (j.location ? '<div class="role-loc">' + esc(j.location) + '</div>' : '') +
+          '</a>';
+      }
+      html += '</section>';
+    }
+
+    if (!shownRoles) {
+      html += '<div class="empty">' + (showNewOnly
+        ? "Nothing new since your last visit."
+        : "No open roles match. Try clearing the filter or widening keywords below.") + '</div>';
+    }
+    container.innerHTML = html;
+  }
+
+  function renderMasthead(failures) {
+    const newCount = newSet.size;
+    const total = results.reduce((n, r) => n + r.jobs.length, 0);
+    el("headline").innerHTML = newCount
+      ? '<span class="accent">' + newCount + ' new role' + (newCount !== 1 ? "s" : "") + '</span> today'
+      : "Nothing new today";
+    const dateStr = new Date().toLocaleDateString("en-AU", {
+      weekday: "long", day: "numeric", month: "long", timeZone: "Australia/Sydney"
+    });
+    const timeStr = new Date().toLocaleTimeString("en-AU", {
+      hour: "numeric", minute: "2-digit", timeZone: "Australia/Sydney"
+    });
+    el("dateline").innerHTML = esc(dateStr) + " &middot; fetched live at " + esc(timeStr) +
+      " &middot; " + total + " relevant roles open" +
+      (failures ? ' &middot; <span class="fail">' + failures + " board" + (failures !== 1 ? "s" : "") + " unreachable</span>" : "");
+  }
+
+  /* ---------------- scan ---------------- */
+
+  async function scan() {
+    el("headline").textContent = "Checking the boards\u2026";
+    el("dateline").textContent = "";
+    el("results").innerHTML = '<div class="status">Fetching live listings from ' + BOARDS.length + ' job boards\u2026</div>';
+
+    const settled = await Promise.allSettled(BOARDS.map(fetchBoard));
+    results = settled.map((s, i) => {
+      if (s.status === "fulfilled") {
+        return {
+          board: BOARDS[i],
+          jobs: s.value.filter(j => relevant(j.title)),
+          totalOpen: s.value.length,
+          error: null
+        };
+      }
+      return { board: BOARDS[i], jobs: [], totalOpen: 0, error: String(s.reason) };
+    });
+
+    const currentIds = results.flatMap(r => r.jobs.map(j => j.id));
+    newSet = computeNewSet(currentIds);
+
+    const failures = results.filter(r => r.error).length;
+    renderMasthead(failures);
+    render();
+  }
+
+  /* ---------------- wiring ---------------- */
+
+  el("chipAll").addEventListener("click", () => {
+    showNewOnly = false;
+    el("chipAll").setAttribute("aria-pressed", "true");
+    el("chipNew").setAttribute("aria-pressed", "false");
+    render();
+  });
+  el("chipNew").addEventListener("click", () => {
+    showNewOnly = true;
+    el("chipNew").setAttribute("aria-pressed", "true");
+    el("chipAll").setAttribute("aria-pressed", "false");
+    render();
+  });
+  el("search").addEventListener("input", e => { query = e.target.value.trim(); render(); });
+
+  el("kwInclude").value = keywords.include.join("\n");
+  el("kwExclude").value = keywords.exclude.join("\n");
+  el("saveKw").addEventListener("click", () => {
+    const parse = v => v.split("\n").map(s => s.trim().toLowerCase()).filter(Boolean);
+    keywords = {
+      include: parse(el("kwInclude").value),
+      exclude: parse(el("kwExclude").value)
+    };
+    if (!keywords.include.length) keywords.include = DEFAULT_INCLUDE.slice();
+    store.set("rolescan-keywords", keywords);
+    scan();
+  });
+
+  /* ---------------- pull to refresh ---------------- */
+
+  (function () {
+    const wrap = el("wrap");
+    const ptr = el("ptr");
+    const TRIGGER = 64;   // px of (dampened) pull needed to fire
+    const MAX = 110;
+    let startY = null;
+    let pull = 0;
+    let refreshing = false;
+
+    function setPull(px) {
+      pull = px;
+      wrap.style.transform = px ? "translateY(" + px + "px)" : "";
+      ptr.style.opacity = Math.min(1, px / 44);
+      const ready = px >= TRIGGER;
+      ptr.textContent = ready ? "Release to refresh" : "Pull to refresh";
+      ptr.classList.toggle("ready", ready);
+    }
+
+    function snapBack() {
+      wrap.classList.add("snap");
+      setPull(0);
+      setTimeout(() => wrap.classList.remove("snap"), 300);
+    }
+
+    document.addEventListener("touchstart", e => {
+      startY = (window.scrollY <= 0 && !refreshing) ? e.touches[0].clientY : null;
+    }, { passive: true });
+
+    document.addEventListener("touchmove", e => {
+      if (startY === null || refreshing) return;
+      const dy = e.touches[0].clientY - startY;
+      if (dy <= 0 || window.scrollY > 0) {
+        if (pull) snapBack();
+        startY = null;
+        return;
+      }
+      e.preventDefault();                       // take over from native scroll
+      wrap.classList.remove("snap");
+      setPull(Math.min(MAX, dy * 0.45));        // resistance
+    }, { passive: false });
+
+    document.addEventListener("touchend", async () => {
+      if (startY === null || refreshing) return;
+      const fired = pull >= TRIGGER;
+      startY = null;
+      if (!fired) { if (pull) snapBack(); return; }
+      refreshing = true;
+      ptr.textContent = "Refreshing\u2026";
+      wrap.classList.add("snap");
+      setPull(48);                              // hold while fetching
+      try { await scan(); } finally {
+        snapBack();
+        ptr.classList.remove("ready");
+        refreshing = false;
+      }
+    });
+  })();
+
+  scan();
+})();
+</script>
+</body>
+</html>
