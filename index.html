@@ -31,7 +31,7 @@
     font-family: "Schibsted Grotesk", system-ui, sans-serif;
     font-size: 15px;
     line-height: 1.5;
-    padding: 0 20px 96px;
+    padding: 0 20px calc(110px + env(safe-area-inset-bottom, 0px));
     overscroll-behavior-y: contain;
     position: relative;
   }
@@ -225,6 +225,40 @@
   }
   details.fit li { margin-bottom: 6px; }
   details.fit li::marker { color: var(--sage); }
+
+  /* ---------- card actions ---------- */
+  .role-actions {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 0 12px 10px;
+    flex-wrap: wrap;
+  }
+  .act {
+    font-family: inherit;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    background: transparent;
+    color: var(--stone);
+    border: 1px solid var(--hairline);
+    border-radius: 999px;
+    padding: 5px 12px;
+    cursor: pointer;
+    transition: color .15s, border-color .15s, background .15s;
+  }
+  .act:hover { color: var(--ink); border-color: var(--stone); }
+  .act.primary { color: var(--sage); border-color: var(--sage); }
+  .act.primary:hover { background: var(--sage); color: var(--paper); }
+  .act.done { background: var(--sage-soft); color: var(--sage); border-color: var(--sage-soft); }
+  .role-closed {
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--alert);
+    padding: 0 16px 10px;
+  }
   .role-company { font-weight: 600; color: var(--ink); }
 
   /* ---------- states ---------- */
@@ -280,6 +314,50 @@
   }
   .footnote { margin-top: 28px; font-size: 12px; color: var(--stone); }
 
+  /* ---------- bottom tab bar ---------- */
+  .tabbar {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    display: flex;
+    background: color-mix(in srgb, var(--paper) 88%, white);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border-top: 1px solid var(--hairline);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    z-index: 10;
+  }
+  .tab {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    font-family: inherit;
+    background: transparent;
+    border: none;
+    padding: 15px 0 13px;
+    cursor: pointer;
+  }
+  .tab-label {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--stone);
+    transition: color .15s;
+  }
+  .tab[aria-pressed="true"] .tab-label { color: var(--ink); }
+  .tab[aria-pressed="true"] { box-shadow: inset 0 2px 0 var(--sage); }
+  .tab-badge {
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--paper);
+    background: var(--sage);
+    border-radius: 999px;
+    padding: 2px 7px;
+    letter-spacing: 0.05em;
+  }
+
   @media (prefers-reduced-motion: reduce) {
     * { transition: none !important; }
   }
@@ -320,10 +398,21 @@
       <label for="kwExclude">Exclude if title contains</label>
       <textarea id="kwExclude"></textarea>
       <button id="saveKw">Save and rescan</button>
+      <button id="restoreDismissed" style="margin-left:8px;background:transparent;color:var(--stone);border:1px solid var(--hairline);">Restore dismissed roles</button>
       <p class="footnote">Every open fetches the boards live, so everything listed is open right now. "New" means published since your previous visit (tracked on this device). "AU + US" hides roles whose location is clearly elsewhere; roles listing multiple locations are kept if any is in Australia or the US. Location text varies by company, so this is a best-effort filter &mdash; turn it off to see everything.</p>
     </div>
   </details>
 </div>
+
+<nav class="tabbar" aria-label="App sections">
+  <button class="tab" id="navScan" aria-pressed="true">
+    <span class="tab-label">Scan</span>
+  </button>
+  <button class="tab" id="navApply" aria-pressed="false">
+    <span class="tab-label">To apply</span>
+    <span class="tab-badge" id="applyBadge" hidden>0</span>
+  </button>
+</nav>
 
 <script>
 (function () {
@@ -594,12 +683,19 @@
   const el = id => document.getElementById(id);
   let results = [];
   let vcJobs = [];        // roles from VC portfolio boards (data/jobs.json)
+  let dismissed = new Set(store.get("rolescan-dismissed") || []);
+  let saved = store.get("rolescan-saved") || {};   // id -> job snapshot
+  let liveIds = new Set();                          // every id seen in current scan
+  const jobsById = new Map();                       // id -> {company, j} for action wiring
+  function persistDismissed() { store.set("rolescan-dismissed", [...dismissed]); }
+  function persistSaved() { store.set("rolescan-saved", saved); }
   let vcMeta = null;
   let newSet = new Set();
   let failuresCount = 0;
   let lastFetchDate = "";
   let lastFetchTime = "";
-  let groupMode = "ranked"; // "ranked" | "company" | "role"
+  let page = "scan";        // "scan" | "apply" — two separate screens
+  let groupMode = "ranked"; // "ranked" | "company" | "role" (scan screen only)
   let showNewOnly = false;
   let regionOnly = true;
   let query = "";
@@ -621,6 +717,7 @@
   /* ---------------- rendering ---------------- */
 
   function passesFilters(company, j) {
+    if (dismissed.has(j.id)) return false;
     if (regionOnly && !j.inRegion) return false;
     if (showNewOnly && !newSet.has(j.id)) return false;
     if (query) {
@@ -641,6 +738,16 @@
     const bullets = fitBullets(company, j);
     const scoreClass = score >= 8 ? "" : " mid";
 
+    jobsById.set(j.id, { company, j });
+    const isSaved = !!saved[j.id];
+    const actions =
+      '<div class="role-actions">' +
+      (isSaved
+        ? '<button class="act done" data-action="unsave" data-id="' + esc(j.id) + '">Saved &check;</button>'
+        : '<button class="act primary" data-action="save" data-id="' + esc(j.id) + '">+ To apply</button>') +
+      '<button class="act" data-action="dismiss" data-id="' + esc(j.id) + '">Dismiss</button>' +
+      '</div>';
+
     return '<div class="role">' +
       '<a class="role-link" href="' + esc(j.url) + '" target="_blank" rel="noopener">' +
       '<div class="role-top"><div class="role-title">' + esc(j.title) + '</div>' +
@@ -650,10 +757,50 @@
       '</div>' +
       (sub ? '<div class="role-sub">' + sub + '</div>' : '') +
       '</a>' +
+      actions +
       '<details class="fit"><summary>Why apply &middot; ' + score + '/10 fit</summary><ul>' +
       bullets.map(b => '<li>' + esc(b) + '</li>').join('') +
       '</ul></details>' +
       '</div>';
+  }
+
+  // Card for the To-apply tab: saved snapshot, status + brief + remove
+  function buildSavedCard(s) {
+    const score = fitScore(s.company, s);
+    const stillLive = liveIds.has(s.id);
+    const bits = ['<span class="role-company">' + esc(s.company) + '</span>'];
+    if (s.location) bits.push(esc(s.location));
+    if (s.via) bits.push('<span class="role-via">via ' + esc(s.via) + '</span>');
+    const applied = s.status === "applied";
+    return '<div class="role">' +
+      '<a class="role-link" href="' + esc(s.url) + '" target="_blank" rel="noopener">' +
+      '<div class="role-top"><div class="role-title">' + esc(s.title) + '</div>' +
+      '<span class="tag-fit' + (score >= 8 ? "" : " mid") + '">' + score + '/10</span>' +
+      (applied ? '<span class="tag-new">APPLIED</span>' : '') +
+      '</div>' +
+      '<div class="role-sub">' + bits.join(' &middot; ') + '</div>' +
+      '</a>' +
+      (!stillLive ? '<div class="role-closed">Not seen in latest scan &mdash; may have closed. Check the link.</div>' : '') +
+      '<div class="role-actions">' +
+      '<button class="act primary" data-action="brief" data-id="' + esc(s.id) + '">Copy Claude brief</button>' +
+      '<button class="act' + (applied ? ' done' : '') + '" data-action="status" data-id="' + esc(s.id) + '">' + (applied ? 'Applied &check;' : 'Mark applied') + '</button>' +
+      '<button class="act" data-action="remove" data-id="' + esc(s.id) + '">Remove</button>' +
+      '</div></div>';
+  }
+
+  function renderApply() {
+    const items = Object.values(saved).sort((a, b) =>
+      (a.status === "applied" ? 1 : 0) - (b.status === "applied" ? 1 : 0) ||
+      fitScore(b.company, b) - fitScore(a.company, a));
+    let html = "";
+    if (items.length) {
+      html += '<section class="group"><div class="group-head">' +
+        '<div class="group-name role">To apply</div>' +
+        '<div class="group-meta">' + items.length + ' saved</div></div>';
+      for (const s of items) html += buildSavedCard(s);
+      html += '</section>';
+    }
+    return { html, shown: items.length };
   }
 
   function byCosThenFitThenNew(a, b, companyA, companyB) {
@@ -776,20 +923,42 @@
 
   function render() {
     const container = el("results");
-    const out = groupMode === "ranked" ? renderRanked()
+    jobsById.clear();
+    // Scan chrome (filters, search, keyword settings) only exists on the Scan screen
+    const scanChrome = page === "scan";
+    document.querySelector(".controls").style.display = scanChrome ? "" : "none";
+    document.querySelector(".searchrow").style.display = scanChrome ? "" : "none";
+    document.querySelector("details.settings").style.display = scanChrome ? "" : "none";
+
+    const out = page === "apply" ? renderApply()
+              : groupMode === "ranked" ? renderRanked()
               : groupMode === "role" ? renderByRole()
               : renderByCompany();
     let html = out.html;
 
     if (!out.shown) {
       let msg;
-      if (showNewOnly) msg = "Nothing new since your last visit.";
+      if (page === "apply") msg = "Nothing saved yet. Tap \u201C+ To apply\u201D on any role in Scan to build your shortlist here.";
+      else if (showNewOnly) msg = "Nothing new since your last visit.";
       else if (regionOnly) msg = "No open roles in AU or US match. Try turning off the AU + US filter or widening keywords below.";
       else msg = "No open roles match. Try clearing the filter or widening keywords below.";
       html += '<div class="empty">' + msg + '</div>';
     }
     container.innerHTML = html;
 
+    updateBadge();
+    if (page === "apply") {
+      const items = Object.values(saved);
+      const toApply = items.filter(s => s.status !== "applied").length;
+      const applied = items.length - toApply;
+      el("headline").innerHTML = items.length
+        ? '<span class="accent">' + toApply + ' to apply</span>' + (applied ? ", " + applied + " applied" : "")
+        : "Your shortlist";
+      el("dateline").innerHTML = items.length
+        ? "Sorted by fit &middot; tap a card to open the listing &middot; \u201CCopy Claude brief\u201D to get application help"
+        : "Save roles from Scan and work your pipeline here.";
+      return;
+    }
     // counts that reflect exactly what is on screen
     let total = 0, freshVisible = 0;
     for (const it of allVisibleJobs()) {
@@ -862,6 +1031,7 @@
       .filter(j => fitScore(j.company, j) >= 8);             // high-fit only, cut noise
 
     const currentIds = results.flatMap(r => r.jobs.map(j => j.id)).concat(vcJobs.map(j => j.id));
+    liveIds = new Set(currentIds);
     newSet = computeNewSet(currentIds);
     failuresCount = results.filter(r => r.error).length;
 
@@ -884,6 +1054,77 @@
   el("segRanked").addEventListener("click", () => setGroup("ranked"));
   el("segCompany").addEventListener("click", () => setGroup("company"));
   el("segRole").addEventListener("click", () => setGroup("role"));
+
+  function setPage(p) {
+    page = p;
+    el("navScan").setAttribute("aria-pressed", p === "scan" ? "true" : "false");
+    el("navApply").setAttribute("aria-pressed", p === "apply" ? "true" : "false");
+    window.scrollTo(0, 0);
+    render();
+  }
+  el("navScan").addEventListener("click", () => setPage("scan"));
+  el("navApply").addEventListener("click", () => setPage("apply"));
+
+  function updateBadge() {
+    const n = Object.values(saved).filter(s => s.status !== "applied").length;
+    const badge = el("applyBadge");
+    badge.hidden = n === 0;
+    badge.textContent = n;
+  }
+
+  function claudeBrief(s) {
+    return "Help me apply for this role.\n\n" +
+      "Role: " + s.title + "\n" +
+      "Company: " + s.company + (s.via ? " (found via " + s.via + "'s portfolio board)" : "") + "\n" +
+      (s.location ? "Location: " + s.location + "\n" : "") +
+      "Listing: " + s.url + "\n\n" +
+      "Please: (1) fetch and read the job description from the listing link, " +
+      "(2) give me an honest fit assessment against my background, " +
+      "(3) map my experience to their stated requirements and flag any gaps with mitigation framing, " +
+      "(4) draft tailored CV bullets for this role, and " +
+      "(5) draft a short, sharp cover note in my voice.";
+  }
+
+  el("results").addEventListener("click", async e => {
+    const btn = e.target.closest("[data-action]");
+    if (!btn) return;
+    e.preventDefault();
+    const id = btn.getAttribute("data-id");
+    const action = btn.getAttribute("data-action");
+    if (action === "dismiss") {
+      dismissed.add(id); persistDismissed(); render();
+    } else if (action === "save") {
+      const it = jobsById.get(id);
+      if (it) {
+        saved[id] = { id, company: it.company, title: it.j.title, location: it.j.location || "",
+                      url: it.j.url, via: it.j.via || "", cos: !!it.j.cos,
+                      savedAt: Date.now(), status: "to_apply" };
+        persistSaved(); render();
+      }
+    } else if (action === "unsave" || action === "remove") {
+      delete saved[id]; persistSaved(); render();
+    } else if (action === "status") {
+      if (saved[id]) {
+        saved[id].status = saved[id].status === "applied" ? "to_apply" : "applied";
+        persistSaved(); render();
+      }
+    } else if (action === "brief") {
+      const s = saved[id];
+      if (!s) return;
+      const text = claudeBrief(s);
+      try {
+        await navigator.clipboard.writeText(text);
+        btn.textContent = "Copied \u2713";
+        setTimeout(() => { btn.innerHTML = "Copy Claude brief"; }, 1600);
+      } catch (err) {
+        window.prompt("Copy this brief for Claude:", text);
+      }
+    }
+  });
+
+  el("restoreDismissed").addEventListener("click", () => {
+    dismissed = new Set(); persistDismissed(); render();
+  });
 
   el("chipNew").addEventListener("click", () => {
     showNewOnly = !showNewOnly;
