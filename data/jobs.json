@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-15T06:39:42.897390+00:00",
-  "count": 0,
+  "generated_at": "2026-07-15T10:53:56.258797+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -21,5 +21,15 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": []
+  "jobs": [
+    {
+      "firm": "a16z",
+      "company": "SentiLink",
+      "title": "Strategy & Operations, Learning and Development (L&D)",
+      "location": "Salary range USD 155,000 - 200,000 / yearRemoteUnited States, United StatesPosted less than 1 day ago",
+      "url": "https://portfoliojobs.a16z.com/jobs/sentilink",
+      "cos": false,
+      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/sentilink"
+    }
+  ]
 }
