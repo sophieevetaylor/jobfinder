@@ -1,0 +1,15 @@
+{
+  "include": [
+    "chief of staff", "strategy & operations", "strategy and operations",
+    "strategy & ops", "business operations", "bizops", "biz ops",
+    "investor relations", "capital markets", "corporate development",
+    "office of the ceo", "office of the cfo", "strategic finance",
+    "head of strategy", "strategy lead", "strategic initiatives",
+    "strategic operations"
+  ],
+  "exclude": [
+    "engineer", "engineering", "intern", "software",
+    "solutions", "sales strategy", "developer"
+  ],
+  "cos_markers": ["chief of staff", "office of the ceo", "office of the cfo"]
+}

@@ -1,0 +1,13 @@
+{
+  "_comment": "VC portfolio job boards. The aggregator renders each in a headless browser and reads the jobs off the page, so 'platform' is only a hint. If a board URL is wrong or a firm has moved, the run logs + the saved debug/<firm>.html snapshot will show it, and it's a one-line fix here. All four of the confirmed ones follow Consider's jobs.<firm>.com pattern; the rest are best-guess URLs to verify on first run.",
+  "boards": [
+    { "firm": "Sequoia",          "url": "https://jobs.sequoiacap.com/jobs",   "platform": "consider", "verified": true  },
+    { "firm": "a16z",             "url": "https://portfoliojobs.a16z.com/jobs", "platform": "consider", "verified": true  },
+    { "firm": "Lightspeed",       "url": "https://jobs.lsvp.com/jobs",          "platform": "consider", "verified": true  },
+    { "firm": "Thrive",           "url": "https://jobs.thrivecap.com/jobs",     "platform": "consider", "verified": true  },
+    { "firm": "General Catalyst", "url": "https://jobs.generalcatalyst.com/jobs","platform": "consider", "verified": false },
+    { "firm": "Index Ventures",   "url": "https://jobs.indexventures.com/jobs", "platform": "consider", "verified": false },
+    { "firm": "Greylock",         "url": "https://jobs.greylock.com/jobs",      "platform": "consider", "verified": false },
+    { "firm": "Founders Fund",    "url": "https://jobs.foundersfund.com/jobs",  "platform": "consider", "verified": false }
+  ]
+}

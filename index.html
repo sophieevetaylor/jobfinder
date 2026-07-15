@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Role Scan</title>
+<link rel="icon" href="/apple-touch-icon.png" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="data:application/manifest+json;base64,eyJuYW1lIjogIlRoZSBSb2xlIFNjYW4iLCAic2hvcnRfbmFtZSI6ICJSb2xlIFNjYW4iLCAic3RhcnRfdXJsIjogIi4vIiwgImRpc3BsYXkiOiAic3RhbmRhbG9uZSIsICJiYWNrZ3JvdW5kX2NvbG9yIjogIiNGM0YwRTkiLCAidGhlbWVfY29sb3IiOiAiI0YzRjBFOSIsICJpY29ucyI6IFt7InNyYyI6ICIvYXBwbGUtdG91Y2gtaWNvbi5wbmciLCAic2l6ZXMiOiAiNTEyeDUxMiIsICJ0eXBlIjogImltYWdlL3BuZyJ9XX0=">
+<meta name="theme-color" content="#F3F0E9">
+<meta name="apple-mobile-web-app-title" content="Role Scan">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400;0,500;0,600;1,400&family=Cormorant+Garamond:ital,wght@1,500;1,600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #F3F0E9;
+    --ink: #26251F;
+    --stone: #8B8577;
+    --hairline: #DFD9CC;
+    --card: #FAF8F3;
+    --sage: #74855F;
+    --sage-soft: #E4E8DC;
+    --alert: #A4543B;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; overscroll-behavior-y: none; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Schibsted Grotesk", system-ui, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0 20px 96px;
+    overscroll-behavior-y: contain;
+    position: relative;
+  }
+  .wrap { max-width: 680px; margin: 0 auto; }
+  .wrap.snap { transition: transform .25s ease-out; }
+
+  /* ---------- pull to refresh ---------- */
+  .ptr {
+    position: absolute;
+    top: 14px; left: 0; right: 0;
+    text-align: center;
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--stone);
+    opacity: 0;
+    pointer-events: none;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  .ptr.ready { color: var(--sage); }
+
+  /* ---------- masthead ---------- */
+  header { padding: 44px 0 24px; }
+  .eyebrow {
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--stone);
+    font-weight: 500;
+  }
+  .headline {
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: clamp(38px, 8vw, 54px);
+    line-height: 1.05;
+    margin-top: 10px;
+    letter-spacing: -0.01em;
+  }
+  .headline .accent { color: var(--sage); }
+  .dateline {
+    margin-top: 10px;
+    font-size: 13px;
+    color: var(--stone);
+  }
+  .dateline .fail { color: var(--alert); }
+
+  /* ---------- controls ---------- */
+  .controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 14px 0;
+    border-top: 1px solid var(--hairline);
+    flex-wrap: wrap;
+  }
+  /* segmented control = primary grouping choice */
+  .segmented {
+    display: inline-flex;
+    background: var(--card);
+    border: 1px solid var(--hairline);
+    border-radius: 999px;
+    padding: 3px;
+  }
+  .seg {
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    border: none;
+    background: transparent;
+    color: var(--stone);
+    padding: 7px 15px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: color .15s, background .15s;
+  }
+  .seg[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+  .toggles { display: flex; gap: 8px; }
+  .chip {
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background: transparent;
+    color: var(--stone);
+    border: 1px solid var(--hairline);
+    border-radius: 999px;
+    padding: 7px 14px;
+    cursor: pointer;
+    transition: color .15s, border-color .15s, background .15s;
+  }
+  .chip:hover { color: var(--ink); border-color: var(--stone); }
+  .chip[aria-pressed="true"] {
+    background: var(--ink);
+    color: var(--paper);
+    border-color: var(--ink);
+  }
+  .searchrow {
+    padding: 4px 0 14px;
+    border-bottom: 1px solid var(--hairline);
+  }
+  .search {
+    width: 100%;
+    font-family: inherit;
+    font-size: 14px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid transparent;
+    padding: 6px 2px;
+    color: var(--ink);
+    outline: none;
+  }
+  .search::placeholder { color: var(--stone); }
+  .search:focus { border-bottom-color: var(--sage); }
+
+  /* ---------- sections ---------- */
+  .group { padding: 26px 0 8px; }
+  .group-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 10px;
+  }
+  .group-name {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+  .group-name.role { color: var(--sage); }
+  .group-meta { font-size: 12px; color: var(--stone); white-space: nowrap; }
+  .group-meta.fail { color: var(--alert); }
+  .group-meta a { color: inherit; }
+
+  .role {
+    background: var(--card);
+    border: 1px solid var(--hairline);
+    border-radius: 10px;
+    margin-bottom: 8px;
+    transition: border-color .15s;
+  }
+  .role:hover { border-color: var(--sage); }
+  .role-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    padding: 14px 16px 10px;
+  }
+  .role-link:focus-visible { outline: 2px solid var(--sage); outline-offset: 2px; border-radius: 10px; }
+  .role-top { display: flex; align-items: baseline; gap: 8px; }
+  .role-title { font-weight: 500; font-size: 15px; flex: 1; }
+  .tag-cos, .tag-new, .tag-fit {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    border-radius: 999px;
+    padding: 3px 9px;
+    white-space: nowrap;
+  }
+  .tag-cos { color: var(--ink); border: 1px solid var(--stone); }
+  .tag-new { color: var(--sage); background: var(--sage-soft); }
+  .tag-fit { color: var(--paper); background: var(--sage); }
+  .tag-fit.mid { background: var(--stone); }
+  .role-sub { margin-top: 4px; font-size: 12.5px; color: var(--stone); }
+  .role-via { color: var(--sage); }
+  details.fit { border-top: 1px solid var(--hairline); }
+  details.fit summary {
+    cursor: pointer;
+    list-style: none;
+    padding: 9px 16px;
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--stone);
+  }
+  details.fit summary::-webkit-details-marker { display: none; }
+  details.fit summary:hover { color: var(--ink); }
+  details.fit[open] summary { color: var(--ink); }
+  details.fit ul {
+    margin: 0;
+    padding: 0 16px 14px 32px;
+    font-size: 13px;
+    line-height: 1.55;
+  }
+  details.fit li { margin-bottom: 6px; }
+  details.fit li::marker { color: var(--sage); }
+  .role-company { font-weight: 600; color: var(--ink); }
+
+  /* ---------- states ---------- */
+  .status { padding: 40px 0; color: var(--stone); font-size: 14px; }
+  .empty {
+    padding: 48px 0;
+    color: var(--stone);
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 1px solid var(--hairline);
+  }
+
+  /* ---------- settings ---------- */
+  details.settings { margin-top: 44px; border-top: 1px solid var(--hairline); padding-top: 18px; }
+  details.settings summary {
+    cursor: pointer;
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--stone);
+    font-weight: 500;
+    list-style: none;
+  }
+  details.settings summary::-webkit-details-marker { display: none; }
+  details.settings summary:hover { color: var(--ink); }
+  .settings-body { padding: 14px 0; font-size: 13px; color: var(--stone); }
+  .settings-body label { display: block; margin: 10px 0 4px; color: var(--ink); font-weight: 500; }
+  .settings-body textarea {
+    width: 100%;
+    min-height: 64px;
+    font-family: inherit;
+    font-size: 13px;
+    color: var(--ink);
+    background: var(--card);
+    border: 1px solid var(--hairline);
+    border-radius: 8px;
+    padding: 10px;
+    resize: vertical;
+  }
+  .settings-body button {
+    margin-top: 10px;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background: var(--ink);
+    color: var(--paper);
+    border: none;
+    border-radius: 999px;
+    padding: 8px 18px;
+    cursor: pointer;
+  }
+  .footnote { margin-top: 28px; font-size: 12px; color: var(--stone); }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; }
+  }
+</style>
+</head>
+<body>
+<div class="ptr" id="ptr" aria-hidden="true">Pull to refresh</div>
+<div class="wrap" id="wrap">
+  <header>
+    <div class="eyebrow">The Role Scan</div>
+    <h1 class="headline" id="headline">Checking the boards&hellip;</h1>
+    <div class="dateline" id="dateline"></div>
+  </header>
+
+  <div class="controls">
+    <div class="segmented" role="group" aria-label="Group roles by">
+      <button class="seg" id="segRanked" aria-pressed="true">Ranked</button>
+      <button class="seg" id="segCompany" aria-pressed="false">By company</button>
+      <button class="seg" id="segRole" aria-pressed="false">By role</button>
+    </div>
+    <div class="toggles">
+      <button class="chip" id="chipNew" aria-pressed="false">New only</button>
+      <button class="chip" id="chipRegion" aria-pressed="true" title="Show only Australia and USA locations">AU&nbsp;+&nbsp;US</button>
+    </div>
+  </div>
+  <div class="searchrow">
+    <input class="search" id="search" type="search" placeholder="Filter by title or company" aria-label="Filter roles">
+  </div>
+
+  <main id="results"><div class="status">Fetching live listings&hellip;</div></main>
+
+  <details class="settings">
+    <summary>Keywords &amp; tracking</summary>
+    <div class="settings-body">
+      <p>Roles are matched on title, case-insensitive. One keyword per line.</p>
+      <label for="kwInclude">Include if title contains</label>
+      <textarea id="kwInclude"></textarea>
+      <label for="kwExclude">Exclude if title contains</label>
+      <textarea id="kwExclude"></textarea>
+      <button id="saveKw">Save and rescan</button>
+      <p class="footnote">Every open fetches the boards live, so everything listed is open right now. "New" means published since your previous visit (tracked on this device). "AU + US" hides roles whose location is clearly elsewhere; roles listing multiple locations are kept if any is in Australia or the US. Location text varies by company, so this is a best-effort filter &mdash; turn it off to see everything.</p>
+    </div>
+  </details>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  /* ---------------- config ---------------- */
+
+  const BOARDS = [
+    { company: "Anthropic",  provider: "greenhouse", token: "anthropic",         careers: "https://job-boards.greenhouse.io/anthropic" },
+    { company: "Databricks", provider: "greenhouse", token: "databricks",        careers: "https://www.databricks.com/company/careers/open-positions" },
+    { company: "Stripe",     provider: "greenhouse", token: "stripe",            careers: "https://stripe.com/jobs/search" },
+    { company: "Vercel",     provider: "greenhouse", token: "vercel",            careers: "https://vercel.com/careers" },
+    { company: "Anduril",    provider: "greenhouse", token: "andurilindustries", careers: "https://www.anduril.com/careers/" },
+    { company: "Lovable",    provider: "ashby",      token: "lovable",           careers: "https://lovable.dev/careers" },
+    { company: "OpenAI",     provider: "ashby",      token: "openai",            careers: "https://openai.com/careers/search/" },
+    { company: "Cursor",     provider: "ashby",      token: "cursor",            careers: "https://cursor.com/careers" },
+    { company: "Ramp",       provider: "ashby",      token: "ramp",              careers: "https://ramp.com/careers" },
+    { company: "Harvey",     provider: "ashby",      token: "harvey",            careers: "https://www.harvey.ai/careers" },
+    { company: "Perplexity", provider: "ashby",      token: "perplexity",        careers: "https://www.perplexity.ai/hub/careers" },
+    { company: "Canva",      provider: "lever",      token: "canva",             careers: "https://www.canva.com/careers/jobs/" }
+  ];
+
+  const DEFAULT_INCLUDE = [
+    "chief of staff", "strategy & operations", "strategy and operations",
+    "strategy & ops", "business operations", "bizops", "biz ops",
+    "investor relations", "capital markets", "corporate development",
+    "office of the ceo", "office of the cfo", "strategic finance",
+    "head of strategy", "strategy lead", "strategic initiatives",
+    "strategic operations"
+  ];
+  const DEFAULT_EXCLUDE = [
+    "engineer", "engineering", "intern", "software",
+    "solutions", "sales strategy", "developer"
+  ];
+
+  const SESSION_HOURS = 6; // refreshes within this window keep the same "new" baseline
+
+  /* ---------------- safe storage ---------------- */
+
+  const store = {
+    get(key) {
+      try { return JSON.parse(localStorage.getItem(key)); } catch (e) { return null; }
+    },
+    set(key, val) {
+      try { localStorage.setItem(key, JSON.stringify(val)); return true; } catch (e) { return false; }
+    }
+  };
+
+  /* ---------------- keywords ---------------- */
+
+  function loadKeywords() {
+    const saved = store.get("rolescan-keywords");
+    return {
+      include: (saved && saved.include && saved.include.length) ? saved.include : DEFAULT_INCLUDE.slice(),
+      exclude: (saved && saved.exclude) ? saved.exclude : DEFAULT_EXCLUDE.slice()
+    };
+  }
+  let keywords = loadKeywords();
+
+  function relevant(title) {
+    const t = title.toLowerCase();
+    return keywords.include.some(k => t.includes(k)) &&
+           !keywords.exclude.some(k => k && t.includes(k));
+  }
+
+  /* ---------------- role + location classifiers ---------------- */
+
+  function isCoS(title) {
+    const t = title.toLowerCase();
+    return t.includes("chief of staff") ||
+           t.includes("office of the ceo") ||
+           t.includes("office of the cfo");
+  }
+
+  /* ---------------- fit engine ----------------
+     Scores each role against Soph's background: Head of Strategy & IR at
+     Blackbird (built the IR function end to end), prior Chief of Staff to
+     the partners, VP GTM Operations at Rokt, law + published neuroscience
+     research, targeting CoS / strategy / bizops / IR-capital markets at
+     frontier tech, open to SF relocation, based in Sydney. */
+
+  function archetypeOf(title) {
+    const t = title.toLowerCase();
+    if (/investor relations|capital markets/.test(t)) return "ir";
+    if (isCoS(title)) return "cos";
+    if (/corporate development|corp dev/.test(t)) return "corpdev";
+    if (/strategic finance/.test(t)) return "stratfin";
+    if (/business operations|bizops|biz ops|strategic operations|strategic initiatives/.test(t)) return "bizops";
+    if (/strategy/.test(t)) return "stratops";
+    return "other";
+  }
+
+  const ARCHETYPE_BASE = { ir: 9, cos: 8.5, stratops: 8, bizops: 7.5, corpdev: 7, stratfin: 7, other: 6 };
+
+  const COMPANY_BONUS = {
+    "Anthropic": 1, "Lovable": 1, "Canva": 0.5, "OpenAI": 0.5,
+    "Databricks": 0.5, "Stripe": 0.5, "Cursor": 0.5,
+    "Perplexity": 0.25, "Vercel": 0.25, "Ramp": 0.25, "Harvey": 0.25, "Anduril": 0
+  };
+
+  function fitScore(company, j) {
+    let s = ARCHETYPE_BASE[archetypeOf(j.title)];
+    s += COMPANY_BONUS[company] || 0;
+    const loc = (j.location || "").toLowerCase();
+    if (/sydney|australia/.test(loc)) s += 0.5;            // no relocation needed
+    else if (/san francisco|sf\b|bay area/.test(loc)) s += 0.5; // stated SF openness
+    else if (/new york|remote/.test(loc)) s += 0.25;
+    const t = j.title.toLowerCase();
+    if (/head of|director|vp |vice president|principal|lead|senior/.test(t)) s += 0.5;
+    if (/associate|junior|coordinator|analyst|assistant\b/.test(t)) s -= 2;
+    if (/to the ceo|to the cfo|to the cmo|office of the ceo/.test(t)) s += 0.25;
+    if (/to the cpo|to the cto|to the ciso|to the cio/.test(t)) s -= 1; // domain-org CoS: credibility gap without that function background
+    return Math.max(3, Math.min(10, Math.round(s * 2) / 2));
+  }
+
+  const BULLETS = {
+    ir: [
+      "This is your day job aimed at a company: you built Blackbird's IR function end to end — LP account plans, health scoring, a staged prospect pipeline with MEDDIC mapping.",
+      "You've run fundraising across Australian super funds, funds of funds and US endowments — directly transferable investor-base breadth.",
+      "Your LP reporting infrastructure (liquidity tables, realized MOIC, fund attribution) is exactly the institutional-grade transparency work these roles own.",
+      "Your law background is a genuine edge on the transaction, structuring and compliance side (incl. your SEC ERA work on Blackbird's SF expansion).",
+      "You write investor-grade narrative — LP updates, fund performance headlines, board-level materials — which is half the job."
+    ],
+    cos: [
+      "You've held the exact title: Chief of Staff to Blackbird's partners, running the operating rhythm this role exists to own.",
+      "Deployable-generalist range across strategy, IR, fundraising and firm ops at Blackbird plus VP GTM Operations at Rokt — the profile these roles screen for.",
+      "You build systems that outlast you (IR stack, leadership operating rhythm, async update systems) rather than ad-hoc fixes — the strongest CoS differentiator.",
+      "Executive-grade communication is proven: LP updates, partner comms, board materials under real scrutiny.",
+      "You've operated in hypergrowth ambiguity (Rokt scale-up, Blackbird's fund growth) — comfort with priorities reframing mid-week."
+    ],
+    stratops: [
+      "Head of Strategy is literally your current title — you can point to firm-wide strategy work, not adjacent experience.",
+      "You've run zero-to-one operational builds: Blackbird's SF expansion (EoR structure, pilot framing, compliance constraints) is a worked example.",
+      "VP GTM Operations at Rokt gives you the metrics-and-process muscle these roles pair with strategy.",
+      "Your pattern is end-to-end ownership that leaves a running system behind — the exact JD language these roles use.",
+      "Law plus published neuroscience research signals the analytical rigor that separates strategy hires from generalists."
+    ],
+    bizops: [
+      "Your Blackbird + Rokt combination covers both halves of bizops: firm-level strategy and hands-on GTM operations at scale.",
+      "You've built the unglamorous infrastructure bizops actually is — CRM stacks, scoring models, pipeline systems (Attio, Notion, Salesforce, Zapier).",
+      "Proven at ambiguous, no-clear-owner problems: you've repeatedly been the person deployed into gaps.",
+      "Data fluency with executive framing: you turn operational detail into board-ready narrative.",
+      "Hypergrowth pattern-matching from Rokt means you've seen what breaks at scale before it breaks."
+    ],
+    corpdev: [
+      "You're deal-adjacent daily: LP liquidity transactions, secondaries and fund-outcome analysis at Blackbird.",
+      "A VC vantage point means you evaluate companies, markets and deal logic as core work, not occasionally.",
+      "Financial fluency is proven — MOIC, proceeds waterfalls, fund attribution modelling for sophisticated LPs.",
+      "Your legal training is directly useful in diligence and documentation-heavy corp dev work.",
+      "Honest framing: pure M&A execution is your stretch zone — lead with transaction exposure and learning velocity."
+    ],
+    stratfin: [
+      "Fund-level financial analysis (MOIC, attribution, liquidity modelling) transfers directly to strategic finance work.",
+      "You've built reporting frameworks trusted by institutional investors — the credibility bar strategic finance answers to.",
+      "Strategy + finance in one person is the whole premise of these roles, and it's your actual job description today.",
+      "Your systems-building pattern means models become maintained infrastructure, not one-off spreadsheets.",
+      "Honest framing: FP&A depth is your stretch zone — anchor on investor-facing financial work instead."
+    ],
+    other: [
+      "Your generalist range (strategy, IR, ops, legal) makes you credible for hybrid roles that don't fit a standard box.",
+      "Track record of building durable systems and infrastructure across every role you've held.",
+      "Executive-level communication and stakeholder management proven with LPs, partners and leadership teams.",
+      "Hypergrowth operating experience at Rokt plus top-tier VC context at Blackbird.",
+      "Worth a close read of the JD — score this one on specifics rather than title."
+    ]
+  };
+
+  const COMPANY_BULLET = {
+    "Anthropic": "Anthropic specifically: you use Claude daily, you've applied before (TPM Alignment), and your neuroscience background is a known differentiator there.",
+    "Lovable": "Lovable specifically: your stated top-preference company — post-Series B hypergrowth is exactly the environment you're targeting.",
+    "Canva": "Canva specifically: Sydney-based (no relocation) and you have warm relationships from your prior CoS process there.",
+    "Databricks": "Databricks specifically: their AI-first operational transformation matches your systems-building pattern, at genuine scale.",
+    "OpenAI": "OpenAI specifically: frontier-lab pace with heavy capital-markets activity — both sides of your profile are relevant.",
+    "Stripe": "Stripe specifically: long-horizon capital markets trajectory (eventual listing) makes IR-adjacent experience unusually valuable."
+  };
+
+  function fitBullets(company, j) {
+    const arr = BULLETS[archetypeOf(j.title)].slice();
+    if (COMPANY_BULLET[company]) arr[4] = COMPANY_BULLET[company];
+    return arr;
+  }
+
+
+  // Best-effort: keep roles in AU or US (or with no/ambiguous location).
+  // Multi-location roles are kept if ANY listed location qualifies.
+  const AU_RE   = /\b(australia|sydney|melbourne|brisbane|perth|canberra|adelaide|gold coast|newcastle|nsw|qld|apac)\b/;
+  const USW_RE  = /\b(united states|u\.?s\.?a\.?|usa|americas?)\b/;
+  const USST_RE = /,\s*(al|ak|az|ar|ca|co|ct|de|fl|ga|hi|id|il|in|ia|ks|ky|la|me|md|ma|mi|mn|ms|mo|mt|ne|nv|nh|nj|nm|ny|nc|nd|oh|ok|or|pa|ri|sc|sd|tn|tx|ut|vt|va|wa|wv|wi|wy)\b/;
+  const USCI_RE = /\b(san francisco|sf bay|bay area|new york|nyc|brooklyn|seattle|boston|cambridge|austin|chicago|los angeles|palo alto|mountain view|menlo park|sunnyvale|san jose|santa clara|washington|d\.?c\.?|denver|boulder|atlanta|miami|dallas|houston|san diego|bellevue|redmond|philadelphia|pittsburgh|portland|nashville|phoenix|minneapolis|detroit|raleigh|durham|kirkland|salt lake city)\b/;
+  const OTHER_RE = /\b(london|united kingdom|u\.?k\.?|england|scotland|wales|ireland|dublin|stockholm|sweden|oslo|norway|copenhagen|denmark|helsinki|finland|germany|berlin|munich|hamburg|france|paris|netherlands|amsterdam|spain|madrid|barcelona|italy|milan|rome|portugal|lisbon|poland|warsaw|zurich|switzerland|geneva|brussels|belgium|vienna|austria|czech|prague|romania|bucharest|greece|athens|singapore|india|bangalore|bengaluru|hyderabad|mumbai|delhi|gurgaon|gurugram|pune|chennai|noida|japan|tokyo|osaka|china|beijing|shanghai|shenzhen|hong kong|korea|seoul|taiwan|taipei|philippines|manila|indonesia|jakarta|vietnam|hanoi|thailand|bangkok|malaysia|kuala lumpur|canada|toronto|vancouver|montreal|ottawa|calgary|waterloo|brazil|sao paulo|mexico|guadalajara|argentina|buenos aires|colombia|bogota|chile|santiago|peru|lima|dubai|u\.?a\.?e|abu dhabi|qatar|doha|saudi|riyadh|israel|tel aviv|turkey|istanbul|south africa|cape town|johannesburg|nigeria|lagos|kenya|nairobi|egypt|cairo|new zealand|auckland|wellington|emea|latam)\b/;
+
+  function inRegion(loc) {
+    const raw = (loc || "").toLowerCase().trim();
+    if (!raw) return true; // no location given -> keep (usually US-HQ roles)
+    const segs = raw.split(/[;\/|\n]| or | & /).map(s => s.trim()).filter(Boolean);
+    const list = segs.length ? segs : [raw];
+    let anyRegion = false, anyOther = false, anyUnknown = false;
+    for (const s of list) {
+      const au = AU_RE.test(s);
+      const us = USW_RE.test(s) || USST_RE.test(s) || USCI_RE.test(s);
+      if (au || us) anyRegion = true;
+      else if (OTHER_RE.test(s)) anyOther = true;
+      else anyUnknown = true;
+    }
+    if (anyRegion) return true;         // at least one AU/US location
+    if (anyOther && !anyUnknown) return false; // all locations clearly elsewhere
+    return true;                        // only unrecognised (e.g. bare "Remote")
+  }
+
+  /* ---------------- fetchers ---------------- */
+
+  async function fetchBoard(b) {
+    if (b.provider === "greenhouse") {
+      const r = await fetch("https://boards-api.greenhouse.io/v1/boards/" + b.token + "/jobs");
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      const data = await r.json();
+      return (data.jobs || []).map(j => ({
+        id: "gh:" + b.token + ":" + j.id,
+        title: (j.title || "").trim(),
+        location: (j.location && j.location.name) || "",
+        url: j.absolute_url || b.careers
+      }));
+    }
+    if (b.provider === "ashby") {
+      const r = await fetch("https://api.ashbyhq.com/posting-api/job-board/" + b.token);
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      const data = await r.json();
+      return (data.jobs || []).filter(j => j.isListed !== false).map(j => ({
+        id: "ashby:" + b.token + ":" + j.id,
+        title: (j.title || "").trim(),
+        location: j.location || "",
+        url: j.jobUrl || j.applyUrl || b.careers
+      }));
+    }
+    const r = await fetch("https://api.lever.co/v0/postings/" + b.token + "?mode=json");
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    const data = await r.json();
+    return (data || []).map(j => ({
+      id: "lever:" + b.token + ":" + j.id,
+      title: (j.text || "").trim(),
+      location: (j.categories && j.categories.location) || "",
+      url: j.hostedUrl || b.careers
+    }));
+  }
+
+  /* ---------------- new-since-last-visit ---------------- */
+
+  function computeNewSet(currentIds) {
+    const state = store.get("rolescan-seen");
+    const now = Date.now();
+    let prev;
+    if (!state) {
+      prev = null;
+      store.set("rolescan-seen", { prev: currentIds, curr: currentIds, ts: now });
+    } else if (now - state.ts > SESSION_HOURS * 3600 * 1000) {
+      prev = new Set(state.curr);
+      store.set("rolescan-seen", { prev: state.curr, curr: currentIds, ts: now });
+    } else {
+      prev = new Set(state.prev);
+      store.set("rolescan-seen", { prev: state.prev, curr: currentIds, ts: state.ts });
+    }
+    if (!prev) return new Set();
+    return new Set(currentIds.filter(id => !prev.has(id)));
+  }
+
+  /* ---------------- state ---------------- */
+
+  const el = id => document.getElementById(id);
+  let results = [];
+  let vcJobs = [];        // roles from VC portfolio boards (data/jobs.json)
+  let vcMeta = null;
+  let newSet = new Set();
+  let failuresCount = 0;
+  let lastFetchDate = "";
+  let lastFetchTime = "";
+  let groupMode = "ranked"; // "ranked" | "company" | "role"
+  let showNewOnly = false;
+  let regionOnly = true;
+  let query = "";
+
+  function esc(s) {
+    return String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  }
+
+  function timeAgo(iso) {
+    const then = new Date(iso).getTime();
+    if (isNaN(then)) return "";
+    const mins = Math.max(0, Math.round((Date.now() - then) / 60000));
+    if (mins < 60) return mins + "m ago";
+    const hrs = Math.round(mins / 60);
+    if (hrs < 24) return hrs + "h ago";
+    return Math.round(hrs / 24) + "d ago";
+  }
+
+  /* ---------------- rendering ---------------- */
+
+  function passesFilters(company, j) {
+    if (regionOnly && !j.inRegion) return false;
+    if (showNewOnly && !newSet.has(j.id)) return false;
+    if (query) {
+      const q = query.toLowerCase();
+      if (!company.toLowerCase().includes(q) && !j.title.toLowerCase().includes(q)) return false;
+    }
+    return true;
+  }
+
+  function buildCard(company, j, showCompany) {
+    const bits = [];
+    if (showCompany) bits.push('<span class="role-company">' + esc(company) + '</span>');
+    if (j.location) bits.push(esc(j.location));
+    if (j.via) bits.push('<span class="role-via">via ' + esc(j.via) + '</span>');
+    const sub = bits.join(' &middot; ');
+
+    const score = fitScore(company, j);
+    const bullets = fitBullets(company, j);
+    const scoreClass = score >= 8 ? "" : " mid";
+
+    return '<div class="role">' +
+      '<a class="role-link" href="' + esc(j.url) + '" target="_blank" rel="noopener">' +
+      '<div class="role-top"><div class="role-title">' + esc(j.title) + '</div>' +
+      '<span class="tag-fit' + scoreClass + '">' + score + '/10</span>' +
+      (j.cos ? '<span class="tag-cos">CoS</span>' : '') +
+      (newSet.has(j.id) ? '<span class="tag-new">NEW</span>' : '') +
+      '</div>' +
+      (sub ? '<div class="role-sub">' + sub + '</div>' : '') +
+      '</a>' +
+      '<details class="fit"><summary>Why apply &middot; ' + score + '/10 fit</summary><ul>' +
+      bullets.map(b => '<li>' + esc(b) + '</li>').join('') +
+      '</ul></details>' +
+      '</div>';
+  }
+
+  function byCosThenFitThenNew(a, b, companyA, companyB) {
+    return (b.cos ? 1 : 0) - (a.cos ? 1 : 0) ||
+           fitScore(companyB, b) - fitScore(companyA, a) ||
+           (newSet.has(b.id) ? 1 : 0) - (newSet.has(a.id) ? 1 : 0) ||
+           a.title.localeCompare(b.title);
+  }
+
+
+  function renderByCompany() {
+    let html = "", shown = 0;
+    for (const r of results) {
+      const q = query.toLowerCase();
+      const companyMatch = q === "" || r.board.company.toLowerCase().includes(q);
+
+      if (r.error) {
+        if (companyMatch && !showNewOnly) {
+          html += '<section class="group"><div class="group-head">' +
+            '<div class="group-name">' + esc(r.board.company) + '</div>' +
+            '<div class="group-meta fail">unreachable &middot; <a href="' + esc(r.board.careers) + '" target="_blank" rel="noopener">careers page</a></div>' +
+            '</div></section>';
+        }
+        continue;
+      }
+
+      const jobs = r.jobs.filter(j => passesFilters(r.board.company, j))
+        .sort((a, b) => byCosThenFitThenNew(a, b, r.board.company, r.board.company));
+      if (!jobs.length) continue;
+      shown += jobs.length;
+
+      html += '<section class="group"><div class="group-head">' +
+        '<div class="group-name">' + esc(r.board.company) + '</div>' +
+        '<div class="group-meta">' + jobs.length + ' role' + (jobs.length !== 1 ? "s" : "") + '</div>' +
+        '</div>';
+      for (const j of jobs) html += buildCard(r.board.company, j, false);
+      html += '</section>';
+    }
+
+    // VC-sourced roles, grouped by their portfolio company
+    const vcVisible = vcJobs.filter(j => passesFilters(j.company, j));
+    const byCompany = new Map();
+    for (const j of vcVisible) {
+      if (!byCompany.has(j.company)) byCompany.set(j.company, []);
+      byCompany.get(j.company).push(j);
+    }
+    for (const company of [...byCompany.keys()].sort((a, b) => a.localeCompare(b))) {
+      const jobs = byCompany.get(company)
+        .sort((a, b) => byCosThenFitThenNew(a, b, company, company));
+      shown += jobs.length;
+      html += '<section class="group"><div class="group-head">' +
+        '<div class="group-name">' + esc(company) + '</div>' +
+        '<div class="group-meta">' + jobs.length + ' role' + (jobs.length !== 1 ? "s" : "") + '</div>' +
+        '</div>';
+      for (const j of jobs) html += buildCard(company, j, false);
+      html += '</section>';
+    }
+    return { html, shown };
+  }
+
+  function allVisibleJobs() {
+    const out = [];
+    for (const r of results) {
+      if (r.error) continue;
+      for (const j of r.jobs) {
+        if (passesFilters(r.board.company, j)) out.push({ company: r.board.company, j });
+      }
+    }
+    for (const j of vcJobs) {
+      if (passesFilters(j.company, j)) out.push({ company: j.company, j });
+    }
+    return out;
+  }
+
+  function renderRanked() {
+    const items = allVisibleJobs();
+    items.sort((x, y) =>
+      fitScore(y.company, y.j) - fitScore(x.company, x.j) ||
+      (y.j.cos ? 1 : 0) - (x.j.cos ? 1 : 0) ||
+      (newSet.has(y.j.id) ? 1 : 0) - (newSet.has(x.j.id) ? 1 : 0) ||
+      x.j.title.localeCompare(y.j.title)
+    );
+    let html = "";
+    if (items.length) {
+      html += '<section class="group"><div class="group-head">' +
+        '<div class="group-name role">Best fit first</div>' +
+        '<div class="group-meta">' + items.length + ' role' + (items.length !== 1 ? "s" : "") + '</div>' +
+        '</div>';
+      for (const it of items) html += buildCard(it.company, it.j, true);
+      html += '</section>';
+    }
+    return { html, shown: items.length };
+  }
+
+  function renderByRole() {
+    const cos = [], other = [];
+    for (const it of allVisibleJobs()) {
+      (it.j.cos ? cos : other).push(it);
+    }
+    const byFit = (x, y) => fitScore(y.company, y.j) - fitScore(x.company, x.j) ||
+      (newSet.has(y.j.id) ? 1 : 0) - (newSet.has(x.j.id) ? 1 : 0) ||
+      x.j.title.localeCompare(y.j.title);
+    cos.sort(byFit);
+    other.sort(byFit);
+
+    let html = "";
+    const section = (label, arr, isRole) => {
+      if (!arr.length) return "";
+      let s = '<section class="group"><div class="group-head">' +
+        '<div class="group-name' + (isRole ? " role" : "") + '">' + label + '</div>' +
+        '<div class="group-meta">' + arr.length + ' role' + (arr.length !== 1 ? "s" : "") + '</div>' +
+        '</div>';
+      for (const it of arr) s += buildCard(it.company, it.j, true);
+      return s + '</section>';
+    };
+    html += section("Chief of Staff", cos, true);
+    html += section("Strategy &amp; Operations", other, false);
+    return { html, shown: cos.length + other.length };
+  }
+
+  function render() {
+    const container = el("results");
+    const out = groupMode === "ranked" ? renderRanked()
+              : groupMode === "role" ? renderByRole()
+              : renderByCompany();
+    let html = out.html;
+
+    if (!out.shown) {
+      let msg;
+      if (showNewOnly) msg = "Nothing new since your last visit.";
+      else if (regionOnly) msg = "No open roles in AU or US match. Try turning off the AU + US filter or widening keywords below.";
+      else msg = "No open roles match. Try clearing the filter or widening keywords below.";
+      html += '<div class="empty">' + msg + '</div>';
+    }
+    container.innerHTML = html;
+
+    // counts that reflect exactly what is on screen
+    let total = 0, freshVisible = 0;
+    for (const it of allVisibleJobs()) {
+      total++;
+      if (newSet.has(it.j.id)) freshVisible++;
+    }
+    updateMasthead(total, freshVisible);
+  }
+
+  function updateMasthead(total, newCount) {
+    el("headline").innerHTML = newCount
+      ? '<span class="accent">' + newCount + ' new role' + (newCount !== 1 ? "s" : "") + '</span> ' + (showNewOnly ? "shown" : "today")
+      : (showNewOnly ? "Nothing new to show" : "Nothing new today");
+    let vcNote = "";
+    if (vcMeta && vcMeta.generated_at) {
+      const firms = (vcMeta.firms || []).length;
+      const ago = timeAgo(vcMeta.generated_at);
+      vcNote = " &middot; + " + firms + " VC board" + (firms !== 1 ? "s" : "") + (ago ? " (" + ago + ")" : "");
+    }
+    el("dateline").innerHTML = esc(lastFetchDate) + " &middot; live at " + esc(lastFetchTime) +
+      " &middot; " + total + " role" + (total !== 1 ? "s" : "") + " open" + (regionOnly ? " in AU + US" : "") +
+      vcNote +
+      (failuresCount ? ' &middot; <span class="fail">' + failuresCount + " board" + (failuresCount !== 1 ? "s" : "") + " unreachable</span>" : "");
+  }
+
+  /* ---------------- scan ---------------- */
+
+  // VC roles are prepared by the scheduled GitHub Action and served from our
+  // own origin (data/jobs.json), so no CORS issue and it loads instantly.
+  async function fetchVcJobs() {
+    try {
+      const r = await fetch("data/jobs.json", { cache: "no-store" });
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      const data = await r.json();
+      return { jobs: data.jobs || [], meta: data };
+    } catch (e) {
+      return { jobs: [], meta: null };
+    }
+  }
+
+  async function scan() {
+    el("headline").textContent = "Checking the boards\u2026";
+    el("dateline").textContent = "";
+    el("results").innerHTML = '<div class="status">Fetching live listings from ' + BOARDS.length + ' job boards\u2026</div>';
+
+    const [settled, vc] = await Promise.all([
+      Promise.allSettled(BOARDS.map(fetchBoard)),
+      fetchVcJobs()
+    ]);
+    results = settled.map((s, i) => {
+      if (s.status === "fulfilled") {
+        const jobs = s.value.filter(j => relevant(j.title)).map(j => {
+          j.cos = isCoS(j.title);
+          j.inRegion = inRegion(j.location);
+          return j;
+        });
+        return { board: BOARDS[i], jobs, error: null };
+      }
+      return { board: BOARDS[i], jobs: [], error: String(s.reason) };
+    });
+
+    // Dedupe VC roles against live direct-board roles (same company+title)
+    const directKeys = new Set();
+    for (const r of results) for (const j of r.jobs) {
+      directKeys.add((r.board.company + "|" + j.title).toLowerCase());
+    }
+    vcMeta = vc.meta;
+    vcJobs = (vc.jobs || [])
+      .filter(j => !directKeys.has((j.company + "|" + j.title).toLowerCase()))
+      .map(j => { j.via = j.firm; j.inRegion = true; return j; });
+
+    const currentIds = results.flatMap(r => r.jobs.map(j => j.id)).concat(vcJobs.map(j => j.id));
+    newSet = computeNewSet(currentIds);
+    failuresCount = results.filter(r => r.error).length;
+
+    const now = new Date();
+    lastFetchDate = now.toLocaleDateString("en-AU", { weekday: "long", day: "numeric", month: "long", timeZone: "Australia/Sydney" });
+    lastFetchTime = now.toLocaleTimeString("en-AU", { hour: "numeric", minute: "2-digit", timeZone: "Australia/Sydney" });
+
+    render();
+  }
+
+  /* ---------------- wiring ---------------- */
+
+  function setGroup(mode) {
+    groupMode = mode;
+    el("segRanked").setAttribute("aria-pressed", mode === "ranked" ? "true" : "false");
+    el("segCompany").setAttribute("aria-pressed", mode === "company" ? "true" : "false");
+    el("segRole").setAttribute("aria-pressed", mode === "role" ? "true" : "false");
+    render();
+  }
+  el("segRanked").addEventListener("click", () => setGroup("ranked"));
+  el("segCompany").addEventListener("click", () => setGroup("company"));
+  el("segRole").addEventListener("click", () => setGroup("role"));
+
+  el("chipNew").addEventListener("click", () => {
+    showNewOnly = !showNewOnly;
+    el("chipNew").setAttribute("aria-pressed", showNewOnly ? "true" : "false");
+    render();
+  });
+  el("chipRegion").addEventListener("click", () => {
+    regionOnly = !regionOnly;
+    el("chipRegion").setAttribute("aria-pressed", regionOnly ? "true" : "false");
+    render();
+  });
+  el("search").addEventListener("input", e => { query = e.target.value.trim(); render(); });
+
+  el("kwInclude").value = keywords.include.join("\n");
+  el("kwExclude").value = keywords.exclude.join("\n");
+  el("saveKw").addEventListener("click", () => {
+    const parse = v => v.split("\n").map(s => s.trim().toLowerCase()).filter(Boolean);
+    keywords = { include: parse(el("kwInclude").value), exclude: parse(el("kwExclude").value) };
+    if (!keywords.include.length) keywords.include = DEFAULT_INCLUDE.slice();
+    store.set("rolescan-keywords", keywords);
+    scan();
+  });
+
+  /* ---------------- pull to refresh ---------------- */
+
+  (function () {
+    const wrap = el("wrap");
+    const ptr = el("ptr");
+    const TRIGGER = 64;
+    const MAX = 110;
+    let startY = null, pull = 0, refreshing = false;
+
+    function setPull(px) {
+      pull = px;
+      wrap.style.transform = px ? "translateY(" + px + "px)" : "";
+      ptr.style.opacity = Math.min(1, px / 44);
+      const ready = px >= TRIGGER;
+      ptr.textContent = ready ? "Release to refresh" : "Pull to refresh";
+      ptr.classList.toggle("ready", ready);
+    }
+    function snapBack() {
+      wrap.classList.add("snap");
+      setPull(0);
+      setTimeout(() => wrap.classList.remove("snap"), 300);
+    }
+    document.addEventListener("touchstart", e => {
+      startY = (window.scrollY <= 0 && !refreshing) ? e.touches[0].clientY : null;
+    }, { passive: true });
+    document.addEventListener("touchmove", e => {
+      if (startY === null || refreshing) return;
+      const dy = e.touches[0].clientY - startY;
+      if (dy <= 0 || window.scrollY > 0) { if (pull) snapBack(); startY = null; return; }
+      e.preventDefault();
+      wrap.classList.remove("snap");
+      setPull(Math.min(MAX, dy * 0.45));
+    }, { passive: false });
+    document.addEventListener("touchend", async () => {
+      if (startY === null || refreshing) return;
+      const fired = pull >= TRIGGER;
+      startY = null;
+      if (!fired) { if (pull) snapBack(); return; }
+      refreshing = true;
+      ptr.textContent = "Refreshing\u2026";
+      wrap.classList.add("snap");
+      setPull(48);
+      try { await scan(); } finally { snapBack(); ptr.classList.remove("ready"); refreshing = false; }
+    });
+  })();
+
+  scan();
+})();
+</script>
+</body>
+</html>
