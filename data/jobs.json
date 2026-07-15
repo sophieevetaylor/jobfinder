@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-15T10:53:56.258797+00:00",
-  "count": 1,
+  "generated_at": "2026-07-15T21:52:08.696077+00:00",
+  "count": 4,
   "firms": [
     "Sequoia",
     "a16z",
@@ -23,13 +23,40 @@
   ],
   "jobs": [
     {
-      "firm": "a16z",
-      "company": "SentiLink",
-      "title": "Strategy & Operations, Learning and Development (L&D)",
-      "location": "Salary range USD 155,000 - 200,000 / yearRemoteUnited States, United StatesPosted less than 1 day ago",
-      "url": "https://portfoliojobs.a16z.com/jobs/sentilink",
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
+      "title": "Chief of Staff",
+      "location": "",
+      "url": "https://fi.linkedin.com/jobs/view/chief-of-staff-at-blidz-4437662500?utm_source=General+Catalyst+job+board&utm_medium=getro.com&gh_src=General+Catalyst+job+board",
+      "cos": true,
+      "id": "vc:General Catalyst:https://fi.linkedin.com/jobs/view/chief-of-staff-at-blidz-4437662500?utm_source=General+Catalyst+job+board&utm_medium=getro.com&gh_src=General+Catalyst+job+board"
+    },
+    {
+      "firm": "Lightspeed",
+      "company": "Lightspeed",
+      "title": "Strategic Finance Senior Lead",
+      "location": "",
+      "url": "https://boards.greenhouse.io/faire/jobs/8633365002?gh_jid=8633365002",
       "cos": false,
-      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/sentilink"
+      "id": "vc:Lightspeed:https://boards.greenhouse.io/faire/jobs/8633365002?gh_jid=8633365002"
+    },
+    {
+      "firm": "Lightspeed",
+      "company": "Nirvana Insurance",
+      "title": "Strategic Finance Manager",
+      "location": "Salary range USD 140,000 - 160,000 / yearSan Francisco, California, USA, San Francisco, CAPosted less than 1 day ago",
+      "url": "https://jobs.lsvp.com/jobs/nirvana-insurance",
+      "cos": false,
+      "id": "vc:Lightspeed:https://jobs.lsvp.com/jobs/nirvana-insurance"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Strategic Finance Senior Lead",
+      "location": "",
+      "url": "https://boards.greenhouse.io/faire/jobs/8633365002?gh_jid=8633365002",
+      "cos": false,
+      "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8633365002?gh_jid=8633365002"
     }
   ]
 }
