@@ -851,15 +851,15 @@
       return { board: BOARDS[i], jobs: [], error: String(s.reason) };
     });
 
-    // Dedupe VC roles against live direct-board roles (same company+title)
-    const directKeys = new Set();
-    for (const r of results) for (const j of r.jobs) {
-      directKeys.add((r.board.company + "|" + j.title).toLowerCase());
-    }
+    // VC boards act as a DISCOVERY feed: surface only strong-fit roles (8+/10)
+    // at portfolio companies that aren't already among the tracked 12.
+    const norm = s => (s || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+    const directCompanies = new Set(BOARDS.map(b => norm(b.company)));
     vcMeta = vc.meta;
     vcJobs = (vc.jobs || [])
-      .filter(j => !directKeys.has((j.company + "|" + j.title).toLowerCase()))
-      .map(j => { j.via = j.firm; j.inRegion = true; return j; });
+      .map(j => { j.via = j.firm; j.inRegion = true; return j; })
+      .filter(j => !directCompanies.has(norm(j.company)))   // pure discovery: hide the 12
+      .filter(j => fitScore(j.company, j) >= 8);             // high-fit only, cut noise
 
     const currentIds = results.flatMap(r => r.jobs.map(j => j.id)).concat(vcJobs.map(j => j.id));
     newSet = computeNewSet(currentIds);
