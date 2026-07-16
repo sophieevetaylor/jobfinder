@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-16T05:36:22.519044+00:00",
-  "count": 5,
+  "generated_at": "2026-07-16T11:03:28.077907+00:00",
+  "count": 3,
   "firms": [
     "Sequoia",
     "a16z",
@@ -17,6 +17,10 @@
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
     {
+      "firm": "Greylock",
+      "error": "Page.goto: net::ERR_TIMED_OUT at https://jobs.greylock.com/jobs\nCall log:\nnavigating to \"https://jobs.greylock.com/jobs\", waiting until \"domcontentloaded\"\n"
+    },
+    {
       "firm": "Founders Fund",
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
@@ -27,18 +31,9 @@
       "company": "a16z",
       "title": "Senior Strategic Finance Associate - GTM",
       "location": "",
-      "url": "https://job-boards.greenhouse.io/mixpanel/jobs/8067969?gh_src=6994f9f01us",
+      "url": "https://job-boards.greenhouse.io/mixpanel/jobs/8067964?gh_src=6994f9f01us",
       "cos": false,
-      "id": "vc:a16z:https://job-boards.greenhouse.io/mixpanel/jobs/8067969?gh_src=6994f9f01us"
-    },
-    {
-      "firm": "General Catalyst",
-      "company": "General Catalyst",
-      "title": "Chief of Staff",
-      "location": "",
-      "url": "https://fi.linkedin.com/jobs/view/chief-of-staff-at-blidz-4437662500?utm_source=General+Catalyst+job+board&utm_medium=getro.com&gh_src=General+Catalyst+job+board",
-      "cos": true,
-      "id": "vc:General Catalyst:https://fi.linkedin.com/jobs/view/chief-of-staff-at-blidz-4437662500?utm_source=General+Catalyst+job+board&utm_medium=getro.com&gh_src=General+Catalyst+job+board"
+      "id": "vc:a16z:https://job-boards.greenhouse.io/mixpanel/jobs/8067964?gh_src=6994f9f01us"
     },
     {
       "firm": "Lightspeed",
@@ -48,15 +43,6 @@
       "url": "https://boards.greenhouse.io/faire/jobs/8633365002?gh_jid=8633365002",
       "cos": false,
       "id": "vc:Lightspeed:https://boards.greenhouse.io/faire/jobs/8633365002?gh_jid=8633365002"
-    },
-    {
-      "firm": "a16z",
-      "company": "SentiLink",
-      "title": "Strategy & Operations, Learning and Development (L&D)",
-      "location": "Salary range USD 155,000 - 200,000 / yearRemoteUnited States, United StatesPosted 1 day ago",
-      "url": "https://portfoliojobs.a16z.com/jobs/sentilink",
-      "cos": false,
-      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/sentilink"
     },
     {
       "firm": "Sequoia",
