@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-15T21:52:08.696077+00:00",
-  "count": 4,
+  "generated_at": "2026-07-16T05:36:22.519044+00:00",
+  "count": 5,
   "firms": [
     "Sequoia",
     "a16z",
@@ -23,6 +23,15 @@
   ],
   "jobs": [
     {
+      "firm": "a16z",
+      "company": "a16z",
+      "title": "Senior Strategic Finance Associate - GTM",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/mixpanel/jobs/8067969?gh_src=6994f9f01us",
+      "cos": false,
+      "id": "vc:a16z:https://job-boards.greenhouse.io/mixpanel/jobs/8067969?gh_src=6994f9f01us"
+    },
+    {
       "firm": "General Catalyst",
       "company": "General Catalyst",
       "title": "Chief of Staff",
@@ -41,13 +50,13 @@
       "id": "vc:Lightspeed:https://boards.greenhouse.io/faire/jobs/8633365002?gh_jid=8633365002"
     },
     {
-      "firm": "Lightspeed",
-      "company": "Nirvana Insurance",
-      "title": "Strategic Finance Manager",
-      "location": "Salary range USD 140,000 - 160,000 / yearSan Francisco, California, USA, San Francisco, CAPosted less than 1 day ago",
-      "url": "https://jobs.lsvp.com/jobs/nirvana-insurance",
+      "firm": "a16z",
+      "company": "SentiLink",
+      "title": "Strategy & Operations, Learning and Development (L&D)",
+      "location": "Salary range USD 155,000 - 200,000 / yearRemoteUnited States, United StatesPosted 1 day ago",
+      "url": "https://portfoliojobs.a16z.com/jobs/sentilink",
       "cos": false,
-      "id": "vc:Lightspeed:https://jobs.lsvp.com/jobs/nirvana-insurance"
+      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/sentilink"
     },
     {
       "firm": "Sequoia",
