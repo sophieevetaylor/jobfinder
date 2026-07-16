@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-16T11:03:28.077907+00:00",
-  "count": 3,
+  "generated_at": "2026-07-16T21:58:26.794587+00:00",
+  "count": 0,
   "firms": [
     "Sequoia",
     "a16z",
@@ -17,41 +17,9 @@
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
     {
-      "firm": "Greylock",
-      "error": "Page.goto: net::ERR_TIMED_OUT at https://jobs.greylock.com/jobs\nCall log:\nnavigating to \"https://jobs.greylock.com/jobs\", waiting until \"domcontentloaded\"\n"
-    },
-    {
       "firm": "Founders Fund",
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": [
-    {
-      "firm": "a16z",
-      "company": "a16z",
-      "title": "Senior Strategic Finance Associate - GTM",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/mixpanel/jobs/8067964?gh_src=6994f9f01us",
-      "cos": false,
-      "id": "vc:a16z:https://job-boards.greenhouse.io/mixpanel/jobs/8067964?gh_src=6994f9f01us"
-    },
-    {
-      "firm": "Lightspeed",
-      "company": "Lightspeed",
-      "title": "Strategic Finance Senior Lead",
-      "location": "",
-      "url": "https://boards.greenhouse.io/faire/jobs/8633365002?gh_jid=8633365002",
-      "cos": false,
-      "id": "vc:Lightspeed:https://boards.greenhouse.io/faire/jobs/8633365002?gh_jid=8633365002"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Strategic Finance Senior Lead",
-      "location": "",
-      "url": "https://boards.greenhouse.io/faire/jobs/8633365002?gh_jid=8633365002",
-      "cos": false,
-      "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8633365002?gh_jid=8633365002"
-    }
-  ]
+  "jobs": []
 }
