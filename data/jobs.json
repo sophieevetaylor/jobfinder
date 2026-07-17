@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-17T05:38:17.286106+00:00",
-  "count": 1,
+  "generated_at": "2026-07-17T10:50:45.188105+00:00",
+  "count": 3,
   "firms": [
     "Sequoia",
     "a16z",
@@ -22,6 +22,24 @@
     }
   ],
   "jobs": [
+    {
+      "firm": "a16z",
+      "company": "a16z",
+      "title": "Strategy and Operations Manager",
+      "location": "",
+      "url": "https://thatch.com/jobs/5358702008?gh_jid=5358702008",
+      "cos": false,
+      "id": "vc:a16z:https://thatch.com/jobs/5358702008?gh_jid=5358702008"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Starlink Consumer Strategy Lead (Forecasting)",
+      "location": "",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8637609002?gh_jid=8637609002",
+      "cos": false,
+      "id": "vc:Sequoia:https://boards.greenhouse.io/spacex/jobs/8637609002?gh_jid=8637609002"
+    },
     {
       "firm": "Sequoia",
       "company": "Sequoia",
