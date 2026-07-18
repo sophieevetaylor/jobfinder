@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T05:20:59.219038+00:00",
+  "generated_at": "2026-07-18T10:21:04.872383+00:00",
   "count": 1,
   "firms": [
     "Sequoia",
@@ -23,13 +23,13 @@
   ],
   "jobs": [
     {
-      "firm": "Greylock",
-      "company": "PayJoy",
-      "title": "Junior Corporate Development Analyst",
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Strategic Finance Senior Lead",
       "location": "",
-      "url": "https://jobs.greylock.com/jobs/payjoy",
+      "url": "https://boards.greenhouse.io/faire/jobs/8633365002?gh_jid=8633365002",
       "cos": false,
-      "id": "vc:Greylock:https://jobs.greylock.com/jobs/payjoy"
+      "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8633365002?gh_jid=8633365002"
     }
   ]
 }
