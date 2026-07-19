@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-19T10:37:24.635063+00:00",
-  "count": 4,
+  "generated_at": "2026-07-19T21:43:34.673918+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -23,40 +23,13 @@
   ],
   "jobs": [
     {
-      "firm": "General Catalyst",
-      "company": "General Catalyst",
-      "title": "Expert Opportunity - Business Operations Manager ($80/hr, up to $1,600/week)",
+      "firm": "Greylock",
+      "company": "PayJoy",
+      "title": "Junior Corporate Development Analyst",
       "location": "",
-      "url": "https://jobs.generalcatalyst.com/companies/ethos-2-e1b0048b-7d7c-4a76-97d7-b71911ec294a/jobs/86831756-expert-opportunity-business-operations-manager-80-hr-up-to-1-600-week#content",
+      "url": "https://jobs.greylock.com/jobs/payjoy",
       "cos": false,
-      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/ethos-2-e1b0048b-7d7c-4a76-97d7-b71911ec294a/jobs/86831756-expert-opportunity-business-operations-manager-80-hr-up-to-1-600-week#content"
-    },
-    {
-      "firm": "General Catalyst",
-      "company": "General Catalyst",
-      "title": "Expert Opportunity - Corporate Development Associate ($100/hr, up to $2,000/week)",
-      "location": "Seattle, WA, USA",
-      "url": "https://jobs.generalcatalyst.com/companies/ethos-2-e1b0048b-7d7c-4a76-97d7-b71911ec294a/jobs/86831749-expert-opportunity-corporate-development-associate-100-hr-up-to-2-000-week#content",
-      "cos": false,
-      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/ethos-2-e1b0048b-7d7c-4a76-97d7-b71911ec294a/jobs/86831749-expert-opportunity-corporate-development-associate-100-hr-up-to-2-000-week#content"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Chief of Staff to the CEO",
-      "location": "",
-      "url": "https://job-boards.eu.greenhouse.io/ledgy/jobs/4931037101?gh_src=51338ba2teu",
-      "cos": true,
-      "id": "vc:Sequoia:https://job-boards.eu.greenhouse.io/ledgy/jobs/4931037101?gh_src=51338ba2teu"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Strategic Finance Senior Lead",
-      "location": "",
-      "url": "https://boards.greenhouse.io/faire/jobs/8633365002?gh_jid=8633365002",
-      "cos": false,
-      "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8633365002?gh_jid=8633365002"
+      "id": "vc:Greylock:https://jobs.greylock.com/jobs/payjoy"
     }
   ]
 }
