@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T05:47:23.969760+00:00",
+  "generated_at": "2026-07-19T10:37:24.635063+00:00",
   "count": 4,
   "firms": [
     "Sequoia",
@@ -41,13 +41,13 @@
       "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/ethos-2-e1b0048b-7d7c-4a76-97d7-b71911ec294a/jobs/86831749-expert-opportunity-corporate-development-associate-100-hr-up-to-2-000-week#content"
     },
     {
-      "firm": "Greylock",
-      "company": "PayJoy",
-      "title": "Junior Corporate Development Analyst",
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Chief of Staff to the CEO",
       "location": "",
-      "url": "https://jobs.greylock.com/jobs/payjoy",
-      "cos": false,
-      "id": "vc:Greylock:https://jobs.greylock.com/jobs/payjoy"
+      "url": "https://job-boards.eu.greenhouse.io/ledgy/jobs/4931037101?gh_src=51338ba2teu",
+      "cos": true,
+      "id": "vc:Sequoia:https://job-boards.eu.greenhouse.io/ledgy/jobs/4931037101?gh_src=51338ba2teu"
     },
     {
       "firm": "Sequoia",
