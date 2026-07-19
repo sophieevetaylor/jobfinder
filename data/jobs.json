@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-18T21:43:38.698700+00:00",
-  "count": 2,
+  "generated_at": "2026-07-19T05:47:23.969760+00:00",
+  "count": 4,
   "firms": [
     "Sequoia",
     "a16z",
@@ -15,10 +15,6 @@
     {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "firm": "Greylock",
-      "error": "Page.goto: net::ERR_TIMED_OUT at https://jobs.greylock.com/jobs\nCall log:\nnavigating to \"https://jobs.greylock.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
     {
       "firm": "Founders Fund",
@@ -43,6 +39,24 @@
       "url": "https://jobs.generalcatalyst.com/companies/ethos-2-e1b0048b-7d7c-4a76-97d7-b71911ec294a/jobs/86831749-expert-opportunity-corporate-development-associate-100-hr-up-to-2-000-week#content",
       "cos": false,
       "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/ethos-2-e1b0048b-7d7c-4a76-97d7-b71911ec294a/jobs/86831749-expert-opportunity-corporate-development-associate-100-hr-up-to-2-000-week#content"
+    },
+    {
+      "firm": "Greylock",
+      "company": "PayJoy",
+      "title": "Junior Corporate Development Analyst",
+      "location": "",
+      "url": "https://jobs.greylock.com/jobs/payjoy",
+      "cos": false,
+      "id": "vc:Greylock:https://jobs.greylock.com/jobs/payjoy"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Strategic Finance Senior Lead",
+      "location": "",
+      "url": "https://boards.greenhouse.io/faire/jobs/8633365002?gh_jid=8633365002",
+      "cos": false,
+      "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8633365002?gh_jid=8633365002"
     }
   ]
 }
