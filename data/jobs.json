@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-20T11:48:54.447944+00:00",
-  "count": 2,
+  "generated_at": "2026-07-20T21:56:46.924585+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -30,15 +30,6 @@
       "url": "https://jobs.greylock.com/jobs/payjoy",
       "cos": false,
       "id": "vc:Greylock:https://jobs.greylock.com/jobs/payjoy"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Business Operations Lead",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/viseai/jobs/4669992003",
-      "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/viseai/jobs/4669992003"
     }
   ]
 }
