@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-20T21:56:46.924585+00:00",
-  "count": 1,
+  "generated_at": "2026-07-21T05:47:18.645289+00:00",
+  "count": 4,
   "firms": [
     "Sequoia",
     "a16z",
@@ -13,8 +13,16 @@
   ],
   "failures": [
     {
+      "firm": "Lightspeed",
+      "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
+    },
+    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "firm": "Greylock",
+      "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\nnavigating to \"https://jobs.greylock.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
     {
       "firm": "Founders Fund",
@@ -23,13 +31,40 @@
   ],
   "jobs": [
     {
-      "firm": "Greylock",
-      "company": "PayJoy",
-      "title": "Junior Corporate Development Analyst",
-      "location": "",
-      "url": "https://jobs.greylock.com/jobs/payjoy",
+      "firm": "a16z",
+      "company": "Fivetran",
+      "title": "Vice President, Investor Relations",
+      "location": "Salary range USD 279,450 - 372,600 / yearUSA - New YorkPosted less than 1 day ago",
+      "url": "https://portfoliojobs.a16z.com/jobs/fivetran",
       "cos": false,
-      "id": "vc:Greylock:https://jobs.greylock.com/jobs/payjoy"
+      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/fivetran"
+    },
+    {
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
+      "title": "Expert Opportunity - Director of Business Operations ($80/hr, up to $1,600/week)",
+      "location": "",
+      "url": "https://uk.linkedin.com/jobs/view/expert-opportunity-director-of-business-operations-%2480-hr-up-to-%241-600-week-at-ethos-4442704255?utm_source=General+Catalyst+job+board&utm_medium=getro.com&gh_src=General+Catalyst+job+board",
+      "cos": false,
+      "id": "vc:General Catalyst:https://uk.linkedin.com/jobs/view/expert-opportunity-director-of-business-operations-%2480-hr-up-to-%241-600-week-at-ethos-4442704255?utm_source=General+Catalyst+job+board&utm_medium=getro.com&gh_src=General+Catalyst+job+board"
+    },
+    {
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
+      "title": "Expert Opportunity - Equity Capital Markets Analyst ($100/hr, up to $2,000/week)",
+      "location": "",
+      "url": "https://hk.linkedin.com/jobs/view/expert-opportunity-equity-capital-markets-analyst-%24100-hr-up-to-%242-000-week-at-ethos-4442118811?utm_source=General+Catalyst+job+board&utm_medium=getro.com&gh_src=General+Catalyst+job+board",
+      "cos": false,
+      "id": "vc:General Catalyst:https://hk.linkedin.com/jobs/view/expert-opportunity-equity-capital-markets-analyst-%24100-hr-up-to-%242-000-week-at-ethos-4442118811?utm_source=General+Catalyst+job+board&utm_medium=getro.com&gh_src=General+Catalyst+job+board"
+    },
+    {
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
+      "title": "Expert Opportunity - Strategy & Corporate Development Manager ($100/hr, up to $2,000/week)",
+      "location": "Los Angeles, CA, USA",
+      "url": "https://jobs.generalcatalyst.com/companies/ethos-2-e1b0048b-7d7c-4a76-97d7-b71911ec294a/jobs/86932360-expert-opportunity-strategy-corporate-development-manager-100-hr-up-to-2-000-week#content",
+      "cos": false,
+      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/ethos-2-e1b0048b-7d7c-4a76-97d7-b71911ec294a/jobs/86932360-expert-opportunity-strategy-corporate-development-manager-100-hr-up-to-2-000-week#content"
     }
   ]
 }
