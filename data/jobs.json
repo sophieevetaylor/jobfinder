@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-21T11:12:19.643615+00:00",
-  "count": 2,
+  "generated_at": "2026-07-21T21:59:10.562237+00:00",
+  "count": 3,
   "firms": [
     "Sequoia",
     "a16z",
@@ -13,10 +13,6 @@
   ],
   "failures": [
     {
-      "firm": "Lightspeed",
-      "error": "Page.goto: net::ERR_TIMED_OUT at https://jobs.lsvp.com/jobs\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
-    },
-    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
@@ -28,21 +24,30 @@
   "jobs": [
     {
       "firm": "a16z",
-      "company": "a16z",
-      "title": "Strategic Finance Manager",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/arcboatcompany/jobs/5365143008",
+      "company": "Fivetran",
+      "title": "Vice President, Investor Relations",
+      "location": "Salary range USD 279,450 - 372,600 / yearHybridDenver, Colorado, United States, AMERPosted less than 1 day ago",
+      "url": "https://portfoliojobs.a16z.com/jobs/fivetran",
       "cos": false,
-      "id": "vc:a16z:https://job-boards.greenhouse.io/arcboatcompany/jobs/5365143008"
+      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/fivetran"
+    },
+    {
+      "firm": "Lightspeed",
+      "company": "Lightspeed",
+      "title": "Senior Director, Revenue Strategy & Operations",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/flex/jobs/4716939005",
+      "cos": false,
+      "id": "vc:Lightspeed:https://job-boards.greenhouse.io/flex/jobs/4716939005"
     },
     {
       "firm": "Sequoia",
       "company": "Sequoia",
-      "title": "Strategy and Operations Lead, Deal Pricing",
+      "title": "Business Operations Lead",
       "location": "",
-      "url": "https://stripe.com/jobs/search?gh_jid=8044391",
+      "url": "https://job-boards.greenhouse.io/viseai/jobs/4669992003",
       "cos": false,
-      "id": "vc:Sequoia:https://stripe.com/jobs/search?gh_jid=8044391"
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/viseai/jobs/4669992003"
     }
   ]
 }
