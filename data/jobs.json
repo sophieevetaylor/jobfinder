@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-22T05:45:26.714152+00:00",
-  "count": 1,
+  "generated_at": "2026-07-22T11:12:43.817820+00:00",
+  "count": 0,
   "firms": [
     "Sequoia",
     "a16z",
@@ -14,7 +14,7 @@
   "failures": [
     {
       "firm": "Lightspeed",
-      "error": "Page.goto: net::ERR_TIMED_OUT at https://jobs.lsvp.com/jobs\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
+      "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
     {
       "firm": "Index Ventures",
@@ -25,15 +25,5 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": [
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Sr. Revenue Strategy & Operations Analyst",
-      "location": "",
-      "url": "https://ats.rippling.com/rippling/jobs/10813179-772d-4c86-9240-a8d80fbc4481",
-      "cos": false,
-      "id": "vc:Sequoia:https://ats.rippling.com/rippling/jobs/10813179-772d-4c86-9240-a8d80fbc4481"
-    }
-  ]
+  "jobs": []
 }
