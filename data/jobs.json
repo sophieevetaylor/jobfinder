@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-22T11:12:43.817820+00:00",
-  "count": 0,
+  "generated_at": "2026-07-22T21:59:44.363989+00:00",
+  "count": 3,
   "firms": [
     "Sequoia",
     "a16z",
@@ -13,10 +13,6 @@
   ],
   "failures": [
     {
-      "firm": "Lightspeed",
-      "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
-    },
-    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
@@ -25,5 +21,33 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": []
+  "jobs": [
+    {
+      "firm": "Lightspeed",
+      "company": "Lightspeed",
+      "title": "Chief of Staff to the GM of Housing",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/flex/jobs/4717442005",
+      "cos": true,
+      "id": "vc:Lightspeed:https://job-boards.greenhouse.io/flex/jobs/4717442005"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Executive Assistant, Office of the CEO",
+      "location": "",
+      "url": "https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers/job/Santa-Clara-CA---USA-Office/Executive-Assistant--Office-of-the-CEO_R04264",
+      "cos": true,
+      "id": "vc:Sequoia:https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers/job/Santa-Clara-CA---USA-Office/Executive-Assistant--Office-of-the-CEO_R04264"
+    },
+    {
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Business Operations Specialist",
+      "location": "San Francisco, CA, USA",
+      "url": "https://jobs.thrivecap.com/companies/formal-2/jobs/87155727-business-operations-specialist#content",
+      "cos": false,
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/formal-2/jobs/87155727-business-operations-specialist#content"
+    }
+  ]
 }
