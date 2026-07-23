@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-23T05:51:17.674523+00:00",
-  "count": 3,
+  "generated_at": "2026-07-23T11:13:25.320091+00:00",
+  "count": 6,
   "firms": [
     "Sequoia",
     "a16z",
@@ -23,15 +23,6 @@
   ],
   "jobs": [
     {
-      "firm": "Lightspeed",
-      "company": "Lightspeed",
-      "title": "Chief of Staff to the GM of Housing",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/flex/jobs/4717442005",
-      "cos": true,
-      "id": "vc:Lightspeed:https://job-boards.greenhouse.io/flex/jobs/4717442005"
-    },
-    {
       "firm": "Sequoia",
       "company": "Sequoia",
       "title": "Strategic Finance, AI Innovation",
@@ -43,11 +34,47 @@
     {
       "firm": "Thrive",
       "company": "Thrive",
-      "title": "Business Operations Specialist",
+      "title": "Business Operations, Commercial Lead",
       "location": "San Francisco, CA, USA",
-      "url": "https://jobs.thrivecap.com/companies/formal-2/jobs/87155727-business-operations-specialist#content",
+      "url": "https://jobs.thrivecap.com/companies/specter/jobs/87216321-business-operations-commercial-lead#content",
       "cos": false,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/formal-2/jobs/87155727-business-operations-specialist#content"
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/specter/jobs/87216321-business-operations-commercial-lead#content"
+    },
+    {
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Business Operations, Finance Lead",
+      "location": "San Francisco, CA, USA",
+      "url": "https://jobs.thrivecap.com/companies/specter/jobs/87216319-business-operations-finance-lead#content",
+      "cos": false,
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/specter/jobs/87216319-business-operations-finance-lead#content"
+    },
+    {
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "GTM Strategic Finance",
+      "location": "San Francisco, CA, USA; New York, NY, USA",
+      "url": "https://jobs.thrivecap.com/companies/plaid/jobs/87207944-gtm-strategic-finance#content",
+      "cos": false,
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/plaid/jobs/87207944-gtm-strategic-finance#content"
+    },
+    {
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Head of Corporate Development",
+      "location": "San Francisco, CA, USA",
+      "url": "https://jobs.thrivecap.com/companies/plaid/jobs/87207939-head-of-corporate-development#content",
+      "cos": false,
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/plaid/jobs/87207939-head-of-corporate-development#content"
+    },
+    {
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Product Strategic Finance",
+      "location": "San Francisco, CA, USA; New York, NY, USA",
+      "url": "https://jobs.thrivecap.com/companies/plaid/jobs/87207958-product-strategic-finance#content",
+      "cos": false,
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/plaid/jobs/87207958-product-strategic-finance#content"
     }
   ]
 }
