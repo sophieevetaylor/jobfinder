@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-24T11:06:06.599415+00:00",
-  "count": 0,
+  "generated_at": "2026-07-24T21:58:52.601493+00:00",
+  "count": 3,
   "firms": [
     "Sequoia",
     "a16z",
@@ -21,5 +21,33 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": []
+  "jobs": [
+    {
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
+      "title": "Expert Opportunity - Business Operations Manager ($80/hr, up to $1,600/week)",
+      "location": "New York, NY, USA",
+      "url": "https://www.linkedin.com/jobs/view/expert-opportunity-business-operations-manager-%2480-hr-up-to-%241-600-week-at-ethos-4441442022?utm_source=General+Catalyst+job+board&utm_medium=getro.com&gh_src=General+Catalyst+job+board",
+      "cos": false,
+      "id": "vc:General Catalyst:https://www.linkedin.com/jobs/view/expert-opportunity-business-operations-manager-%2480-hr-up-to-%241-600-week-at-ethos-4441442022?utm_source=General+Catalyst+job+board&utm_medium=getro.com&gh_src=General+Catalyst+job+board"
+    },
+    {
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
+      "title": "Expert Opportunity - Equity Capital Markets Analyst ($100/hr, up to $2,000/week)",
+      "location": "Chicago, IL, USA",
+      "url": "https://www.linkedin.com/jobs/view/expert-opportunity-equity-capital-markets-analyst-%24100-hr-up-to-%242-000-week-at-ethos-4442127536?utm_source=General+Catalyst+job+board&utm_medium=getro.com&gh_src=General+Catalyst+job+board",
+      "cos": false,
+      "id": "vc:General Catalyst:https://www.linkedin.com/jobs/view/expert-opportunity-equity-capital-markets-analyst-%24100-hr-up-to-%242-000-week-at-ethos-4442127536?utm_source=General+Catalyst+job+board&utm_medium=getro.com&gh_src=General+Catalyst+job+board"
+    },
+    {
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
+      "title": "Expert Opportunity - VP of Corporate Development ($100/hr, up to $2,000/week)",
+      "location": "",
+      "url": "https://www.linkedin.com/jobs/view/expert-opportunity-vp-of-corporate-development-%24100-hr-up-to-%242-000-week-at-ethos-4441428562?utm_source=General+Catalyst+job+board&utm_medium=getro.com&gh_src=General+Catalyst+job+board",
+      "cos": false,
+      "id": "vc:General Catalyst:https://www.linkedin.com/jobs/view/expert-opportunity-vp-of-corporate-development-%24100-hr-up-to-%242-000-week-at-ethos-4441428562?utm_source=General+Catalyst+job+board&utm_medium=getro.com&gh_src=General+Catalyst+job+board"
+    }
+  ]
 }
