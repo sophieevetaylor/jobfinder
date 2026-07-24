@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-23T21:59:12.364246+00:00",
-  "count": 2,
+  "generated_at": "2026-07-24T05:46:58.400252+00:00",
+  "count": 0,
   "firms": [
     "Sequoia",
     "a16z",
@@ -13,6 +13,10 @@
   ],
   "failures": [
     {
+      "firm": "Lightspeed",
+      "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
+    },
+    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
@@ -21,24 +25,5 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": [
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Strategic Finance Senior Lead",
-      "location": "",
-      "url": "https://boards.greenhouse.io/faire/jobs/8633365002?gh_jid=8633365002",
-      "cos": false,
-      "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8633365002?gh_jid=8633365002"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Strategic Finance, AI Innovation",
-      "location": "",
-      "url": "https://boards.greenhouse.io/figma/jobs/6112961004?gh_jid=6112961004",
-      "cos": false,
-      "id": "vc:Sequoia:https://boards.greenhouse.io/figma/jobs/6112961004?gh_jid=6112961004"
-    }
-  ]
+  "jobs": []
 }
