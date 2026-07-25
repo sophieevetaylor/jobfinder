@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-25T10:37:20.443043+00:00",
-  "count": 1,
+  "generated_at": "2026-07-25T21:46:25.159774+00:00",
+  "count": 4,
   "firms": [
     "Sequoia",
     "a16z",
@@ -13,16 +13,8 @@
   ],
   "failures": [
     {
-      "firm": "a16z",
-      "error": "Page.goto: net::ERR_TIMED_OUT at https://portfoliojobs.a16z.com/jobs\nCall log:\nnavigating to \"https://portfoliojobs.a16z.com/jobs\", waiting until \"domcontentloaded\"\n"
-    },
-    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "firm": "Greylock",
-      "error": "Page.goto: net::ERR_TIMED_OUT at https://jobs.greylock.com/jobs\nCall log:\nnavigating to \"https://jobs.greylock.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
     {
       "firm": "Founders Fund",
@@ -31,6 +23,24 @@
   ],
   "jobs": [
     {
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
+      "title": "Business Operations Senior Associate",
+      "location": "Miami, FL, USA",
+      "url": "https://jobs.generalcatalyst.com/companies/felix-2-5bbe8bb6-3263-4a82-af9b-85191483f0b9/jobs/87582757-business-operations-senior-associate#content",
+      "cos": false,
+      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/felix-2-5bbe8bb6-3263-4a82-af9b-85191483f0b9/jobs/87582757-business-operations-senior-associate#content"
+    },
+    {
+      "firm": "a16z",
+      "company": "Pindrop Security",
+      "title": "GTM Strategic Finance Manager",
+      "location": "Salary range USD 150,000 - 170,000 / yearRemoteUS - RemotePosted 1 day ago",
+      "url": "https://portfoliojobs.a16z.com/jobs/pindrop-security",
+      "cos": false,
+      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/pindrop-security"
+    },
+    {
       "firm": "Sequoia",
       "company": "Sequoia",
       "title": "Strategic Finance Lead, Value",
@@ -38,6 +48,15 @@
       "url": "https://boards.greenhouse.io/faire/jobs/8649510002?gh_jid=8649510002",
       "cos": false,
       "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8649510002?gh_jid=8649510002"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Strategic Finance, AI Innovation",
+      "location": "",
+      "url": "https://boards.greenhouse.io/figma/jobs/6112961004?gh_jid=6112961004",
+      "cos": false,
+      "id": "vc:Sequoia:https://boards.greenhouse.io/figma/jobs/6112961004?gh_jid=6112961004"
     }
   ]
 }
