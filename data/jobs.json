@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-25T05:41:20.951869+00:00",
-  "count": 6,
+  "generated_at": "2026-07-25T10:37:20.443043+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -13,8 +13,16 @@
   ],
   "failures": [
     {
+      "firm": "a16z",
+      "error": "Page.goto: net::ERR_TIMED_OUT at https://portfoliojobs.a16z.com/jobs\nCall log:\nnavigating to \"https://portfoliojobs.a16z.com/jobs\", waiting until \"domcontentloaded\"\n"
+    },
+    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "firm": "Greylock",
+      "error": "Page.goto: net::ERR_TIMED_OUT at https://jobs.greylock.com/jobs\nCall log:\nnavigating to \"https://jobs.greylock.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
     {
       "firm": "Founders Fund",
@@ -23,42 +31,6 @@
   ],
   "jobs": [
     {
-      "firm": "General Catalyst",
-      "company": "General Catalyst",
-      "title": "Expert Opportunity - Business Operations Manager ($80/hr, up to $1,600/week)",
-      "location": "New York, NY, USA",
-      "url": "https://jobs.generalcatalyst.com/companies/ethos-2-e1b0048b-7d7c-4a76-97d7-b71911ec294a/jobs/87492775-expert-opportunity-business-operations-manager-80-hr-up-to-1-600-week#content",
-      "cos": false,
-      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/ethos-2-e1b0048b-7d7c-4a76-97d7-b71911ec294a/jobs/87492775-expert-opportunity-business-operations-manager-80-hr-up-to-1-600-week#content"
-    },
-    {
-      "firm": "General Catalyst",
-      "company": "General Catalyst",
-      "title": "Expert Opportunity - Equity Capital Markets Analyst ($100/hr, up to $2,000/week)",
-      "location": "Chicago, IL, USA",
-      "url": "https://www.linkedin.com/jobs/view/expert-opportunity-equity-capital-markets-analyst-%24100-hr-up-to-%242-000-week-at-ethos-4442127536?utm_source=General+Catalyst+job+board&utm_medium=getro.com&gh_src=General+Catalyst+job+board",
-      "cos": false,
-      "id": "vc:General Catalyst:https://www.linkedin.com/jobs/view/expert-opportunity-equity-capital-markets-analyst-%24100-hr-up-to-%242-000-week-at-ethos-4442127536?utm_source=General+Catalyst+job+board&utm_medium=getro.com&gh_src=General+Catalyst+job+board"
-    },
-    {
-      "firm": "General Catalyst",
-      "company": "General Catalyst",
-      "title": "Expert Opportunity - VP of Corporate Development ($100/hr, up to $2,000/week)",
-      "location": "",
-      "url": "https://jobs.generalcatalyst.com/companies/ethos-2-e1b0048b-7d7c-4a76-97d7-b71911ec294a/jobs/87492770-expert-opportunity-vp-of-corporate-development-100-hr-up-to-2-000-week#content",
-      "cos": false,
-      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/ethos-2-e1b0048b-7d7c-4a76-97d7-b71911ec294a/jobs/87492770-expert-opportunity-vp-of-corporate-development-100-hr-up-to-2-000-week#content"
-    },
-    {
-      "firm": "a16z",
-      "company": "Pindrop Security",
-      "title": "GTM Strategic Finance Manager",
-      "location": "Salary range USD 150,000 - 170,000 / yearRemoteUS - RemotePosted less than 1 day ago",
-      "url": "https://portfoliojobs.a16z.com/jobs/pindrop-security",
-      "cos": false,
-      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/pindrop-security"
-    },
-    {
       "firm": "Sequoia",
       "company": "Sequoia",
       "title": "Strategic Finance Lead, Value",
@@ -66,15 +38,6 @@
       "url": "https://boards.greenhouse.io/faire/jobs/8649510002?gh_jid=8649510002",
       "cos": false,
       "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8649510002?gh_jid=8649510002"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Strategic Finance, AI Innovation",
-      "location": "",
-      "url": "https://boards.greenhouse.io/figma/jobs/6112961004?gh_jid=6112961004",
-      "cos": false,
-      "id": "vc:Sequoia:https://boards.greenhouse.io/figma/jobs/6112961004?gh_jid=6112961004"
     }
   ]
 }
