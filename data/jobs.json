@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-26T10:47:02.404183+00:00",
-  "count": 4,
+  "generated_at": "2026-07-26T21:53:05.859353+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -23,19 +23,10 @@
   ],
   "jobs": [
     {
-      "firm": "General Catalyst",
-      "company": "General Catalyst",
-      "title": "Business Operations Senior Associate",
-      "location": "Miami, FL, USA",
-      "url": "https://jobs.generalcatalyst.com/companies/felix-2-5bbe8bb6-3263-4a82-af9b-85191483f0b9/jobs/87582757-business-operations-senior-associate#content",
-      "cos": false,
-      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/felix-2-5bbe8bb6-3263-4a82-af9b-85191483f0b9/jobs/87582757-business-operations-senior-associate#content"
-    },
-    {
       "firm": "a16z",
       "company": "Pindrop Security",
       "title": "GTM Strategic Finance Manager",
-      "location": "Salary range USD 150,000 - 170,000 / yearRemoteUS - RemotePosted 1 day ago",
+      "location": "Salary range USD 150,000 - 170,000 / yearRemoteUS - RemotePosted 2 days ago",
       "url": "https://portfoliojobs.a16z.com/jobs/pindrop-security",
       "cos": false,
       "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/pindrop-security"
@@ -48,15 +39,6 @@
       "url": "https://boards.greenhouse.io/faire/jobs/8649510002?gh_jid=8649510002",
       "cos": false,
       "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8649510002?gh_jid=8649510002"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Strategic Finance, AI Innovation",
-      "location": "",
-      "url": "https://boards.greenhouse.io/figma/jobs/6112961004?gh_jid=6112961004",
-      "cos": false,
-      "id": "vc:Sequoia:https://boards.greenhouse.io/figma/jobs/6112961004?gh_jid=6112961004"
     }
   ]
 }
