@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-27T12:27:06.910158+00:00",
-  "count": 1,
+  "generated_at": "2026-07-27T21:58:39.762978+00:00",
+  "count": 3,
   "firms": [
     "Sequoia",
     "a16z",
@@ -24,9 +24,27 @@
   "jobs": [
     {
       "firm": "a16z",
+      "company": "a16z",
+      "title": "Manager, Business Operations, Air Defense",
+      "location": "",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5195990007?gh_jid=5195990007",
+      "cos": false,
+      "id": "vc:a16z:https://boards.greenhouse.io/andurilindustries/jobs/5195990007?gh_jid=5195990007"
+    },
+    {
+      "firm": "Lightspeed",
+      "company": "Lightspeed",
+      "title": "Manager, Business Operations, Air Defense",
+      "location": "",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5195990007?gh_jid=5195990007",
+      "cos": false,
+      "id": "vc:Lightspeed:https://boards.greenhouse.io/andurilindustries/jobs/5195990007?gh_jid=5195990007"
+    },
+    {
+      "firm": "a16z",
       "company": "Pindrop Security",
       "title": "GTM Strategic Finance Manager",
-      "location": "Salary range USD 150,000 - 170,000 / yearRemoteUS - RemotePosted 2 days ago",
+      "location": "Salary range USD 150,000 - 170,000 / yearRemoteUS - RemotePosted 3 days ago",
       "url": "https://portfoliojobs.a16z.com/jobs/pindrop-security",
       "cos": false,
       "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/pindrop-security"
