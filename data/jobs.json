@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-27T06:25:10.749494+00:00",
-  "count": 2,
+  "generated_at": "2026-07-27T12:27:06.910158+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -30,15 +30,6 @@
       "url": "https://portfoliojobs.a16z.com/jobs/pindrop-security",
       "cos": false,
       "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/pindrop-security"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Strategic Finance Lead, Value",
-      "location": "",
-      "url": "https://boards.greenhouse.io/faire/jobs/8649510002?gh_jid=8649510002",
-      "cos": false,
-      "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8649510002?gh_jid=8649510002"
     }
   ]
 }
