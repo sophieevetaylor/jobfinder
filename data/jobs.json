@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-28T11:21:11.045898+00:00",
-  "count": 0,
+  "generated_at": "2026-07-28T21:59:09.215885+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -21,5 +21,15 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": []
+  "jobs": [
+    {
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Business Operations",
+      "location": "",
+      "url": "https://jobs.thrivecap.com/companies/plaid/jobs/87817700-business-operations#content",
+      "cos": false,
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/plaid/jobs/87817700-business-operations#content"
+    }
+  ]
 }
