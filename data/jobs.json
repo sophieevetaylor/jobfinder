@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-27T21:58:39.762978+00:00",
-  "count": 3,
+  "generated_at": "2026-07-28T05:44:10.135433+00:00",
+  "count": 0,
   "firms": [
     "Sequoia",
     "a16z",
@@ -13,6 +13,10 @@
   ],
   "failures": [
     {
+      "firm": "Lightspeed",
+      "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
+    },
+    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
@@ -21,33 +25,5 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": [
-    {
-      "firm": "a16z",
-      "company": "a16z",
-      "title": "Manager, Business Operations, Air Defense",
-      "location": "",
-      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5195990007?gh_jid=5195990007",
-      "cos": false,
-      "id": "vc:a16z:https://boards.greenhouse.io/andurilindustries/jobs/5195990007?gh_jid=5195990007"
-    },
-    {
-      "firm": "Lightspeed",
-      "company": "Lightspeed",
-      "title": "Manager, Business Operations, Air Defense",
-      "location": "",
-      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5195990007?gh_jid=5195990007",
-      "cos": false,
-      "id": "vc:Lightspeed:https://boards.greenhouse.io/andurilindustries/jobs/5195990007?gh_jid=5195990007"
-    },
-    {
-      "firm": "a16z",
-      "company": "Pindrop Security",
-      "title": "GTM Strategic Finance Manager",
-      "location": "Salary range USD 150,000 - 170,000 / yearRemoteUS - RemotePosted 3 days ago",
-      "url": "https://portfoliojobs.a16z.com/jobs/pindrop-security",
-      "cos": false,
-      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/pindrop-security"
-    }
-  ]
+  "jobs": []
 }
