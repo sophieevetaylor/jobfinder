@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T05:48:27.402213+00:00",
+  "generated_at": "2026-07-29T11:29:09.610932+00:00",
   "count": 4,
   "firms": [
     "Sequoia",
@@ -14,7 +14,7 @@
   "failures": [
     {
       "firm": "Lightspeed",
-      "error": "Page.goto: net::ERR_TIMED_OUT at https://jobs.lsvp.com/jobs\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
+      "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
     {
       "firm": "Index Ventures",
@@ -27,31 +27,22 @@
   ],
   "jobs": [
     {
-      "firm": "Greylock",
-      "company": "Ramp",
-      "title": "Business Operations Lead, Compensation & Equity",
-      "location": "Salary range USD 200,000 - 250,000 / yearHybridNew York City, NY, USA, New York, NY (HQ)Posted 1 day ago",
-      "url": "https://jobs.greylock.com/jobs/ramp",
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
+      "title": "Manager, Growth Strategy & Operations",
+      "location": "New York, NY, USA",
+      "url": "https://jobs.generalcatalyst.com/companies/oscar-health/jobs/87857720-manager-growth-strategy-operations#content",
       "cos": false,
-      "id": "vc:Greylock:https://jobs.greylock.com/jobs/ramp"
+      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/oscar-health/jobs/87857720-manager-growth-strategy-operations#content"
     },
     {
-      "firm": "Sequoia",
-      "company": "Sequoia",
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
       "title": "Strategic Finance Associate, Product Finance",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4718767005",
+      "location": "San Francisco, CA, USA",
+      "url": "https://jobs.generalcatalyst.com/companies/glean/jobs/87860173-strategic-finance-associate-product-finance#content",
       "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/gleanwork/jobs/4718767005"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Strategic Finance Lead, Value",
-      "location": "",
-      "url": "https://boards.greenhouse.io/faire/jobs/8649510002?gh_jid=8649510002",
-      "cos": false,
-      "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8649510002?gh_jid=8649510002"
+      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/glean/jobs/87860173-strategic-finance-associate-product-finance#content"
     },
     {
       "firm": "Thrive",
@@ -61,6 +52,15 @@
       "url": "https://jobs.thrivecap.com/companies/plaid/jobs/87817700-business-operations#content",
       "cos": false,
       "id": "vc:Thrive:https://jobs.thrivecap.com/companies/plaid/jobs/87817700-business-operations#content"
+    },
+    {
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Manager, Growth Strategy & Operations",
+      "location": "New York, NY, USA",
+      "url": "https://jobs.thrivecap.com/companies/oscar-health/jobs/87857720-manager-growth-strategy-operations#content",
+      "cos": false,
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/oscar-health/jobs/87857720-manager-growth-strategy-operations#content"
     }
   ]
 }
