@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-29T11:29:09.610932+00:00",
-  "count": 4,
+  "generated_at": "2026-07-29T21:53:17.607513+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -13,10 +13,6 @@
   ],
   "failures": [
     {
-      "firm": "Lightspeed",
-      "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
-    },
-    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
@@ -27,40 +23,13 @@
   ],
   "jobs": [
     {
-      "firm": "General Catalyst",
-      "company": "General Catalyst",
-      "title": "Manager, Growth Strategy & Operations",
-      "location": "New York, NY, USA",
-      "url": "https://jobs.generalcatalyst.com/companies/oscar-health/jobs/87857720-manager-growth-strategy-operations#content",
-      "cos": false,
-      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/oscar-health/jobs/87857720-manager-growth-strategy-operations#content"
-    },
-    {
-      "firm": "General Catalyst",
-      "company": "General Catalyst",
-      "title": "Strategic Finance Associate, Product Finance",
-      "location": "San Francisco, CA, USA",
-      "url": "https://jobs.generalcatalyst.com/companies/glean/jobs/87860173-strategic-finance-associate-product-finance#content",
-      "cos": false,
-      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/glean/jobs/87860173-strategic-finance-associate-product-finance#content"
-    },
-    {
-      "firm": "Thrive",
-      "company": "Thrive",
-      "title": "Business Operations",
+      "firm": "Lightspeed",
+      "company": "Lightspeed",
+      "title": "Strategic Finance Director",
       "location": "",
-      "url": "https://jobs.thrivecap.com/companies/plaid/jobs/87817700-business-operations#content",
+      "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7931/",
       "cos": false,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/plaid/jobs/87817700-business-operations#content"
-    },
-    {
-      "firm": "Thrive",
-      "company": "Thrive",
-      "title": "Manager, Growth Strategy & Operations",
-      "location": "New York, NY, USA",
-      "url": "https://jobs.thrivecap.com/companies/oscar-health/jobs/87857720-manager-growth-strategy-operations#content",
-      "cos": false,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/oscar-health/jobs/87857720-manager-growth-strategy-operations#content"
+      "id": "vc:Lightspeed:https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7931/"
     }
   ]
 }
