@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-29T21:53:17.607513+00:00",
-  "count": 1,
+  "generated_at": "2026-07-30T05:36:06.210104+00:00",
+  "count": 3,
   "firms": [
     "Sequoia",
     "a16z",
@@ -23,13 +23,31 @@
   ],
   "jobs": [
     {
-      "firm": "Lightspeed",
-      "company": "Lightspeed",
-      "title": "Strategic Finance Director",
+      "firm": "a16z",
+      "company": "a16z",
+      "title": "Business Operations",
       "location": "",
-      "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7931/",
+      "url": "https://boards.greenhouse.io/figma/jobs/6119180004?gh_jid=6119180004",
       "cos": false,
-      "id": "vc:Lightspeed:https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7931/"
+      "id": "vc:a16z:https://boards.greenhouse.io/figma/jobs/6119180004?gh_jid=6119180004"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Business Operations",
+      "location": "",
+      "url": "https://boards.greenhouse.io/figma/jobs/6119180004?gh_jid=6119180004",
+      "cos": false,
+      "id": "vc:Sequoia:https://boards.greenhouse.io/figma/jobs/6119180004?gh_jid=6119180004"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Strategic Finance Associate, Product Finance",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4718767005",
+      "cos": false,
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/gleanwork/jobs/4718767005"
     }
   ]
 }
