@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-30T11:10:11.824097+00:00",
-  "count": 3,
+  "generated_at": "2026-07-30T22:02:13.293191+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -23,31 +23,22 @@
   ],
   "jobs": [
     {
-      "firm": "a16z",
-      "company": "a16z",
-      "title": "Business Operations",
+      "firm": "Greylock",
+      "company": "PayJoy",
+      "title": "Strategy & Corporate Development Senior Manager",
       "location": "",
-      "url": "https://boards.greenhouse.io/figma/jobs/6119180004?gh_jid=6119180004",
+      "url": "https://jobs.greylock.com/jobs/payjoy",
       "cos": false,
-      "id": "vc:a16z:https://boards.greenhouse.io/figma/jobs/6119180004?gh_jid=6119180004"
+      "id": "vc:Greylock:https://jobs.greylock.com/jobs/payjoy"
     },
     {
       "firm": "a16z",
-      "company": "OpenAI",
-      "title": "GTM Strategy & Operations, Professional Services",
-      "location": "Salary range USD 293,000 - 325,000 / yearHybridSan Francisco, California, United States, San FranciscoPosted less than 1",
-      "url": "https://portfoliojobs.a16z.com/jobs/openai",
-      "cos": false,
-      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/openai"
-    },
-    {
-      "firm": "Thrive",
-      "company": "Thrive",
-      "title": "Business Operations",
-      "location": "United States; California, USA; San Francisco, CA, USA; New York, NY, USA",
-      "url": "https://jobs.thrivecap.com/companies/figma-2/jobs/88026781-business-operations#content",
-      "cos": false,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/figma-2/jobs/88026781-business-operations#content"
+      "company": "Slingshot AI",
+      "title": "Chief of Staff, GTM",
+      "location": "Salary range USD 175,000 - 275,000 / yearNew York, NY, USA, New YorkPosted less than 1 day ago",
+      "url": "https://portfoliojobs.a16z.com/jobs/slingshot-ai",
+      "cos": true,
+      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/slingshot-ai"
     }
   ]
 }
