@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-31T11:31:39.156618+00:00",
-  "count": 1,
+  "generated_at": "2026-07-31T21:59:54.898575+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -30,6 +30,15 @@
       "url": "https://jobs.lsvp.com/jobs/cartesia",
       "cos": false,
       "id": "vc:Lightspeed:https://jobs.lsvp.com/jobs/cartesia"
+    },
+    {
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Business Operations Manager",
+      "location": "New York, NY, USA",
+      "url": "https://jobs.thrivecap.com/companies/savvy-2-d987e83e-815c-4919-a08f-afcf8edeaa1d/jobs/88276371-business-operations-manager#content",
+      "cos": false,
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/savvy-2-d987e83e-815c-4919-a08f-afcf8edeaa1d/jobs/88276371-business-operations-manager#content"
     }
   ]
 }
