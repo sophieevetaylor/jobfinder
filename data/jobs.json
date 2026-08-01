@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-01T10:43:29.186269+00:00",
-  "count": 1,
+  "generated_at": "2026-08-01T21:46:14.677794+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -30,6 +30,15 @@
       "url": "https://jobs.greylock.com/jobs/baseten",
       "cos": false,
       "id": "vc:Greylock:https://jobs.greylock.com/jobs/baseten"
+    },
+    {
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Business Operations",
+      "location": "Austin, TX, USA",
+      "url": "https://jobs.thrivecap.com/companies/base-power-company/jobs/88402971-business-operations#content",
+      "cos": false,
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/base-power-company/jobs/88402971-business-operations#content"
     }
   ]
 }
