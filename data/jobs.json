@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-02T10:44:16.319959+00:00",
-  "count": 2,
+  "generated_at": "2026-08-02T21:47:46.083454+00:00",
+  "count": 4,
   "firms": [
     "Sequoia",
     "a16z",
@@ -32,13 +32,31 @@
       "id": "vc:Greylock:https://jobs.greylock.com/jobs/baseten"
     },
     {
-      "firm": "Thrive",
-      "company": "Thrive",
+      "firm": "Sequoia",
+      "company": "Sequoia",
       "title": "Business Operations",
-      "location": "Austin, TX, USA",
-      "url": "https://jobs.thrivecap.com/companies/base-power-company/jobs/88402971-business-operations#content",
+      "location": "",
+      "url": "https://boards.greenhouse.io/figma/jobs/6119180004?gh_jid=6119180004",
       "cos": false,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/base-power-company/jobs/88402971-business-operations#content"
+      "id": "vc:Sequoia:https://boards.greenhouse.io/figma/jobs/6119180004?gh_jid=6119180004"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Strategic Finance Associate, Product Finance",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4718767005",
+      "cos": false,
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/gleanwork/jobs/4718767005"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Strategy & Ops, Enterprise",
+      "location": "",
+      "url": "https://stripe.com/jobs/search?gh_jid=8053933",
+      "cos": false,
+      "id": "vc:Sequoia:https://stripe.com/jobs/search?gh_jid=8053933"
     }
   ]
 }
