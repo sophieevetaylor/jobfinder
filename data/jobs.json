@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-04T05:43:55.007218+00:00",
-  "count": 2,
+  "generated_at": "2026-08-04T11:26:02.871014+00:00",
+  "count": 4,
   "firms": [
     "Sequoia",
     "a16z",
@@ -12,10 +12,6 @@
     "Founders Fund"
   ],
   "failures": [
-    {
-      "firm": "Lightspeed",
-      "error": "Page.goto: net::ERR_TIMED_OUT at https://jobs.lsvp.com/jobs\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
-    },
     {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
@@ -37,12 +33,30 @@
     },
     {
       "firm": "a16z",
-      "company": "Navan",
-      "title": "Strategy & Operations Director (COO Office)",
-      "location": "Salary range USD 167,400 - 372,000 / yearNew York, NYPosted less than 1 day ago",
-      "url": "https://portfoliojobs.a16z.com/jobs/navan",
+      "company": "OpenAI",
+      "title": "GTM Strategy & Operations, Overlay",
+      "location": "Salary range USD 239,000 - 265,000 / yearHybridSan Francisco, California, United States, San FranciscoPosted less than 1",
+      "url": "https://portfoliojobs.a16z.com/jobs/openai",
       "cos": false,
-      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/navan"
+      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/openai"
+    },
+    {
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "GTM Strategy & Operations, Overlay",
+      "location": "San Francisco, CA, USA",
+      "url": "https://jobs.thrivecap.com/companies/openai/jobs/88588818-gtm-strategy-operations-overlay#content",
+      "cos": false,
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/openai/jobs/88588818-gtm-strategy-operations-overlay#content"
+    },
+    {
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Strategic Operations, Industrial Compute",
+      "location": "San Francisco, CA, USA",
+      "url": "https://jobs.thrivecap.com/companies/openai/jobs/88588806-strategic-operations-industrial-compute#content",
+      "cos": false,
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/openai/jobs/88588806-strategic-operations-industrial-compute#content"
     }
   ]
 }
