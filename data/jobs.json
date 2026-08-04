@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-04T11:26:02.871014+00:00",
-  "count": 4,
+  "generated_at": "2026-08-04T22:06:10.708024+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -39,24 +39,6 @@
       "url": "https://portfoliojobs.a16z.com/jobs/openai",
       "cos": false,
       "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/openai"
-    },
-    {
-      "firm": "Thrive",
-      "company": "Thrive",
-      "title": "GTM Strategy & Operations, Overlay",
-      "location": "San Francisco, CA, USA",
-      "url": "https://jobs.thrivecap.com/companies/openai/jobs/88588818-gtm-strategy-operations-overlay#content",
-      "cos": false,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/openai/jobs/88588818-gtm-strategy-operations-overlay#content"
-    },
-    {
-      "firm": "Thrive",
-      "company": "Thrive",
-      "title": "Strategic Operations, Industrial Compute",
-      "location": "San Francisco, CA, USA",
-      "url": "https://jobs.thrivecap.com/companies/openai/jobs/88588806-strategic-operations-industrial-compute#content",
-      "cos": false,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/openai/jobs/88588806-strategic-operations-industrial-compute#content"
     }
   ]
 }
