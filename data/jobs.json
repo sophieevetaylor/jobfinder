@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-04T22:06:10.708024+00:00",
-  "count": 2,
+  "generated_at": "2026-08-05T05:43:01.285971+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -30,15 +30,6 @@
       "url": "https://job-boards.greenhouse.io/instawork/jobs/4702041006",
       "cos": false,
       "id": "vc:Greylock:https://job-boards.greenhouse.io/instawork/jobs/4702041006"
-    },
-    {
-      "firm": "a16z",
-      "company": "OpenAI",
-      "title": "GTM Strategy & Operations, Overlay",
-      "location": "Salary range USD 239,000 - 265,000 / yearHybridSan Francisco, California, United States, San FranciscoPosted less than 1",
-      "url": "https://portfoliojobs.a16z.com/jobs/openai",
-      "cos": false,
-      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/openai"
     }
   ]
 }
