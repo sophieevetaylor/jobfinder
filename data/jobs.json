@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-06T05:45:00.249079+00:00",
-  "count": 2,
+  "generated_at": "2026-08-06T11:25:15.298034+00:00",
+  "count": 0,
   "firms": [
     "Sequoia",
     "a16z",
@@ -21,24 +21,5 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": [
-    {
-      "firm": "a16z",
-      "company": "a16z",
-      "title": "Revenue Strategy & Operations Associate",
-      "location": "",
-      "url": "https://thatch.com/jobs/5376955008?gh_jid=5376955008",
-      "cos": false,
-      "id": "vc:a16z:https://thatch.com/jobs/5376955008?gh_jid=5376955008"
-    },
-    {
-      "firm": "Greylock",
-      "company": "Greylock",
-      "title": "Business Operations Associate, AI & Automation",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/instawork/jobs/4702041006",
-      "cos": false,
-      "id": "vc:Greylock:https://job-boards.greenhouse.io/instawork/jobs/4702041006"
-    }
-  ]
+  "jobs": []
 }
