@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-05T22:07:21.626307+00:00",
-  "count": 1,
+  "generated_at": "2026-08-06T05:45:00.249079+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -22,6 +22,15 @@
     }
   ],
   "jobs": [
+    {
+      "firm": "a16z",
+      "company": "a16z",
+      "title": "Revenue Strategy & Operations Associate",
+      "location": "",
+      "url": "https://thatch.com/jobs/5376955008?gh_jid=5376955008",
+      "cos": false,
+      "id": "vc:a16z:https://thatch.com/jobs/5376955008?gh_jid=5376955008"
+    },
     {
       "firm": "Greylock",
       "company": "Greylock",
