@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-06T11:25:15.298034+00:00",
-  "count": 0,
+  "generated_at": "2026-08-07T01:01:31.155179+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -21,5 +21,24 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": []
+  "jobs": [
+    {
+      "firm": "a16z",
+      "company": "a16z",
+      "title": "Strategy & Operations, Capital Projects",
+      "location": "",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5205977007?gh_jid=5205977007",
+      "cos": false,
+      "id": "vc:a16z:https://boards.greenhouse.io/andurilindustries/jobs/5205977007?gh_jid=5205977007"
+    },
+    {
+      "firm": "Lightspeed",
+      "company": "Lightspeed",
+      "title": "Strategy & Operations, Capital Projects",
+      "location": "",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5205977007?gh_jid=5205977007",
+      "cos": false,
+      "id": "vc:Lightspeed:https://boards.greenhouse.io/andurilindustries/jobs/5205977007?gh_jid=5205977007"
+    }
+  ]
 }
