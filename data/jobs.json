@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-07T21:30:59.845292+00:00",
-  "count": 5,
+  "generated_at": "2026-08-08T04:09:44.166932+00:00",
+  "count": 3,
   "firms": [
     "Sequoia",
     "a16z",
@@ -13,6 +13,10 @@
   ],
   "failures": [
     {
+      "firm": "a16z",
+      "error": "Page.goto: net::ERR_TIMED_OUT at https://portfoliojobs.a16z.com/jobs\nCall log:\nnavigating to \"https://portfoliojobs.a16z.com/jobs\", waiting until \"domcontentloaded\"\n"
+    },
+    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
@@ -22,15 +26,6 @@
     }
   ],
   "jobs": [
-    {
-      "firm": "a16z",
-      "company": "a16z",
-      "title": "Business Operations & Chief of Staff",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/waymark/jobs/4721649005",
-      "cos": true,
-      "id": "vc:a16z:https://job-boards.greenhouse.io/waymark/jobs/4721649005"
-    },
     {
       "firm": "General Catalyst",
       "company": "General Catalyst",
@@ -45,18 +40,9 @@
       "company": "General Catalyst",
       "title": "Expert Opportunity - Investor Relations Director ($100/hr, up to $2,000/week)",
       "location": "",
-      "url": "https://hk.linkedin.com/jobs/view/expert-opportunity-investor-relations-director-%24100-hr-up-to-%242-000-week-at-ethos-4441439147?utm_source=General+Catalyst+job+board&utm_medium=getro.com&gh_src=General+Catalyst+job+board",
+      "url": "https://jobs.generalcatalyst.com/companies/ethos-2-e1b0048b-7d7c-4a76-97d7-b71911ec294a/jobs/89179830-expert-opportunity-investor-relations-director-100-hr-up-to-2-000-week#content",
       "cos": false,
-      "id": "vc:General Catalyst:https://hk.linkedin.com/jobs/view/expert-opportunity-investor-relations-director-%24100-hr-up-to-%242-000-week-at-ethos-4441439147?utm_source=General+Catalyst+job+board&utm_medium=getro.com&gh_src=General+Catalyst+job+board"
-    },
-    {
-      "firm": "Lightspeed",
-      "company": "Ramp",
-      "title": "Associate, Capital Markets",
-      "location": "Salary range USD 104,000 - 192,000 / yearHybridNew York City, NY, USA, New York, NY (HQ), San Francisco, CAPosted less t",
-      "url": "https://jobs.lsvp.com/jobs/ramp",
-      "cos": false,
-      "id": "vc:Lightspeed:https://jobs.lsvp.com/jobs/ramp"
+      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/ethos-2-e1b0048b-7d7c-4a76-97d7-b71911ec294a/jobs/89179830-expert-opportunity-investor-relations-director-100-hr-up-to-2-000-week#content"
     },
     {
       "firm": "Sequoia",
