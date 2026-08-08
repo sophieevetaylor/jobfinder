@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T04:09:44.166932+00:00",
+  "generated_at": "2026-08-08T09:41:28.670548+00:00",
   "count": 3,
   "firms": [
     "Sequoia",
@@ -13,10 +13,6 @@
   ],
   "failures": [
     {
-      "firm": "a16z",
-      "error": "Page.goto: net::ERR_TIMED_OUT at https://portfoliojobs.a16z.com/jobs\nCall log:\nnavigating to \"https://portfoliojobs.a16z.com/jobs\", waiting until \"domcontentloaded\"\n"
-    },
-    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
@@ -26,6 +22,15 @@
     }
   ],
   "jobs": [
+    {
+      "firm": "a16z",
+      "company": "a16z",
+      "title": "Business Operations & Chief of Staff",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/waymark/jobs/4721649005",
+      "cos": true,
+      "id": "vc:a16z:https://job-boards.greenhouse.io/waymark/jobs/4721649005"
+    },
     {
       "firm": "General Catalyst",
       "company": "General Catalyst",
@@ -43,15 +48,6 @@
       "url": "https://jobs.generalcatalyst.com/companies/ethos-2-e1b0048b-7d7c-4a76-97d7-b71911ec294a/jobs/89179830-expert-opportunity-investor-relations-director-100-hr-up-to-2-000-week#content",
       "cos": false,
       "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/ethos-2-e1b0048b-7d7c-4a76-97d7-b71911ec294a/jobs/89179830-expert-opportunity-investor-relations-director-100-hr-up-to-2-000-week#content"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Chief of Staff, Online Grocery",
-      "location": "",
-      "url": "https://instacart.careers/job/?gh_jid=8112136",
-      "cos": true,
-      "id": "vc:Sequoia:https://instacart.careers/job/?gh_jid=8112136"
     }
   ]
 }
