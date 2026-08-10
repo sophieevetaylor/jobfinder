@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-10T10:18:50.293989+00:00",
-  "count": 0,
+  "generated_at": "2026-08-10T21:34:50.804636+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -13,6 +13,10 @@
   ],
   "failures": [
     {
+      "firm": "Lightspeed",
+      "error": "Page.goto: net::ERR_TIMED_OUT at https://jobs.lsvp.com/jobs\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
+    },
+    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
@@ -21,5 +25,24 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": []
+  "jobs": [
+    {
+      "firm": "a16z",
+      "company": "Navan",
+      "title": "Senior Manager, Business Operations, Specialty Travel & Events",
+      "location": "Salary range USD 81,000 - 180,000 / yearNew York, NYPosted less than 1 day ago",
+      "url": "https://portfoliojobs.a16z.com/jobs/navan",
+      "cos": false,
+      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/navan"
+    },
+    {
+      "firm": "Greylock",
+      "company": "Ramp",
+      "title": "Associate, Capital Markets",
+      "location": "Salary range USD 104,000 - 192,000 / yearHybridNew York City, NY, USA, New York, NY (HQ), San Francisco, CAPosted 3 days",
+      "url": "https://jobs.greylock.com/jobs/ramp",
+      "cos": false,
+      "id": "vc:Greylock:https://jobs.greylock.com/jobs/ramp"
+    }
+  ]
 }
