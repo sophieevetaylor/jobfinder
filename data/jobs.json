@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-10T04:27:16.526411+00:00",
-  "count": 1,
+  "generated_at": "2026-08-10T10:18:50.293989+00:00",
+  "count": 0,
   "firms": [
     "Sequoia",
     "a16z",
@@ -21,15 +21,5 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": [
-    {
-      "firm": "Greylock",
-      "company": "Ramp",
-      "title": "Associate, Capital Markets",
-      "location": "Salary range USD 104,000 - 192,000 / yearHybridNew York City, NY, USA, New York, NY (HQ), San Francisco, CAPosted 3 days",
-      "url": "https://jobs.greylock.com/jobs/ramp",
-      "cos": false,
-      "id": "vc:Greylock:https://jobs.greylock.com/jobs/ramp"
-    }
-  ]
+  "jobs": []
 }
