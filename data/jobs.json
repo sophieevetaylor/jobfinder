@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T21:34:50.804636+00:00",
+  "generated_at": "2026-08-11T04:16:46.167621+00:00",
   "count": 2,
   "firms": [
     "Sequoia",
@@ -13,10 +13,6 @@
   ],
   "failures": [
     {
-      "firm": "Lightspeed",
-      "error": "Page.goto: net::ERR_TIMED_OUT at https://jobs.lsvp.com/jobs\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
-    },
-    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
@@ -27,22 +23,22 @@
   ],
   "jobs": [
     {
-      "firm": "a16z",
-      "company": "Navan",
-      "title": "Senior Manager, Business Operations, Specialty Travel & Events",
-      "location": "Salary range USD 81,000 - 180,000 / yearNew York, NYPosted less than 1 day ago",
-      "url": "https://portfoliojobs.a16z.com/jobs/navan",
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
+      "title": "Workplace Strategy & Operations Manager",
+      "location": "South San Francisco, CA, USA",
+      "url": "https://jobs.generalcatalyst.com/companies/stripe/jobs/89442444-workplace-strategy-operations-manager#content",
       "cos": false,
-      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/navan"
+      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/stripe/jobs/89442444-workplace-strategy-operations-manager#content"
     },
     {
-      "firm": "Greylock",
-      "company": "Ramp",
-      "title": "Associate, Capital Markets",
-      "location": "Salary range USD 104,000 - 192,000 / yearHybridNew York City, NY, USA, New York, NY (HQ), San Francisco, CAPosted 3 days",
-      "url": "https://jobs.greylock.com/jobs/ramp",
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Workplace Strategy & Operations Manager",
+      "location": "South San Francisco, CA, USA",
+      "url": "https://jobs.thrivecap.com/companies/stripe/jobs/89442444-workplace-strategy-operations-manager#content",
       "cos": false,
-      "id": "vc:Greylock:https://jobs.greylock.com/jobs/ramp"
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/stripe/jobs/89442444-workplace-strategy-operations-manager#content"
     }
   ]
 }
