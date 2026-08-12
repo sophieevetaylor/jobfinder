@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-11T21:37:35.216309+00:00",
-  "count": 2,
+  "generated_at": "2026-08-12T04:45:30.707553+00:00",
+  "count": 3,
   "firms": [
     "Sequoia",
     "a16z",
@@ -27,18 +27,27 @@
       "company": "General Catalyst",
       "title": "Expert Opportunity - Investor Relations Advisor ($100/hr, up to $2,000/week)",
       "location": "",
-      "url": "https://uk.linkedin.com/jobs/view/expert-opportunity-investor-relations-advisor-%24100-hr-up-to-%242-000-week-at-ethos-4442703307?utm_source=General+Catalyst+job+board&utm_medium=getro.com&gh_src=General+Catalyst+job+board",
+      "url": "https://jobs.generalcatalyst.com/companies/ethos-2-e1b0048b-7d7c-4a76-97d7-b71911ec294a/jobs/89551655-expert-opportunity-investor-relations-advisor-100-hr-up-to-2-000-week#content",
       "cos": false,
-      "id": "vc:General Catalyst:https://uk.linkedin.com/jobs/view/expert-opportunity-investor-relations-advisor-%24100-hr-up-to-%242-000-week-at-ethos-4442703307?utm_source=General+Catalyst+job+board&utm_medium=getro.com&gh_src=General+Catalyst+job+board"
+      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/ethos-2-e1b0048b-7d7c-4a76-97d7-b71911ec294a/jobs/89551655-expert-opportunity-investor-relations-advisor-100-hr-up-to-2-000-week#content"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Manager, Business Operations",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/pilothq/jobs/8618505002",
+      "cos": false,
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/pilothq/jobs/8618505002"
     },
     {
       "firm": "a16z",
-      "company": "Kalshi",
-      "title": "Compliance, Licensing & Strategic Initiatives",
-      "location": "Salary range USD 150,000 - 250,000 / yearNew York City, New York, United States, New York OfficePosted less than 1 day a",
-      "url": "https://portfoliojobs.a16z.com/jobs/kalshi",
+      "company": "Very Good Security",
+      "title": "Strategic Finance Manager",
+      "location": "Salary range USD 130,000 - 175,000 / yearRemoteUnited StatesPosted less than 1 day ago",
+      "url": "https://portfoliojobs.a16z.com/jobs/very-good-security",
       "cos": false,
-      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/kalshi"
+      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/very-good-security"
     }
   ]
 }
