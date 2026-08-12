@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T10:09:36.269703+00:00",
+  "generated_at": "2026-08-12T21:37:44.518328+00:00",
   "count": 3,
   "firms": [
     "Sequoia",
@@ -23,15 +23,6 @@
   ],
   "jobs": [
     {
-      "firm": "General Catalyst",
-      "company": "General Catalyst",
-      "title": "Expert Opportunity - Investor Relations Advisor ($100/hr, up to $2,000/week)",
-      "location": "",
-      "url": "https://jobs.generalcatalyst.com/companies/ethos-2-e1b0048b-7d7c-4a76-97d7-b71911ec294a/jobs/89551655-expert-opportunity-investor-relations-advisor-100-hr-up-to-2-000-week#content",
-      "cos": false,
-      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/ethos-2-e1b0048b-7d7c-4a76-97d7-b71911ec294a/jobs/89551655-expert-opportunity-investor-relations-advisor-100-hr-up-to-2-000-week#content"
-    },
-    {
       "firm": "Sequoia",
       "company": "Sequoia",
       "title": "Manager, Business Operations",
@@ -42,12 +33,21 @@
     },
     {
       "firm": "a16z",
-      "company": "Very Good Security",
-      "title": "Strategic Finance Manager",
-      "location": "Salary range USD 130,000 - 175,000 / yearRemoteUnited StatesPosted less than 1 day ago",
-      "url": "https://portfoliojobs.a16z.com/jobs/very-good-security",
+      "company": "Shield AI",
+      "title": "Senior Manager, Strategic Finance",
+      "location": "Salary range USD 160,000 - 240,000 / yearSan Francisco, CaliforniaPosted less than 1 day ago",
+      "url": "https://portfoliojobs.a16z.com/jobs/shield-ai",
       "cos": false,
-      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/very-good-security"
+      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/shield-ai"
+    },
+    {
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Business Operations & Strategy Lead",
+      "location": "New York, NY, USA",
+      "url": "https://jobs.thrivecap.com/companies/moonpay/jobs/89702912-business-operations-strategy-lead#content",
+      "cos": false,
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/moonpay/jobs/89702912-business-operations-strategy-lead#content"
     }
   ]
 }
