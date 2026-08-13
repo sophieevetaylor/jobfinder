@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-13T10:09:44.019808+00:00",
-  "count": 4,
+  "generated_at": "2026-08-13T21:37:10.160281+00:00",
+  "count": 3,
   "firms": [
     "Sequoia",
     "a16z",
@@ -34,29 +34,20 @@
     {
       "firm": "Sequoia",
       "company": "Sequoia",
-      "title": "Business Operations Manager (Starlink)",
-      "location": "",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8702555002?gh_jid=8702555002",
-      "cos": false,
-      "id": "vc:Sequoia:https://boards.greenhouse.io/spacex/jobs/8702555002?gh_jid=8702555002"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
       "title": "Manager, Business Operations",
       "location": "",
-      "url": "https://job-boards.greenhouse.io/pilothq/jobs/8697481002",
+      "url": "https://job-boards.greenhouse.io/pilothq/jobs/8618505002",
       "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/pilothq/jobs/8697481002"
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/pilothq/jobs/8618505002"
     },
     {
       "firm": "Thrive",
       "company": "Thrive",
-      "title": "Business Operations & Strategy Lead",
-      "location": "New York, NY, USA",
-      "url": "https://jobs.thrivecap.com/companies/moonpay/jobs/89702912-business-operations-strategy-lead#content",
+      "title": "GTM Strategy and Operations",
+      "location": "Austin, TX, USA",
+      "url": "https://jobs.thrivecap.com/companies/base-power-company/jobs/89816926-gtm-strategy-and-operations#content",
       "cos": false,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/moonpay/jobs/89702912-business-operations-strategy-lead#content"
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/base-power-company/jobs/89816926-gtm-strategy-and-operations#content"
     }
   ]
 }
