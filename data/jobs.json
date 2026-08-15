@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-15T09:28:50.204676+00:00",
-  "count": 3,
+  "generated_at": "2026-08-15T21:13:49.440789+00:00",
+  "count": 0,
   "firms": [
     "Sequoia",
     "a16z",
@@ -21,33 +21,5 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": [
-    {
-      "firm": "General Catalyst",
-      "company": "General Catalyst",
-      "title": "Business Operations Manager",
-      "location": "San Francisco, CA, USA",
-      "url": "https://jobs.generalcatalyst.com/companies/cooper-2-5dd9d465-dbbc-4b3c-af79-4013858e63ba/jobs/89990438-business-operations-manager#content",
-      "cos": false,
-      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/cooper-2-5dd9d465-dbbc-4b3c-af79-4013858e63ba/jobs/89990438-business-operations-manager#content"
-    },
-    {
-      "firm": "Thrive",
-      "company": "Thrive",
-      "title": "Marketing Strategy & Operations Manager",
-      "location": "San Francisco, CA, USA; New York, NY, USA",
-      "url": "https://jobs.thrivecap.com/companies/notion-2/jobs/89961414-marketing-strategy-operations-manager#content",
-      "cos": false,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/notion-2/jobs/89961414-marketing-strategy-operations-manager#content"
-    },
-    {
-      "firm": "Thrive",
-      "company": "Thrive",
-      "title": "Strategic Finance, GTM",
-      "location": "San Francisco, CA, USA",
-      "url": "https://jobs.thrivecap.com/companies/notion-2/jobs/89961412-strategic-finance-gtm#content",
-      "cos": false,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/notion-2/jobs/89961412-strategic-finance-gtm#content"
-    }
-  ]
+  "jobs": []
 }
