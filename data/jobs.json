@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-15T03:34:47.503353+00:00",
-  "count": 4,
+  "generated_at": "2026-08-15T09:28:50.204676+00:00",
+  "count": 3,
   "firms": [
     "Sequoia",
     "a16z",
@@ -30,15 +30,6 @@
       "url": "https://jobs.generalcatalyst.com/companies/cooper-2-5dd9d465-dbbc-4b3c-af79-4013858e63ba/jobs/89990438-business-operations-manager#content",
       "cos": false,
       "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/cooper-2-5dd9d465-dbbc-4b3c-af79-4013858e63ba/jobs/89990438-business-operations-manager#content"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Manager, Business Operations",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/pilothq/jobs/8618505002",
-      "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/pilothq/jobs/8618505002"
     },
     {
       "firm": "Thrive",
