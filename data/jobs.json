@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-18T03:40:34.412459+00:00",
-  "count": 0,
+  "generated_at": "2026-08-18T09:36:28.645873+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -21,5 +21,24 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": []
+  "jobs": [
+    {
+      "firm": "a16z",
+      "company": "a16z",
+      "title": "Senior Strategic Finance Manager, Retailer",
+      "location": "",
+      "url": "https://instacart.careers/job/?gh_jid=8137960",
+      "cos": false,
+      "id": "vc:a16z:https://instacart.careers/job/?gh_jid=8137960"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Senior Strategic Finance Manager, Retailer",
+      "location": "",
+      "url": "https://instacart.careers/job/?gh_jid=8137960",
+      "cos": false,
+      "id": "vc:Sequoia:https://instacart.careers/job/?gh_jid=8137960"
+    }
+  ]
 }
