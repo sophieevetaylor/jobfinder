@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T21:19:06.662736+00:00",
+  "generated_at": "2026-08-20T03:42:44.419801+00:00",
   "count": 0,
   "firms": [
     "Sequoia",
@@ -15,6 +15,10 @@
     {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "firm": "Greylock",
+      "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\nnavigating to \"https://jobs.greylock.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
     {
       "firm": "Founders Fund",
