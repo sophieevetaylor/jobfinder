@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-20T21:20:28.943104+00:00",
-  "count": 2,
+  "generated_at": "2026-08-21T03:46:43.639947+00:00",
+  "count": 4,
   "firms": [
     "Sequoia",
     "a16z",
@@ -25,20 +25,38 @@
     {
       "firm": "a16z",
       "company": "a16z",
-      "title": "Human Data - Business Operations Analyst",
+      "title": "GTM Strategy & Operations Analyst",
       "location": "",
-      "url": "https://job-boards.greenhouse.io/xai/jobs/5216863007",
+      "url": "https://stripe.com/jobs/search?gh_jid=8145119",
       "cos": false,
-      "id": "vc:a16z:https://job-boards.greenhouse.io/xai/jobs/5216863007"
+      "id": "vc:a16z:https://stripe.com/jobs/search?gh_jid=8145119"
+    },
+    {
+      "firm": "a16z",
+      "company": "a16z",
+      "title": "Product Strategy & Operations Specialist",
+      "location": "",
+      "url": "https://www.wiz.io/careers/job/4705813006/:title?gh_jid=4705813006",
+      "cos": false,
+      "id": "vc:a16z:https://www.wiz.io/careers/job/4705813006/:title?gh_jid=4705813006"
     },
     {
       "firm": "Lightspeed",
       "company": "Lightspeed",
-      "title": "Human Data - Business Operations Analyst",
+      "title": "GTM Strategy & Operations Analyst",
       "location": "",
-      "url": "https://job-boards.greenhouse.io/xai/jobs/5216863007",
+      "url": "https://stripe.com/jobs/search?gh_jid=8145119",
       "cos": false,
-      "id": "vc:Lightspeed:https://job-boards.greenhouse.io/xai/jobs/5216863007"
+      "id": "vc:Lightspeed:https://stripe.com/jobs/search?gh_jid=8145119"
+    },
+    {
+      "firm": "Lightspeed",
+      "company": "Lightspeed",
+      "title": "Product Strategy & Operations Specialist",
+      "location": "",
+      "url": "https://www.wiz.io/careers/job/4705813006/:title?gh_jid=4705813006",
+      "cos": false,
+      "id": "vc:Lightspeed:https://www.wiz.io/careers/job/4705813006/:title?gh_jid=4705813006"
     }
   ]
 }
