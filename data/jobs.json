@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T03:46:43.639947+00:00",
+  "generated_at": "2026-08-21T09:39:43.065425+00:00",
   "count": 4,
   "firms": [
     "Sequoia",
@@ -32,15 +32,6 @@
       "id": "vc:a16z:https://stripe.com/jobs/search?gh_jid=8145119"
     },
     {
-      "firm": "a16z",
-      "company": "a16z",
-      "title": "Product Strategy & Operations Specialist",
-      "location": "",
-      "url": "https://www.wiz.io/careers/job/4705813006/:title?gh_jid=4705813006",
-      "cos": false,
-      "id": "vc:a16z:https://www.wiz.io/careers/job/4705813006/:title?gh_jid=4705813006"
-    },
-    {
       "firm": "Lightspeed",
       "company": "Lightspeed",
       "title": "GTM Strategy & Operations Analyst",
@@ -50,13 +41,22 @@
       "id": "vc:Lightspeed:https://stripe.com/jobs/search?gh_jid=8145119"
     },
     {
-      "firm": "Lightspeed",
-      "company": "Lightspeed",
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "GTM Strategy & Operations Analyst",
+      "location": "",
+      "url": "https://stripe.com/jobs/search?gh_jid=8145119",
+      "cos": false,
+      "id": "vc:Sequoia:https://stripe.com/jobs/search?gh_jid=8145119"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
       "title": "Product Strategy & Operations Specialist",
       "location": "",
       "url": "https://www.wiz.io/careers/job/4705813006/:title?gh_jid=4705813006",
       "cos": false,
-      "id": "vc:Lightspeed:https://www.wiz.io/careers/job/4705813006/:title?gh_jid=4705813006"
+      "id": "vc:Sequoia:https://www.wiz.io/careers/job/4705813006/:title?gh_jid=4705813006"
     }
   ]
 }
