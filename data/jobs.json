@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-21T09:39:43.065425+00:00",
-  "count": 4,
+  "generated_at": "2026-08-21T21:16:18.648617+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -23,33 +23,6 @@
   ],
   "jobs": [
     {
-      "firm": "a16z",
-      "company": "a16z",
-      "title": "GTM Strategy & Operations Analyst",
-      "location": "",
-      "url": "https://stripe.com/jobs/search?gh_jid=8145119",
-      "cos": false,
-      "id": "vc:a16z:https://stripe.com/jobs/search?gh_jid=8145119"
-    },
-    {
-      "firm": "Lightspeed",
-      "company": "Lightspeed",
-      "title": "GTM Strategy & Operations Analyst",
-      "location": "",
-      "url": "https://stripe.com/jobs/search?gh_jid=8145119",
-      "cos": false,
-      "id": "vc:Lightspeed:https://stripe.com/jobs/search?gh_jid=8145119"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "GTM Strategy & Operations Analyst",
-      "location": "",
-      "url": "https://stripe.com/jobs/search?gh_jid=8145119",
-      "cos": false,
-      "id": "vc:Sequoia:https://stripe.com/jobs/search?gh_jid=8145119"
-    },
-    {
       "firm": "Sequoia",
       "company": "Sequoia",
       "title": "Product Strategy & Operations Specialist",
@@ -57,6 +30,15 @@
       "url": "https://www.wiz.io/careers/job/4705813006/:title?gh_jid=4705813006",
       "cos": false,
       "id": "vc:Sequoia:https://www.wiz.io/careers/job/4705813006/:title?gh_jid=4705813006"
+    },
+    {
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Product Strategy & Operations Specialist",
+      "location": "New York, NY, USA",
+      "url": "https://jobs.thrivecap.com/companies/wiz-2/jobs/90759758-product-strategy-operations-specialist#content",
+      "cos": false,
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/wiz-2/jobs/90759758-product-strategy-operations-specialist#content"
     }
   ]
 }
