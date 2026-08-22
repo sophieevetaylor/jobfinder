@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-22T09:28:56.864991+00:00",
-  "count": 4,
+  "generated_at": "2026-08-22T21:14:10.986548+00:00",
+  "count": 5,
   "firms": [
     "Sequoia",
     "a16z",
@@ -25,11 +25,20 @@
     {
       "firm": "a16z",
       "company": "a16z",
-      "title": "Business Operations, Anduril",
+      "title": "Senior Director, Strategic Finance - Compute & Storage Infrastructure",
       "location": "",
-      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5219004007?gh_jid=5219004007",
+      "url": "https://job-boards.greenhouse.io/cssmerge/jobs/8739336002",
       "cos": false,
-      "id": "vc:a16z:https://boards.greenhouse.io/andurilindustries/jobs/5219004007?gh_jid=5219004007"
+      "id": "vc:a16z:https://job-boards.greenhouse.io/cssmerge/jobs/8739336002"
+    },
+    {
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
+      "title": "Associate, Strategic Finance (FP&A)",
+      "location": "Atlanta, GA, USA",
+      "url": "https://jobs.generalcatalyst.com/companies/oscar-health/jobs/90881401-associate-strategic-finance-fp-a#content",
+      "cos": false,
+      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/oscar-health/jobs/90881401-associate-strategic-finance-fp-a#content"
     },
     {
       "firm": "Greylock",
@@ -41,22 +50,22 @@
       "id": "vc:Greylock:https://job-boards.greenhouse.io/cresta/jobs/5398116008"
     },
     {
-      "firm": "Lightspeed",
-      "company": "Lightspeed",
-      "title": "Business Operations, Anduril",
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Product Strategy & Operations Specialist",
       "location": "",
-      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5219004007?gh_jid=5219004007",
+      "url": "https://www.wiz.io/careers/job/4705813006/:title?gh_jid=4705813006",
       "cos": false,
-      "id": "vc:Lightspeed:https://boards.greenhouse.io/andurilindustries/jobs/5219004007?gh_jid=5219004007"
+      "id": "vc:Sequoia:https://www.wiz.io/careers/job/4705813006/:title?gh_jid=4705813006"
     },
     {
       "firm": "Thrive",
       "company": "Thrive",
-      "title": "Product Strategy & Operations Specialist",
-      "location": "New York, NY, USA",
-      "url": "https://jobs.thrivecap.com/companies/wiz-2/jobs/90759758-product-strategy-operations-specialist#content",
+      "title": "Associate, Strategic Finance (FP&A)",
+      "location": "Atlanta, GA, USA",
+      "url": "https://jobs.thrivecap.com/companies/oscar-health/jobs/90881401-associate-strategic-finance-fp-a#content",
       "cos": false,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/wiz-2/jobs/90759758-product-strategy-operations-specialist#content"
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/oscar-health/jobs/90881401-associate-strategic-finance-fp-a#content"
     }
   ]
 }
