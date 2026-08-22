@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-22T03:38:46.320095+00:00",
-  "count": 7,
+  "generated_at": "2026-08-22T09:28:56.864991+00:00",
+  "count": 4,
   "firms": [
     "Sequoia",
     "a16z",
@@ -48,33 +48,6 @@
       "url": "https://boards.greenhouse.io/andurilindustries/jobs/5219004007?gh_jid=5219004007",
       "cos": false,
       "id": "vc:Lightspeed:https://boards.greenhouse.io/andurilindustries/jobs/5219004007?gh_jid=5219004007"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Deal Strategy & Operations Manager",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/cresta/jobs/5398116008",
-      "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/cresta/jobs/5398116008"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "GTM Strategy & Operations Analyst",
-      "location": "",
-      "url": "https://stripe.com/jobs/search?gh_jid=8145119",
-      "cos": false,
-      "id": "vc:Sequoia:https://stripe.com/jobs/search?gh_jid=8145119"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Product Strategy & Operations Specialist",
-      "location": "",
-      "url": "https://www.wiz.io/careers/job/4705813006/:title?gh_jid=4705813006",
-      "cos": false,
-      "id": "vc:Sequoia:https://www.wiz.io/careers/job/4705813006/:title?gh_jid=4705813006"
     },
     {
       "firm": "Thrive",
