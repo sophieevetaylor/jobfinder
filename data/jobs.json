@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-23T03:46:04.697215+00:00",
-  "count": 7,
+  "generated_at": "2026-08-23T09:30:36.780674+00:00",
+  "count": 8,
   "firms": [
     "Sequoia",
     "a16z",
@@ -54,9 +54,9 @@
       "company": "General Catalyst",
       "title": "Expert Opportunity - Investor Relations Manager ($100/hr, up to $2,000/week)",
       "location": "",
-      "url": "https://www.linkedin.com/jobs/view/expert-opportunity-investor-relations-manager-%24100-hr-up-to-%242-000-week-at-ethos-4455135471?utm_source=General+Catalyst+job+board&utm_medium=getro.com&gh_src=General+Catalyst+job+board",
+      "url": "https://jobs.generalcatalyst.com/companies/ethos-2-e1b0048b-7d7c-4a76-97d7-b71911ec294a/jobs/90912838-expert-opportunity-investor-relations-manager-100-hr-up-to-2-000-week#content",
       "cos": false,
-      "id": "vc:General Catalyst:https://www.linkedin.com/jobs/view/expert-opportunity-investor-relations-manager-%24100-hr-up-to-%242-000-week-at-ethos-4455135471?utm_source=General+Catalyst+job+board&utm_medium=getro.com&gh_src=General+Catalyst+job+board"
+      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/ethos-2-e1b0048b-7d7c-4a76-97d7-b71911ec294a/jobs/90912838-expert-opportunity-investor-relations-manager-100-hr-up-to-2-000-week#content"
     },
     {
       "firm": "General Catalyst",
@@ -75,6 +75,15 @@
       "url": "https://job-boards.greenhouse.io/cresta/jobs/5398116008",
       "cos": false,
       "id": "vc:Greylock:https://job-boards.greenhouse.io/cresta/jobs/5398116008"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Product Strategy & Operations Specialist",
+      "location": "",
+      "url": "https://www.wiz.io/careers/job/4705813006/:title?gh_jid=4705813006",
+      "cos": false,
+      "id": "vc:Sequoia:https://www.wiz.io/careers/job/4705813006/:title?gh_jid=4705813006"
     },
     {
       "firm": "Thrive",
