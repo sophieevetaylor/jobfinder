@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-22T21:14:10.986548+00:00",
-  "count": 5,
+  "generated_at": "2026-08-23T03:46:04.697215+00:00",
+  "count": 7,
   "firms": [
     "Sequoia",
     "a16z",
@@ -32,13 +32,40 @@
       "id": "vc:a16z:https://job-boards.greenhouse.io/cssmerge/jobs/8739336002"
     },
     {
+      "firm": "a16z",
+      "company": "Clubhouse",
+      "title": "\u26a1\ufe0f Chief of Staff (to the CEO)",
+      "location": "Salary range USD 230,000 - 270,000 / yearRemoteUnited States, Remote (US)Posted 1 day ago",
+      "url": "https://portfoliojobs.a16z.com/jobs/clubhouse",
+      "cos": true,
+      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/clubhouse"
+    },
+    {
+      "firm": "a16z",
+      "company": "EliseAI",
+      "title": "Strategy and Operations, Future Platforms Associate/Sr Associate | Housing",
+      "location": "Salary range USD 110,000 - 130,000 / yearNew York , NY , United States, New York CityPosted 1 day ago",
+      "url": "https://portfoliojobs.a16z.com/jobs/eliseai",
+      "cos": false,
+      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/eliseai"
+    },
+    {
       "firm": "General Catalyst",
       "company": "General Catalyst",
-      "title": "Associate, Strategic Finance (FP&A)",
-      "location": "Atlanta, GA, USA",
-      "url": "https://jobs.generalcatalyst.com/companies/oscar-health/jobs/90881401-associate-strategic-finance-fp-a#content",
+      "title": "Expert Opportunity - Investor Relations Manager ($100/hr, up to $2,000/week)",
+      "location": "",
+      "url": "https://www.linkedin.com/jobs/view/expert-opportunity-investor-relations-manager-%24100-hr-up-to-%242-000-week-at-ethos-4455135471?utm_source=General+Catalyst+job+board&utm_medium=getro.com&gh_src=General+Catalyst+job+board",
       "cos": false,
-      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/oscar-health/jobs/90881401-associate-strategic-finance-fp-a#content"
+      "id": "vc:General Catalyst:https://www.linkedin.com/jobs/view/expert-opportunity-investor-relations-manager-%24100-hr-up-to-%242-000-week-at-ethos-4455135471?utm_source=General+Catalyst+job+board&utm_medium=getro.com&gh_src=General+Catalyst+job+board"
+    },
+    {
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
+      "title": "Expert Opportunity - VP of Investor Relations ($100/hr, up to $2,000/week)",
+      "location": "",
+      "url": "https://br.linkedin.com/jobs/view/expert-opportunity-vp-of-investor-relations-%24100-hr-up-to-%242-000-week-at-ethos-4455148549?utm_source=General+Catalyst+job+board&utm_medium=getro.com&gh_src=General+Catalyst+job+board",
+      "cos": false,
+      "id": "vc:General Catalyst:https://br.linkedin.com/jobs/view/expert-opportunity-vp-of-investor-relations-%24100-hr-up-to-%242-000-week-at-ethos-4455148549?utm_source=General+Catalyst+job+board&utm_medium=getro.com&gh_src=General+Catalyst+job+board"
     },
     {
       "firm": "Greylock",
@@ -48,15 +75,6 @@
       "url": "https://job-boards.greenhouse.io/cresta/jobs/5398116008",
       "cos": false,
       "id": "vc:Greylock:https://job-boards.greenhouse.io/cresta/jobs/5398116008"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Product Strategy & Operations Specialist",
-      "location": "",
-      "url": "https://www.wiz.io/careers/job/4705813006/:title?gh_jid=4705813006",
-      "cos": false,
-      "id": "vc:Sequoia:https://www.wiz.io/careers/job/4705813006/:title?gh_jid=4705813006"
     },
     {
       "firm": "Thrive",
