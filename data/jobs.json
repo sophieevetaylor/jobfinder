@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-24T09:52:14.289189+00:00",
-  "count": 4,
+  "generated_at": "2026-08-24T21:21:37.538737+00:00",
+  "count": 0,
   "firms": [
     "Sequoia",
     "a16z",
@@ -21,42 +21,5 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": [
-    {
-      "firm": "a16z",
-      "company": "Clubhouse",
-      "title": "\u26a1\ufe0f Chief of Staff (to the CEO)",
-      "location": "Salary range USD 230,000 - 270,000 / yearRemoteUnited States, Remote (US)Posted 2 days ago",
-      "url": "https://portfoliojobs.a16z.com/jobs/clubhouse",
-      "cos": true,
-      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/clubhouse"
-    },
-    {
-      "firm": "a16z",
-      "company": "EliseAI",
-      "title": "Strategy and Operations, Future Platforms Associate/Sr Associate | Housing",
-      "location": "Salary range USD 110,000 - 130,000 / yearNew York , NY , United States, New York CityPosted 2 days ago",
-      "url": "https://portfoliojobs.a16z.com/jobs/eliseai",
-      "cos": false,
-      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/eliseai"
-    },
-    {
-      "firm": "Greylock",
-      "company": "Greylock",
-      "title": "Deal Strategy & Operations Manager",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/cresta/jobs/5398116008",
-      "cos": false,
-      "id": "vc:Greylock:https://job-boards.greenhouse.io/cresta/jobs/5398116008"
-    },
-    {
-      "firm": "Thrive",
-      "company": "Thrive",
-      "title": "Associate, Strategic Finance (FP&A)",
-      "location": "Atlanta, GA, USA",
-      "url": "https://jobs.thrivecap.com/companies/oscar-health/jobs/90881401-associate-strategic-finance-fp-a#content",
-      "cos": false,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/oscar-health/jobs/90881401-associate-strategic-finance-fp-a#content"
-    }
-  ]
+  "jobs": []
 }
