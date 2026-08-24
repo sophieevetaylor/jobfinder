@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-24T03:51:01.557329+00:00",
-  "count": 6,
+  "generated_at": "2026-08-24T09:52:14.289189+00:00",
+  "count": 4,
   "firms": [
     "Sequoia",
     "a16z",
@@ -22,15 +22,6 @@
     }
   ],
   "jobs": [
-    {
-      "firm": "a16z",
-      "company": "a16z",
-      "title": "Senior Director, Strategic Finance - Compute & Storage Infrastructure",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/cssmerge/jobs/8739336002",
-      "cos": false,
-      "id": "vc:a16z:https://job-boards.greenhouse.io/cssmerge/jobs/8739336002"
-    },
     {
       "firm": "a16z",
       "company": "Clubhouse",
@@ -57,15 +48,6 @@
       "url": "https://job-boards.greenhouse.io/cresta/jobs/5398116008",
       "cos": false,
       "id": "vc:Greylock:https://job-boards.greenhouse.io/cresta/jobs/5398116008"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Product Strategy & Operations Specialist",
-      "location": "",
-      "url": "https://www.wiz.io/careers/job/4705813006/:title?gh_jid=4705813006",
-      "cos": false,
-      "id": "vc:Sequoia:https://www.wiz.io/careers/job/4705813006/:title?gh_jid=4705813006"
     },
     {
       "firm": "Thrive",
