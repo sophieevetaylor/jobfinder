@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-23T21:15:31.418494+00:00",
-  "count": 4,
+  "generated_at": "2026-08-24T03:51:01.557329+00:00",
+  "count": 6,
   "firms": [
     "Sequoia",
     "a16z",
@@ -13,16 +13,8 @@
   ],
   "failures": [
     {
-      "firm": "Lightspeed",
-      "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
-    },
-    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "firm": "Greylock",
-      "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\nnavigating to \"https://jobs.greylock.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
     {
       "firm": "Founders Fund",
@@ -43,7 +35,7 @@
       "firm": "a16z",
       "company": "Clubhouse",
       "title": "\u26a1\ufe0f Chief of Staff (to the CEO)",
-      "location": "Salary range USD 230,000 - 270,000 / yearRemoteUnited States, Remote (US)Posted 1 day ago",
+      "location": "Salary range USD 230,000 - 270,000 / yearRemoteUnited States, Remote (US)Posted 2 days ago",
       "url": "https://portfoliojobs.a16z.com/jobs/clubhouse",
       "cos": true,
       "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/clubhouse"
@@ -52,10 +44,28 @@
       "firm": "a16z",
       "company": "EliseAI",
       "title": "Strategy and Operations, Future Platforms Associate/Sr Associate | Housing",
-      "location": "Salary range USD 110,000 - 130,000 / yearNew York , NY , United States, New York CityPosted 1 day ago",
+      "location": "Salary range USD 110,000 - 130,000 / yearNew York , NY , United States, New York CityPosted 2 days ago",
       "url": "https://portfoliojobs.a16z.com/jobs/eliseai",
       "cos": false,
       "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/eliseai"
+    },
+    {
+      "firm": "Greylock",
+      "company": "Greylock",
+      "title": "Deal Strategy & Operations Manager",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/cresta/jobs/5398116008",
+      "cos": false,
+      "id": "vc:Greylock:https://job-boards.greenhouse.io/cresta/jobs/5398116008"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Product Strategy & Operations Specialist",
+      "location": "",
+      "url": "https://www.wiz.io/careers/job/4705813006/:title?gh_jid=4705813006",
+      "cos": false,
+      "id": "vc:Sequoia:https://www.wiz.io/careers/job/4705813006/:title?gh_jid=4705813006"
     },
     {
       "firm": "Thrive",
