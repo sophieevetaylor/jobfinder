@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-26T03:49:47.535534+00:00",
-  "count": 0,
+  "generated_at": "2026-08-26T09:44:05.351984+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -21,5 +21,15 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": []
+  "jobs": [
+    {
+      "firm": "Greylock",
+      "company": "Greylock",
+      "title": "Deal Strategy & Operations Manager",
+      "location": "REMOTE",
+      "url": "https://greylock.com/jobs/portfolio-jobs/?job=ca4b364891e485c997cf3d79f733a2079903df87303dab6791c1ebb8e878851a",
+      "cos": false,
+      "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=ca4b364891e485c997cf3d79f733a2079903df87303dab6791c1ebb8e878851a"
+    }
+  ]
 }
