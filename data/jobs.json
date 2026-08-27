@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-27T13:38:56.788794+00:00",
-  "count": 11,
+  "generated_at": "2026-08-27T19:40:57.813455+00:00",
+  "count": 6,
   "firms": [
     "Sequoia",
     "a16z",
@@ -41,15 +41,6 @@
       "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/fivetran"
     },
     {
-      "firm": "General Catalyst",
-      "company": "General Catalyst",
-      "title": "Director, Strategic Planning, Office of the CEO",
-      "location": "New York, NY, USA",
-      "url": "https://jobs.generalcatalyst.com/companies/oscar-health/jobs/91345461-director-strategic-planning-office-of-the-ceo#content",
-      "cos": true,
-      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/oscar-health/jobs/91345461-director-strategic-planning-office-of-the-ceo#content"
-    },
-    {
       "firm": "Greylock",
       "company": "Greylock",
       "title": "Business Operations & Strategy",
@@ -77,15 +68,6 @@
       "id": "vc:Lightspeed:https://job-boards.greenhouse.io/eve/jobs/4379682009"
     },
     {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Deal Strategy & Operations Manager",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/cresta/jobs/5398116008",
-      "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/cresta/jobs/5398116008"
-    },
-    {
       "firm": "Thrive",
       "company": "Thrive",
       "title": "Business Operations Manager, Business Marketing",
@@ -93,33 +75,6 @@
       "url": "https://jobs.thrivecap.com/companies/openai/jobs/91350417-business-operations-manager-business-marketing#content",
       "cos": false,
       "id": "vc:Thrive:https://jobs.thrivecap.com/companies/openai/jobs/91350417-business-operations-manager-business-marketing#content"
-    },
-    {
-      "firm": "Thrive",
-      "company": "Thrive",
-      "title": "Director, Strategic Planning, Office of the CEO",
-      "location": "New York, NY, USA",
-      "url": "https://jobs.thrivecap.com/companies/oscar-health/jobs/91345461-director-strategic-planning-office-of-the-ceo#content",
-      "cos": true,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/oscar-health/jobs/91345461-director-strategic-planning-office-of-the-ceo#content"
-    },
-    {
-      "firm": "Thrive",
-      "company": "Thrive",
-      "title": "Global Mobility Manager, Strategic Initiatives",
-      "location": "San Francisco, CA, USA; New York, NY, USA; Seattle, WA, USA",
-      "url": "https://jobs.thrivecap.com/companies/openai/jobs/91350402-global-mobility-manager-strategic-initiatives#content",
-      "cos": false,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/openai/jobs/91350402-global-mobility-manager-strategic-initiatives#content"
-    },
-    {
-      "firm": "a16z",
-      "company": "Waymo",
-      "title": "Public Relations Strategy & Operations Lead",
-      "location": "Salary range USD 200,000 - 247,000 / yearMountain View, CA, USA, San Francisco, CA, USAPosted less than 1 day ago",
-      "url": "https://portfoliojobs.a16z.com/jobs/waymo",
-      "cos": false,
-      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/waymo"
     }
   ]
 }
