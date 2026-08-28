@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-27T19:40:57.813455+00:00",
-  "count": 6,
+  "generated_at": "2026-08-28T05:03:00.229987+00:00",
+  "count": 3,
   "firms": [
     "Sequoia",
     "a16z",
@@ -23,24 +23,6 @@
   ],
   "jobs": [
     {
-      "firm": "a16z",
-      "company": "a16z",
-      "title": "Strategic Finance, Sales Compensation Lead",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/eve/jobs/4379682009",
-      "cos": false,
-      "id": "vc:a16z:https://job-boards.greenhouse.io/eve/jobs/4379682009"
-    },
-    {
-      "firm": "a16z",
-      "company": "Fivetran",
-      "title": "Senior Strategic Finance Analyst",
-      "location": "Salary range USD 126,220 - 151,470 / yearHybridOakland, California, United States, AMERPosted less than 1 day ago",
-      "url": "https://portfoliojobs.a16z.com/jobs/fivetran",
-      "cos": false,
-      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/fivetran"
-    },
-    {
       "firm": "Greylock",
       "company": "Greylock",
       "title": "Business Operations & Strategy",
@@ -57,15 +39,6 @@
       "url": "https://greylock.com/jobs/portfolio-jobs/?job=56b0fa177cccd39107d2fae4888a220accd49885bed47822352704492baf927b",
       "cos": false,
       "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=56b0fa177cccd39107d2fae4888a220accd49885bed47822352704492baf927b"
-    },
-    {
-      "firm": "Lightspeed",
-      "company": "Lightspeed",
-      "title": "Strategic Finance, Sales Compensation Lead",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/eve/jobs/4379682009",
-      "cos": false,
-      "id": "vc:Lightspeed:https://job-boards.greenhouse.io/eve/jobs/4379682009"
     },
     {
       "firm": "Thrive",
