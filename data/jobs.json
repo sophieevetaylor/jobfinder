@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-28T14:49:36.321968+00:00",
-  "count": 0,
+  "generated_at": "2026-08-28T20:45:53.664506+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -21,5 +21,15 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": []
+  "jobs": [
+    {
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Head of Strategic Finance",
+      "location": "San Francisco, CA, USA",
+      "url": "https://jobs.thrivecap.com/companies/benchling/jobs/91520538-head-of-strategic-finance#content",
+      "cos": false,
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/benchling/jobs/91520538-head-of-strategic-finance#content"
+    }
+  ]
 }
