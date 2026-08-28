@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-28T05:03:00.229987+00:00",
-  "count": 3,
+  "generated_at": "2026-08-28T14:49:36.321968+00:00",
+  "count": 0,
   "firms": [
     "Sequoia",
     "a16z",
@@ -21,33 +21,5 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": [
-    {
-      "firm": "Greylock",
-      "company": "Greylock",
-      "title": "Business Operations & Strategy",
-      "location": "SAN FRANCISCO, CALIFORNIA, UNITED STATES \u00b7 NEW YORK, NY, UNITED STATES +2",
-      "url": "https://greylock.com/jobs/portfolio-jobs/?job=c78bbac164a1a9cbd8a6f6b79ef5d5eb470fc4aea6ee77b792cafe3e6f8e7622",
-      "cos": false,
-      "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=c78bbac164a1a9cbd8a6f6b79ef5d5eb470fc4aea6ee77b792cafe3e6f8e7622"
-    },
-    {
-      "firm": "Greylock",
-      "company": "Greylock",
-      "title": "Deal Strategy & Operations Manager",
-      "location": "REMOTE",
-      "url": "https://greylock.com/jobs/portfolio-jobs/?job=56b0fa177cccd39107d2fae4888a220accd49885bed47822352704492baf927b",
-      "cos": false,
-      "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=56b0fa177cccd39107d2fae4888a220accd49885bed47822352704492baf927b"
-    },
-    {
-      "firm": "Thrive",
-      "company": "Thrive",
-      "title": "Business Operations Manager, Business Marketing",
-      "location": "San Francisco, CA, USA; New York, NY, USA",
-      "url": "https://jobs.thrivecap.com/companies/openai/jobs/91350417-business-operations-manager-business-marketing#content",
-      "cos": false,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/openai/jobs/91350417-business-operations-manager-business-marketing#content"
-    }
-  ]
+  "jobs": []
 }
