@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-28T20:45:53.664506+00:00",
-  "count": 1,
+  "generated_at": "2026-08-29T02:58:33.978856+00:00",
+  "count": 3,
   "firms": [
     "Sequoia",
     "a16z",
@@ -22,6 +22,24 @@
     }
   ],
   "jobs": [
+    {
+      "firm": "a16z",
+      "company": "a16z",
+      "title": "Senior Revenue Cycle Strategy and Operations Manager",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/pomelocare/jobs/6174154004",
+      "cos": false,
+      "id": "vc:a16z:https://job-boards.greenhouse.io/pomelocare/jobs/6174154004"
+    },
+    {
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
+      "title": "Expert Opportunity - Chief of Staff, Fundraising ($100/hr, up to $2,000/week)",
+      "location": "",
+      "url": "https://jobs.generalcatalyst.com/companies/ethos-2-e1b0048b-7d7c-4a76-97d7-b71911ec294a/jobs/91534847-expert-opportunity-chief-of-staff-fundraising-100-hr-up-to-2-000-week#content",
+      "cos": true,
+      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/ethos-2-e1b0048b-7d7c-4a76-97d7-b71911ec294a/jobs/91534847-expert-opportunity-chief-of-staff-fundraising-100-hr-up-to-2-000-week#content"
+    },
     {
       "firm": "Thrive",
       "company": "Thrive",
