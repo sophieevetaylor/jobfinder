@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-29T14:14:51.062811+00:00",
-  "count": 1,
+  "generated_at": "2026-08-29T22:56:52.574216+00:00",
+  "count": 0,
   "firms": [
     "Sequoia",
     "a16z",
@@ -13,10 +13,6 @@
   ],
   "failures": [
     {
-      "firm": "Lightspeed",
-      "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
-    },
-    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
@@ -25,15 +21,5 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": [
-    {
-      "firm": "a16z",
-      "company": "a16z",
-      "title": "Senior Revenue Cycle Strategy and Operations Manager",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/pomelocare/jobs/6174154004",
-      "cos": false,
-      "id": "vc:a16z:https://job-boards.greenhouse.io/pomelocare/jobs/6174154004"
-    }
-  ]
+  "jobs": []
 }
