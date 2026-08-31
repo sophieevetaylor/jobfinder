@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-31T09:15:16.856051+00:00",
-  "count": 1,
+  "generated_at": "2026-08-31T16:50:22.762074+00:00",
+  "count": 4,
   "firms": [
     "Sequoia",
     "a16z",
@@ -23,13 +23,40 @@
   ],
   "jobs": [
     {
-      "firm": "General Catalyst",
-      "company": "General Catalyst",
-      "title": "Expansion Strategy and Operations Manager",
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Capital Markets Investments",
       "location": "",
-      "url": "https://jobs.generalcatalyst.com/companies/veho/jobs/91656572-expansion-strategy-and-operations-manager#content",
+      "url": "https://stripe.com/jobs/search?gh_jid=8164481",
       "cos": false,
-      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/veho/jobs/91656572-expansion-strategy-and-operations-manager#content"
+      "id": "vc:Sequoia:https://stripe.com/jobs/search?gh_jid=8164481"
+    },
+    {
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Business Operations Analyst",
+      "location": "Bastrop, TX, USA",
+      "url": "https://jobs.thrivecap.com/companies/spacex/jobs/91693714-business-operations-analyst#content",
+      "cos": false,
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/spacex/jobs/91693714-business-operations-analyst#content"
+    },
+    {
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Business Operations Manager",
+      "location": "Bastrop, TX, USA",
+      "url": "https://jobs.thrivecap.com/companies/spacex/jobs/91693719-business-operations-manager#content",
+      "cos": false,
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/spacex/jobs/91693719-business-operations-manager#content"
+    },
+    {
+      "firm": "a16z",
+      "company": "Volta",
+      "title": "Associate, Corporate Development",
+      "location": "Salary range USD 180,000 - 210,000 / yearHybridNew York City, New York, United States, New York, NYPosted less than 1 da",
+      "url": "https://portfoliojobs.a16z.com/jobs/volta",
+      "cos": false,
+      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/volta"
     }
   ]
 }
