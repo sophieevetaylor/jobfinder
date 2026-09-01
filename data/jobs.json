@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T14:00:42.081029+00:00",
+  "generated_at": "2026-09-01T22:55:33.144778+00:00",
   "count": 2,
   "firms": [
     "Sequoia",
@@ -27,18 +27,18 @@
       "company": "a16z",
       "title": "Director, Strategic Finance - Consolidation",
       "location": "",
-      "url": "https://instacart.careers/job/?gh_jid=8168221",
+      "url": "https://instacart.careers/job/?gh_jid=8168294",
       "cos": false,
-      "id": "vc:a16z:https://instacart.careers/job/?gh_jid=8168221"
+      "id": "vc:a16z:https://instacart.careers/job/?gh_jid=8168294"
     },
     {
       "firm": "Sequoia",
       "company": "Sequoia",
       "title": "Director, Strategic Finance - Consolidation",
       "location": "",
-      "url": "https://instacart.careers/job/?gh_jid=8168221",
+      "url": "https://instacart.careers/job/?gh_jid=8168294",
       "cos": false,
-      "id": "vc:Sequoia:https://instacart.careers/job/?gh_jid=8168221"
+      "id": "vc:Sequoia:https://instacart.careers/job/?gh_jid=8168294"
     }
   ]
 }
