@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-31T16:50:22.762074+00:00",
-  "count": 4,
+  "generated_at": "2026-09-01T00:15:30.540999+00:00",
+  "count": 6,
   "firms": [
     "Sequoia",
     "a16z",
@@ -22,6 +22,24 @@
     }
   ],
   "jobs": [
+    {
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
+      "title": "Expert Opportunity - Director of Investor Relations ($100/hr, up to $2,000/week)",
+      "location": "",
+      "url": "https://jobs.generalcatalyst.com/companies/ethos-2-e1b0048b-7d7c-4a76-97d7-b71911ec294a/jobs/91700726-expert-opportunity-director-of-investor-relations-100-hr-up-to-2-000-week#content",
+      "cos": false,
+      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/ethos-2-e1b0048b-7d7c-4a76-97d7-b71911ec294a/jobs/91700726-expert-opportunity-director-of-investor-relations-100-hr-up-to-2-000-week#content"
+    },
+    {
+      "firm": "Lightspeed",
+      "company": "Lightspeed",
+      "title": "Business Operations Manager",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/roofstock/jobs/8761403002",
+      "cos": false,
+      "id": "vc:Lightspeed:https://job-boards.greenhouse.io/roofstock/jobs/8761403002"
+    },
     {
       "firm": "Sequoia",
       "company": "Sequoia",
@@ -53,7 +71,7 @@
       "firm": "a16z",
       "company": "Volta",
       "title": "Associate, Corporate Development",
-      "location": "Salary range USD 180,000 - 210,000 / yearHybridNew York City, New York, United States, New York, NYPosted less than 1 da",
+      "location": "Salary range USD 180,000 - 210,000 / yearHybridNew York City, New York, United States, New York, NYPosted 1 day ago",
       "url": "https://portfoliojobs.a16z.com/jobs/volta",
       "cos": false,
       "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/volta"
