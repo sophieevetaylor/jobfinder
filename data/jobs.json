@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-01T00:15:30.540999+00:00",
-  "count": 6,
+  "generated_at": "2026-09-01T08:14:04.957967+00:00",
+  "count": 3,
   "firms": [
     "Sequoia",
     "a16z",
@@ -32,24 +32,6 @@
       "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/ethos-2-e1b0048b-7d7c-4a76-97d7-b71911ec294a/jobs/91700726-expert-opportunity-director-of-investor-relations-100-hr-up-to-2-000-week#content"
     },
     {
-      "firm": "Lightspeed",
-      "company": "Lightspeed",
-      "title": "Business Operations Manager",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/roofstock/jobs/8761403002",
-      "cos": false,
-      "id": "vc:Lightspeed:https://job-boards.greenhouse.io/roofstock/jobs/8761403002"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Capital Markets Investments",
-      "location": "",
-      "url": "https://stripe.com/jobs/search?gh_jid=8164481",
-      "cos": false,
-      "id": "vc:Sequoia:https://stripe.com/jobs/search?gh_jid=8164481"
-    },
-    {
       "firm": "Thrive",
       "company": "Thrive",
       "title": "Business Operations Analyst",
@@ -66,15 +48,6 @@
       "url": "https://jobs.thrivecap.com/companies/spacex/jobs/91693719-business-operations-manager#content",
       "cos": false,
       "id": "vc:Thrive:https://jobs.thrivecap.com/companies/spacex/jobs/91693719-business-operations-manager#content"
-    },
-    {
-      "firm": "a16z",
-      "company": "Volta",
-      "title": "Associate, Corporate Development",
-      "location": "Salary range USD 180,000 - 210,000 / yearHybridNew York City, New York, United States, New York, NYPosted 1 day ago",
-      "url": "https://portfoliojobs.a16z.com/jobs/volta",
-      "cos": false,
-      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/volta"
     }
   ]
 }
