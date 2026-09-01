@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-01T08:14:04.957967+00:00",
-  "count": 3,
+  "generated_at": "2026-09-01T14:00:42.081029+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -23,31 +23,22 @@
   ],
   "jobs": [
     {
-      "firm": "General Catalyst",
-      "company": "General Catalyst",
-      "title": "Expert Opportunity - Director of Investor Relations ($100/hr, up to $2,000/week)",
+      "firm": "a16z",
+      "company": "a16z",
+      "title": "Director, Strategic Finance - Consolidation",
       "location": "",
-      "url": "https://jobs.generalcatalyst.com/companies/ethos-2-e1b0048b-7d7c-4a76-97d7-b71911ec294a/jobs/91700726-expert-opportunity-director-of-investor-relations-100-hr-up-to-2-000-week#content",
+      "url": "https://instacart.careers/job/?gh_jid=8168221",
       "cos": false,
-      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/ethos-2-e1b0048b-7d7c-4a76-97d7-b71911ec294a/jobs/91700726-expert-opportunity-director-of-investor-relations-100-hr-up-to-2-000-week#content"
+      "id": "vc:a16z:https://instacart.careers/job/?gh_jid=8168221"
     },
     {
-      "firm": "Thrive",
-      "company": "Thrive",
-      "title": "Business Operations Analyst",
-      "location": "Bastrop, TX, USA",
-      "url": "https://jobs.thrivecap.com/companies/spacex/jobs/91693714-business-operations-analyst#content",
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Director, Strategic Finance - Consolidation",
+      "location": "",
+      "url": "https://instacart.careers/job/?gh_jid=8168221",
       "cos": false,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/spacex/jobs/91693714-business-operations-analyst#content"
-    },
-    {
-      "firm": "Thrive",
-      "company": "Thrive",
-      "title": "Business Operations Manager",
-      "location": "Bastrop, TX, USA",
-      "url": "https://jobs.thrivecap.com/companies/spacex/jobs/91693719-business-operations-manager#content",
-      "cos": false,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/spacex/jobs/91693719-business-operations-manager#content"
+      "id": "vc:Sequoia:https://instacart.careers/job/?gh_jid=8168221"
     }
   ]
 }
