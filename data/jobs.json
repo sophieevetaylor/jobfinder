@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-02T22:56:03.223274+00:00",
-  "count": 1,
+  "generated_at": "2026-09-03T07:41:11.397559+00:00",
+  "count": 0,
   "firms": [
     "Sequoia",
     "a16z",
@@ -21,15 +21,5 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": [
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Director, Strategic Finance - Consolidation",
-      "location": "",
-      "url": "https://instacart.careers/job/?gh_jid=8168294",
-      "cos": false,
-      "id": "vc:Sequoia:https://instacart.careers/job/?gh_jid=8168294"
-    }
-  ]
+  "jobs": []
 }
