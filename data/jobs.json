@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-04T13:15:30.701144+00:00",
-  "count": 1,
+  "generated_at": "2026-09-04T22:41:56.212411+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -12,10 +12,6 @@
     "Founders Fund"
   ],
   "failures": [
-    {
-      "firm": "Lightspeed",
-      "error": "Page.goto: net::ERR_TIMED_OUT at https://jobs.lsvp.com/jobs\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
-    },
     {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
@@ -34,6 +30,15 @@
       "url": "https://greylock.com/jobs/portfolio-jobs/?job=cde37d0b8d79942932f55c3bed798a5dd9a324a9757d86aa076c2c31f11e31db",
       "cos": false,
       "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=cde37d0b8d79942932f55c3bed798a5dd9a324a9757d86aa076c2c31f11e31db"
+    },
+    {
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Sr. Business Operations Analyst (Starlink)",
+      "location": "Hawthorne, CA, USA",
+      "url": "https://jobs.thrivecap.com/companies/spacex/jobs/92267354-sr-business-operations-analyst-starlink#content",
+      "cos": false,
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/spacex/jobs/92267354-sr-business-operations-analyst-starlink#content"
     }
   ]
 }
