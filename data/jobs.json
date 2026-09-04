@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-03T22:56:19.820925+00:00",
-  "count": 0,
+  "generated_at": "2026-09-04T07:39:18.012839+00:00",
+  "count": 3,
   "firms": [
     "Sequoia",
     "a16z",
@@ -21,5 +21,33 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": []
+  "jobs": [
+    {
+      "firm": "a16z",
+      "company": "a16z",
+      "title": "Strategic Finance Special Projects Manager",
+      "location": "",
+      "url": "https://instacart.careers/job/?gh_jid=8178163",
+      "cos": false,
+      "id": "vc:a16z:https://instacart.careers/job/?gh_jid=8178163"
+    },
+    {
+      "firm": "Greylock",
+      "company": "Greylock",
+      "title": "Revenue Strategy & Operations, Sr. Analyst",
+      "location": "SAN FRANCISCO, CALIFORNIA, UNITED STATES \u00b7 SAN FRANCISCO",
+      "url": "https://greylock.com/jobs/portfolio-jobs/?job=cde37d0b8d79942932f55c3bed798a5dd9a324a9757d86aa076c2c31f11e31db",
+      "cos": false,
+      "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=cde37d0b8d79942932f55c3bed798a5dd9a324a9757d86aa076c2c31f11e31db"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Strategic Finance Special Projects Manager",
+      "location": "",
+      "url": "https://instacart.careers/job/?gh_jid=8178163",
+      "cos": false,
+      "id": "vc:Sequoia:https://instacart.careers/job/?gh_jid=8178163"
+    }
+  ]
 }
