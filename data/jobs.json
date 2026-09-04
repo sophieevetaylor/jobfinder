@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-04T07:39:18.012839+00:00",
-  "count": 3,
+  "generated_at": "2026-09-04T13:15:30.701144+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -13,6 +13,10 @@
   ],
   "failures": [
     {
+      "firm": "Lightspeed",
+      "error": "Page.goto: net::ERR_TIMED_OUT at https://jobs.lsvp.com/jobs\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
+    },
+    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
@@ -23,15 +27,6 @@
   ],
   "jobs": [
     {
-      "firm": "a16z",
-      "company": "a16z",
-      "title": "Strategic Finance Special Projects Manager",
-      "location": "",
-      "url": "https://instacart.careers/job/?gh_jid=8178163",
-      "cos": false,
-      "id": "vc:a16z:https://instacart.careers/job/?gh_jid=8178163"
-    },
-    {
       "firm": "Greylock",
       "company": "Greylock",
       "title": "Revenue Strategy & Operations, Sr. Analyst",
@@ -39,15 +34,6 @@
       "url": "https://greylock.com/jobs/portfolio-jobs/?job=cde37d0b8d79942932f55c3bed798a5dd9a324a9757d86aa076c2c31f11e31db",
       "cos": false,
       "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=cde37d0b8d79942932f55c3bed798a5dd9a324a9757d86aa076c2c31f11e31db"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Strategic Finance Special Projects Manager",
-      "location": "",
-      "url": "https://instacart.careers/job/?gh_jid=8178163",
-      "cos": false,
-      "id": "vc:Sequoia:https://instacart.careers/job/?gh_jid=8178163"
     }
   ]
 }
