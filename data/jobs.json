@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T12:30:07.992438+00:00",
+  "generated_at": "2026-09-05T22:31:07.402363+00:00",
   "count": 3,
   "firms": [
     "Sequoia",
@@ -23,24 +23,6 @@
   ],
   "jobs": [
     {
-      "firm": "General Catalyst",
-      "company": "General Catalyst",
-      "title": "(Sr) Manager, Strategic Finance & Business Operations - GTM",
-      "location": "San Mateo, CA, USA",
-      "url": "https://jobs.generalcatalyst.com/companies/verkada-2/jobs/92331858-sr-manager-strategic-finance-business-operations-gtm#content",
-      "cos": false,
-      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/verkada-2/jobs/92331858-sr-manager-strategic-finance-business-operations-gtm#content"
-    },
-    {
-      "firm": "General Catalyst",
-      "company": "General Catalyst",
-      "title": "Director of People Strategy & Operations",
-      "location": "",
-      "url": "https://jobs.generalcatalyst.com/companies/veho/jobs/92335033-director-of-people-strategy-operations#content",
-      "cos": false,
-      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/veho/jobs/92335033-director-of-people-strategy-operations#content"
-    },
-    {
       "firm": "Greylock",
       "company": "Greylock",
       "title": "Senior Analyst, Strategic Finance",
@@ -48,6 +30,24 @@
       "url": "https://greylock.com/jobs/portfolio-jobs/?job=ad220487a755671251af5865d4fc142ae15dc83152d641f2e723e9f7b3d25778",
       "cos": false,
       "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=ad220487a755671251af5865d4fc142ae15dc83152d641f2e723e9f7b3d25778"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "(Sr) Manager, Strategic Finance & Business Operations - GTM",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/verkada/jobs/5231248007",
+      "cos": false,
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/verkada/jobs/5231248007"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "GTM Strategy & Operations Manager, EMEA",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/cresta/jobs/5417030008",
+      "cos": false,
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/cresta/jobs/5417030008"
     }
   ]
 }
