@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-06T12:42:55.748860+00:00",
-  "count": 3,
+  "generated_at": "2026-09-06T22:36:06.626695+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -12,10 +12,6 @@
     "Founders Fund"
   ],
   "failures": [
-    {
-      "firm": "a16z",
-      "error": "Page.goto: net::ERR_TIMED_OUT at https://portfoliojobs.a16z.com/jobs\nCall log:\nnavigating to \"https://portfoliojobs.a16z.com/jobs\", waiting until \"domcontentloaded\"\n"
-    },
     {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
@@ -36,22 +32,13 @@
       "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=ad220487a755671251af5865d4fc142ae15dc83152d641f2e723e9f7b3d25778"
     },
     {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "(Sr) Manager, Strategic Finance & Business Operations - GTM",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/verkada/jobs/5231248007",
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Marketplace Business Operations Program Manager",
+      "location": "Santa Ana, CA, USA",
+      "url": "https://collectorsuniverse.wd1.myworkdayjobs.com/collectors/job/Santa-Ana-CA/Marketplace-Business-Operations-Program-Manager_JR106115?utm_source=Thrive+Capital+job+board&utm_medium=getro.com&gh_src=Thrive+Capital+job+board",
       "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/verkada/jobs/5231248007"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "GTM Strategy & Operations Manager, EMEA",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/cresta/jobs/5417030008",
-      "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/cresta/jobs/5417030008"
+      "id": "vc:Thrive:https://collectorsuniverse.wd1.myworkdayjobs.com/collectors/job/Santa-Ana-CA/Marketplace-Business-Operations-Program-Manager_JR106115?utm_source=Thrive+Capital+job+board&utm_medium=getro.com&gh_src=Thrive+Capital+job+board"
     }
   ]
 }
