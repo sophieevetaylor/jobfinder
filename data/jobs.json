@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T07:32:58.611363+00:00",
+  "generated_at": "2026-09-06T12:42:55.748860+00:00",
   "count": 3,
   "firms": [
     "Sequoia",
@@ -12,6 +12,10 @@
     "Founders Fund"
   ],
   "failures": [
+    {
+      "firm": "a16z",
+      "error": "Page.goto: net::ERR_TIMED_OUT at https://portfoliojobs.a16z.com/jobs\nCall log:\nnavigating to \"https://portfoliojobs.a16z.com/jobs\", waiting until \"domcontentloaded\"\n"
+    },
     {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
