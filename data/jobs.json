@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-08T07:44:24.835815+00:00",
-  "count": 3,
+  "generated_at": "2026-09-08T13:24:22.431327+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -12,6 +12,10 @@
     "Founders Fund"
   ],
   "failures": [
+    {
+      "firm": "a16z",
+      "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\nnavigating to \"https://portfoliojobs.a16z.com/jobs\", waiting until \"domcontentloaded\"\n"
+    },
     {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
@@ -30,24 +34,6 @@
       "url": "https://greylock.com/jobs/portfolio-jobs/?job=ad220487a755671251af5865d4fc142ae15dc83152d641f2e723e9f7b3d25778",
       "cos": false,
       "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=ad220487a755671251af5865d4fc142ae15dc83152d641f2e723e9f7b3d25778"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "(Sr) Manager, Strategic Finance & Business Operations - GTM",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/verkada/jobs/5231248007",
-      "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/verkada/jobs/5231248007"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "GTM Strategy & Operations Manager, EMEA",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/cresta/jobs/5417030008",
-      "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/cresta/jobs/5417030008"
     }
   ]
 }
