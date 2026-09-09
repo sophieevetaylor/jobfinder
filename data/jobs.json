@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-09T13:33:08.061423+00:00",
-  "count": 4,
+  "generated_at": "2026-09-09T22:52:48.894825+00:00",
+  "count": 3,
   "firms": [
     "Sequoia",
     "a16z",
@@ -12,6 +12,10 @@
     "Founders Fund"
   ],
   "failures": [
+    {
+      "firm": "Lightspeed",
+      "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
+    },
     {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
@@ -32,13 +36,13 @@
       "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=c4e143f2cff8c15c4c11a9e5b5080eb1535a34c18627899fe96a36d9f52e9b14"
     },
     {
-      "firm": "Lightspeed",
-      "company": "Lightspeed",
-      "title": "Strategy & Operations Senior Lead, Brand Growth",
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Business Operations Lead",
       "location": "",
-      "url": "https://boards.greenhouse.io/faire/jobs/8786049002?gh_jid=8786049002",
+      "url": "https://job-boards.greenhouse.io/viseai/jobs/4669992003",
       "cos": false,
-      "id": "vc:Lightspeed:https://boards.greenhouse.io/faire/jobs/8786049002?gh_jid=8786049002"
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/viseai/jobs/4669992003"
     },
     {
       "firm": "Sequoia",
@@ -48,15 +52,6 @@
       "url": "https://boards.greenhouse.io/faire/jobs/8786049002?gh_jid=8786049002",
       "cos": false,
       "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8786049002?gh_jid=8786049002"
-    },
-    {
-      "firm": "Thrive",
-      "company": "Thrive",
-      "title": "Director, Strategic Finance",
-      "location": "San Francisco, CA, USA; New York, NY, USA",
-      "url": "https://jobs.thrivecap.com/companies/ramp-2/jobs/92631754-director-strategic-finance#content",
-      "cos": false,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/ramp-2/jobs/92631754-director-strategic-finance#content"
     }
   ]
 }
