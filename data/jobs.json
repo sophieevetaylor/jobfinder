@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-08T23:05:19.088084+00:00",
-  "count": 1,
+  "generated_at": "2026-09-09T07:47:08.667268+00:00",
+  "count": 5,
   "firms": [
     "Sequoia",
     "a16z",
@@ -25,11 +25,47 @@
     {
       "firm": "Greylock",
       "company": "Greylock",
-      "title": "Senior Analyst, Strategic Finance",
-      "location": "NEW YORK, NY, UNITED STATES \u00b7 NEW YORK, NY",
-      "url": "https://greylock.com/jobs/portfolio-jobs/?job=ad220487a755671251af5865d4fc142ae15dc83152d641f2e723e9f7b3d25778",
+      "title": "GTM Strategy & Operations Manager, EMEA",
+      "location": "REMOTE",
+      "url": "https://greylock.com/jobs/portfolio-jobs/?job=c4e143f2cff8c15c4c11a9e5b5080eb1535a34c18627899fe96a36d9f52e9b14",
       "cos": false,
-      "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=ad220487a755671251af5865d4fc142ae15dc83152d641f2e723e9f7b3d25778"
+      "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=c4e143f2cff8c15c4c11a9e5b5080eb1535a34c18627899fe96a36d9f52e9b14"
+    },
+    {
+      "firm": "Lightspeed",
+      "company": "Lightspeed",
+      "title": "(Sr) Associate / Manager, Strategic Finance & Business Operations",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/verkada/jobs/5231662007",
+      "cos": false,
+      "id": "vc:Lightspeed:https://job-boards.greenhouse.io/verkada/jobs/5231662007"
+    },
+    {
+      "firm": "Lightspeed",
+      "company": "Lightspeed",
+      "title": "Strategy & Operations Senior Lead, Brand Growth",
+      "location": "",
+      "url": "https://boards.greenhouse.io/faire/jobs/8786049002?gh_jid=8786049002",
+      "cos": false,
+      "id": "vc:Lightspeed:https://boards.greenhouse.io/faire/jobs/8786049002?gh_jid=8786049002"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "(Sr) Associate / Manager, Strategic Finance & Business Operations",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/verkada/jobs/5231662007",
+      "cos": false,
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/verkada/jobs/5231662007"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Strategy & Operations Senior Lead, Brand Growth",
+      "location": "",
+      "url": "https://boards.greenhouse.io/faire/jobs/8786049002?gh_jid=8786049002",
+      "cos": false,
+      "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8786049002?gh_jid=8786049002"
     }
   ]
 }
