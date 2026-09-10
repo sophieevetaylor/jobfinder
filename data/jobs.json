@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-09T22:52:48.894825+00:00",
-  "count": 3,
+  "generated_at": "2026-09-10T07:49:36.000992+00:00",
+  "count": 5,
   "firms": [
     "Sequoia",
     "a16z",
@@ -29,6 +29,15 @@
     {
       "firm": "Greylock",
       "company": "Greylock",
+      "title": "Director, Strategic Finance",
+      "location": "ON-SITE",
+      "url": "https://greylock.com/jobs/portfolio-jobs/?job=8292ce1a761e82df5f3b633be1fc8353bbb3fe20b8dc4a679694059930abdc3f",
+      "cos": false,
+      "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=8292ce1a761e82df5f3b633be1fc8353bbb3fe20b8dc4a679694059930abdc3f"
+    },
+    {
+      "firm": "Greylock",
+      "company": "Greylock",
       "title": "GTM Strategy & Operations Manager, EMEA",
       "location": "REMOTE",
       "url": "https://greylock.com/jobs/portfolio-jobs/?job=c4e143f2cff8c15c4c11a9e5b5080eb1535a34c18627899fe96a36d9f52e9b14",
@@ -36,22 +45,31 @@
       "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=c4e143f2cff8c15c4c11a9e5b5080eb1535a34c18627899fe96a36d9f52e9b14"
     },
     {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Business Operations Lead",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/viseai/jobs/4669992003",
+      "firm": "Greylock",
+      "company": "Greylock",
+      "title": "Strategic Finance & Operations",
+      "location": "ON-SITE",
+      "url": "https://greylock.com/jobs/portfolio-jobs/?job=7680914cd0d5ed1b1c51f256b3b1cc317373527d4d4148c37736dff2368df84d",
       "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/viseai/jobs/4669992003"
+      "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=7680914cd0d5ed1b1c51f256b3b1cc317373527d4d4148c37736dff2368df84d"
+    },
+    {
+      "firm": "a16z",
+      "company": "Navan",
+      "title": "Sr. Analyst, GTM Strategy & Operations",
+      "location": "Salary range USD 86,250 - 145,000 / yearNew York, NYPosted less than 1 day ago",
+      "url": "https://portfoliojobs.a16z.com/jobs/navan",
+      "cos": false,
+      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/navan"
     },
     {
       "firm": "Sequoia",
       "company": "Sequoia",
-      "title": "Strategy & Operations Senior Lead, Brand Growth",
+      "title": "VP of Business Operations",
       "location": "",
-      "url": "https://boards.greenhouse.io/faire/jobs/8786049002?gh_jid=8786049002",
+      "url": "https://job-boards.greenhouse.io/mavenclinic/jobs/8790269002",
       "cos": false,
-      "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8786049002?gh_jid=8786049002"
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/mavenclinic/jobs/8790269002"
     }
   ]
 }
