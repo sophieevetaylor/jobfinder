@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-10T07:49:36.000992+00:00",
-  "count": 5,
+  "generated_at": "2026-09-10T13:23:19.536380+00:00",
+  "count": 6,
   "firms": [
     "Sequoia",
     "a16z",
@@ -12,10 +12,6 @@
     "Founders Fund"
   ],
   "failures": [
-    {
-      "firm": "Lightspeed",
-      "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
-    },
     {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
@@ -38,20 +34,20 @@
     {
       "firm": "Greylock",
       "company": "Greylock",
-      "title": "GTM Strategy & Operations Manager, EMEA",
-      "location": "REMOTE",
-      "url": "https://greylock.com/jobs/portfolio-jobs/?job=c4e143f2cff8c15c4c11a9e5b5080eb1535a34c18627899fe96a36d9f52e9b14",
-      "cos": false,
-      "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=c4e143f2cff8c15c4c11a9e5b5080eb1535a34c18627899fe96a36d9f52e9b14"
-    },
-    {
-      "firm": "Greylock",
-      "company": "Greylock",
       "title": "Strategic Finance & Operations",
       "location": "ON-SITE",
       "url": "https://greylock.com/jobs/portfolio-jobs/?job=7680914cd0d5ed1b1c51f256b3b1cc317373527d4d4148c37736dff2368df84d",
       "cos": false,
       "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=7680914cd0d5ed1b1c51f256b3b1cc317373527d4d4148c37736dff2368df84d"
+    },
+    {
+      "firm": "Lightspeed",
+      "company": "Lightspeed",
+      "title": "Sr. Recruiter, GTM Strategy & Operations",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/verkada/jobs/5234197007",
+      "cos": false,
+      "id": "vc:Lightspeed:https://job-boards.greenhouse.io/verkada/jobs/5234197007"
     },
     {
       "firm": "a16z",
@@ -61,6 +57,15 @@
       "url": "https://portfoliojobs.a16z.com/jobs/navan",
       "cos": false,
       "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/navan"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Sr. Recruiter, GTM Strategy & Operations",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/verkada/jobs/5234197007",
+      "cos": false,
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/verkada/jobs/5234197007"
     },
     {
       "firm": "Sequoia",
