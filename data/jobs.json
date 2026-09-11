@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-11T13:23:26.435641+00:00",
-  "count": 0,
+  "generated_at": "2026-09-11T22:55:29.577575+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -13,6 +13,10 @@
   ],
   "failures": [
     {
+      "firm": "a16z",
+      "error": "Page.goto: net::ERR_TIMED_OUT at https://portfoliojobs.a16z.com/jobs\nCall log:\nnavigating to \"https://portfoliojobs.a16z.com/jobs\", waiting until \"domcontentloaded\"\n"
+    },
+    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
@@ -21,5 +25,15 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": []
+  "jobs": [
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Director, Revenue Strategy & Operations (Large Customer Sales)",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8195629",
+      "cos": false,
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/reddit/jobs/8195629"
+    }
+  ]
 }
