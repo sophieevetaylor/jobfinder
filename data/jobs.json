@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-10T22:52:49.797971+00:00",
-  "count": 3,
+  "generated_at": "2026-09-11T07:45:08.431901+00:00",
+  "count": 0,
   "firms": [
     "Sequoia",
     "a16z",
@@ -21,33 +21,5 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": [
-    {
-      "firm": "Greylock",
-      "company": "Greylock",
-      "title": "Director, Strategic Finance",
-      "location": "NEW YORK, SAN FRANCISCO, UNITED STATES",
-      "url": "https://greylock.com/jobs/portfolio-jobs/?job=8292ce1a761e82df5f3b633be1fc8353bbb3fe20b8dc4a679694059930abdc3f",
-      "cos": false,
-      "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=8292ce1a761e82df5f3b633be1fc8353bbb3fe20b8dc4a679694059930abdc3f"
-    },
-    {
-      "firm": "Greylock",
-      "company": "Greylock",
-      "title": "Strategic Finance & Operations",
-      "location": "SAN FRANCISCO, UNITED STATES",
-      "url": "https://greylock.com/jobs/portfolio-jobs/?job=7680914cd0d5ed1b1c51f256b3b1cc317373527d4d4148c37736dff2368df84d",
-      "cos": false,
-      "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=7680914cd0d5ed1b1c51f256b3b1cc317373527d4d4148c37736dff2368df84d"
-    },
-    {
-      "firm": "Lightspeed",
-      "company": "Lightspeed",
-      "title": "Sr. Recruiter, GTM Strategy & Operations",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/verkada/jobs/5234197007",
-      "cos": false,
-      "id": "vc:Lightspeed:https://job-boards.greenhouse.io/verkada/jobs/5234197007"
-    }
-  ]
+  "jobs": []
 }
