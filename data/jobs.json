@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-11T22:55:29.577575+00:00",
-  "count": 1,
+  "generated_at": "2026-09-12T07:37:41.004569+00:00",
+  "count": 3,
   "firms": [
     "Sequoia",
     "a16z",
@@ -13,10 +13,6 @@
   ],
   "failures": [
     {
-      "firm": "a16z",
-      "error": "Page.goto: net::ERR_TIMED_OUT at https://portfoliojobs.a16z.com/jobs\nCall log:\nnavigating to \"https://portfoliojobs.a16z.com/jobs\", waiting until \"domcontentloaded\"\n"
-    },
-    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
@@ -27,13 +23,31 @@
   ],
   "jobs": [
     {
+      "firm": "Greylock",
+      "company": "Greylock",
+      "title": "Capacity Strategy & Operations",
+      "location": "SAN FRANCISCO, UNITED STATES",
+      "url": "https://greylock.com/jobs/portfolio-jobs/?job=8573cf21d17741f2fe3e0eb896c1a054f0b1555578e2d0cb2ef636f83c080ffe",
+      "cos": false,
+      "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=8573cf21d17741f2fe3e0eb896c1a054f0b1555578e2d0cb2ef636f83c080ffe"
+    },
+    {
+      "firm": "a16z",
+      "company": "Navan",
+      "title": "Senior Program Manager, Strategy & Operations",
+      "location": "Salary range USD 103,050 - 229,200 / yearNew York, NYPosted less than 1 day ago",
+      "url": "https://portfoliojobs.a16z.com/jobs/navan",
+      "cos": false,
+      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/navan"
+    },
+    {
       "firm": "Sequoia",
       "company": "Sequoia",
-      "title": "Director, Revenue Strategy & Operations (Large Customer Sales)",
+      "title": "Strategy & Operations Senior Lead, Brand Growth",
       "location": "",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8195629",
+      "url": "https://boards.greenhouse.io/faire/jobs/8786049002?gh_jid=8786049002",
       "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/reddit/jobs/8195629"
+      "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8786049002?gh_jid=8786049002"
     }
   ]
 }
