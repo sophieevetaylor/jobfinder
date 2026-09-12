@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-12T07:37:41.004569+00:00",
-  "count": 3,
+  "generated_at": "2026-09-12T12:43:25.712298+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -30,24 +30,6 @@
       "url": "https://greylock.com/jobs/portfolio-jobs/?job=8573cf21d17741f2fe3e0eb896c1a054f0b1555578e2d0cb2ef636f83c080ffe",
       "cos": false,
       "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=8573cf21d17741f2fe3e0eb896c1a054f0b1555578e2d0cb2ef636f83c080ffe"
-    },
-    {
-      "firm": "a16z",
-      "company": "Navan",
-      "title": "Senior Program Manager, Strategy & Operations",
-      "location": "Salary range USD 103,050 - 229,200 / yearNew York, NYPosted less than 1 day ago",
-      "url": "https://portfoliojobs.a16z.com/jobs/navan",
-      "cos": false,
-      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/navan"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Strategy & Operations Senior Lead, Brand Growth",
-      "location": "",
-      "url": "https://boards.greenhouse.io/faire/jobs/8786049002?gh_jid=8786049002",
-      "cos": false,
-      "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8786049002?gh_jid=8786049002"
     }
   ]
 }
