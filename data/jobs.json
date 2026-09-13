@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-13T07:56:03.920880+00:00",
-  "count": 3,
+  "generated_at": "2026-09-13T13:43:03.682898+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -30,15 +30,6 @@
       "url": "https://greylock.com/jobs/portfolio-jobs/?job=8573cf21d17741f2fe3e0eb896c1a054f0b1555578e2d0cb2ef636f83c080ffe",
       "cos": false,
       "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=8573cf21d17741f2fe3e0eb896c1a054f0b1555578e2d0cb2ef636f83c080ffe"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Senior Director, Strategic Finance",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/ethoslife/jobs/8801685002",
-      "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/ethoslife/jobs/8801685002"
     },
     {
       "firm": "Sequoia",
