@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-14T08:29:17.826692+00:00",
-  "count": 2,
+  "generated_at": "2026-09-14T15:45:19.187888+00:00",
+  "count": 3,
   "firms": [
     "Sequoia",
     "a16z",
@@ -12,10 +12,6 @@
     "Founders Fund"
   ],
   "failures": [
-    {
-      "firm": "a16z",
-      "error": "Page.goto: net::ERR_TIMED_OUT at https://portfoliojobs.a16z.com/jobs\nCall log:\nnavigating to \"https://portfoliojobs.a16z.com/jobs\", waiting until \"domcontentloaded\"\n"
-    },
     {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
@@ -43,6 +39,15 @@
       "url": "https://job-boards.greenhouse.io/mavenclinic/jobs/8790269002",
       "cos": false,
       "id": "vc:Sequoia:https://job-boards.greenhouse.io/mavenclinic/jobs/8790269002"
+    },
+    {
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Strategy & Operations Lead \u2014 Korea",
+      "location": "",
+      "url": "https://jobs.thrivecap.com/companies/openai/jobs/93133174-strategy-operations-lead-korea#content",
+      "cos": false,
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/openai/jobs/93133174-strategy-operations-lead-korea#content"
     }
   ]
 }
