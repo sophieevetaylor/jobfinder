@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-15T14:14:25.786362+00:00",
-  "count": 2,
+  "generated_at": "2026-09-15T23:20:34.738092+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -23,22 +23,13 @@
   ],
   "jobs": [
     {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Senior Manager, Enterprise Strategy & Operations",
+      "firm": "Lightspeed",
+      "company": "Lightspeed",
+      "title": "Analyst, Credit Business Operations",
       "location": "",
-      "url": "https://servicetitan.wd1.myworkdayjobs.com/ServiceTitan/job/Glendale-CA/Senior-Manager--Enterprise-Strategy---Operations_JR115967",
+      "url": "https://job-boards.greenhouse.io/falconx/jobs/4732710005",
       "cos": false,
-      "id": "vc:Sequoia:https://servicetitan.wd1.myworkdayjobs.com/ServiceTitan/job/Glendale-CA/Senior-Manager--Enterprise-Strategy---Operations_JR115967"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "VP of Business Operations",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/mavenclinic/jobs/8790269002",
-      "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/mavenclinic/jobs/8790269002"
+      "id": "vc:Lightspeed:https://job-boards.greenhouse.io/falconx/jobs/4732710005"
     }
   ]
 }
