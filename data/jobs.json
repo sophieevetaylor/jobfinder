@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T08:19:49.103258+00:00",
+  "generated_at": "2026-09-15T14:14:25.786362+00:00",
   "count": 2,
   "firms": [
     "Sequoia",
@@ -23,22 +23,22 @@
   ],
   "jobs": [
     {
-      "firm": "Greylock",
-      "company": "Greylock",
-      "title": "Capacity Strategy & Operations",
-      "location": "SAN FRANCISCO, UNITED STATES",
-      "url": "https://greylock.com/jobs/portfolio-jobs/?job=8573cf21d17741f2fe3e0eb896c1a054f0b1555578e2d0cb2ef636f83c080ffe",
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Senior Manager, Enterprise Strategy & Operations",
+      "location": "",
+      "url": "https://servicetitan.wd1.myworkdayjobs.com/ServiceTitan/job/Glendale-CA/Senior-Manager--Enterprise-Strategy---Operations_JR115967",
       "cos": false,
-      "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=8573cf21d17741f2fe3e0eb896c1a054f0b1555578e2d0cb2ef636f83c080ffe"
+      "id": "vc:Sequoia:https://servicetitan.wd1.myworkdayjobs.com/ServiceTitan/job/Glendale-CA/Senior-Manager--Enterprise-Strategy---Operations_JR115967"
     },
     {
-      "firm": "Thrive",
-      "company": "Thrive",
-      "title": "Strategy & Operations Lead \u2014 Korea",
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "VP of Business Operations",
       "location": "",
-      "url": "https://jobs.thrivecap.com/companies/openai/jobs/93133174-strategy-operations-lead-korea#content",
+      "url": "https://job-boards.greenhouse.io/mavenclinic/jobs/8790269002",
       "cos": false,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/openai/jobs/93133174-strategy-operations-lead-korea#content"
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/mavenclinic/jobs/8790269002"
     }
   ]
 }
