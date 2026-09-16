@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-16T08:14:20.929347+00:00",
-  "count": 1,
+  "generated_at": "2026-09-16T14:05:43.781055+00:00",
+  "count": 4,
   "firms": [
     "Sequoia",
     "a16z",
@@ -22,6 +22,33 @@
     }
   ],
   "jobs": [
+    {
+      "firm": "a16z",
+      "company": "a16z",
+      "title": "Senior Strategic Finance Associate - G&A",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/mixpanel/jobs/8205689?gh_src=6994f9f01us",
+      "cos": false,
+      "id": "vc:a16z:https://job-boards.greenhouse.io/mixpanel/jobs/8205689?gh_src=6994f9f01us"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Head of Partner Programs, Strategy and Operations",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/apolloio/jobs/6178921004",
+      "cos": false,
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/apolloio/jobs/6178921004"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Member of Biz Ops & Strategy",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/peregrinetechnologies/jobs/4675315005?gh_src=b1c2e36b5us",
+      "cos": false,
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/peregrinetechnologies/jobs/4675315005?gh_src=b1c2e36b5us"
+    },
     {
       "firm": "Sequoia",
       "company": "Sequoia",
