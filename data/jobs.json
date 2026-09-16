@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T23:20:34.738092+00:00",
+  "generated_at": "2026-09-16T08:14:20.929347+00:00",
   "count": 1,
   "firms": [
     "Sequoia",
@@ -23,13 +23,13 @@
   ],
   "jobs": [
     {
-      "firm": "Lightspeed",
-      "company": "Lightspeed",
-      "title": "Analyst, Credit Business Operations",
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Senior Director, Strategic Finance",
       "location": "",
-      "url": "https://job-boards.greenhouse.io/falconx/jobs/4732710005",
+      "url": "https://job-boards.greenhouse.io/ethoslife/jobs/8801685002",
       "cos": false,
-      "id": "vc:Lightspeed:https://job-boards.greenhouse.io/falconx/jobs/4732710005"
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/ethoslife/jobs/8801685002"
     }
   ]
 }
