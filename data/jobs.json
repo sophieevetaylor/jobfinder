@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T08:19:49.140238+00:00",
+  "generated_at": "2026-09-17T14:10:43.759450+00:00",
   "count": 3,
   "firms": [
     "Sequoia",
@@ -23,13 +23,13 @@
   ],
   "jobs": [
     {
-      "firm": "Lightspeed",
-      "company": "Lightspeed",
-      "title": "Director, Business Operations",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/daybreakhealth/jobs/5239938007",
-      "cos": false,
-      "id": "vc:Lightspeed:https://job-boards.greenhouse.io/daybreakhealth/jobs/5239938007"
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
+      "title": "Chief of Staff, Delivery Operations",
+      "location": "San Francisco, CA, USA",
+      "url": "https://jobs.generalcatalyst.com/companies/mercor/jobs/93498817-chief-of-staff-delivery-operations#content",
+      "cos": true,
+      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/mercor/jobs/93498817-chief-of-staff-delivery-operations#content"
     },
     {
       "firm": "Sequoia",
