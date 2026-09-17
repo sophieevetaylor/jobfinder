@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T23:26:59.896714+00:00",
+  "generated_at": "2026-09-17T08:19:49.140238+00:00",
   "count": 3,
   "firms": [
     "Sequoia",
@@ -23,13 +23,13 @@
   ],
   "jobs": [
     {
-      "firm": "a16z",
-      "company": "a16z",
-      "title": "Senior Strategic Finance Associate - G&A",
+      "firm": "Lightspeed",
+      "company": "Lightspeed",
+      "title": "Director, Business Operations",
       "location": "",
-      "url": "https://job-boards.greenhouse.io/mixpanel/jobs/8205689?gh_src=6994f9f01us",
+      "url": "https://job-boards.greenhouse.io/daybreakhealth/jobs/5239938007",
       "cos": false,
-      "id": "vc:a16z:https://job-boards.greenhouse.io/mixpanel/jobs/8205689?gh_src=6994f9f01us"
+      "id": "vc:Lightspeed:https://job-boards.greenhouse.io/daybreakhealth/jobs/5239938007"
     },
     {
       "firm": "Sequoia",
