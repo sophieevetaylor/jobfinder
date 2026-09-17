@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-17T14:10:43.759450+00:00",
-  "count": 3,
+  "generated_at": "2026-09-17T23:18:29.734946+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -23,15 +23,6 @@
   ],
   "jobs": [
     {
-      "firm": "General Catalyst",
-      "company": "General Catalyst",
-      "title": "Chief of Staff, Delivery Operations",
-      "location": "San Francisco, CA, USA",
-      "url": "https://jobs.generalcatalyst.com/companies/mercor/jobs/93498817-chief-of-staff-delivery-operations#content",
-      "cos": true,
-      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/mercor/jobs/93498817-chief-of-staff-delivery-operations#content"
-    },
-    {
       "firm": "Sequoia",
       "company": "Sequoia",
       "title": "Head of Partner Programs, Strategy and Operations",
@@ -41,13 +32,13 @@
       "id": "vc:Sequoia:https://job-boards.greenhouse.io/apolloio/jobs/6178921004"
     },
     {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Member of Biz Ops & Strategy",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/peregrinetechnologies/jobs/4675315005?gh_src=b1c2e36b5us",
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Business Operations & Strategy",
+      "location": "San Francisco, CA, USA",
+      "url": "https://jobs.thrivecap.com/companies/notion-2/jobs/93519834-business-operations-strategy#content",
       "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/peregrinetechnologies/jobs/4675315005?gh_src=b1c2e36b5us"
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/notion-2/jobs/93519834-business-operations-strategy#content"
     }
   ]
 }
