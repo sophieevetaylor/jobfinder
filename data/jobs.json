@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-17T23:18:29.734946+00:00",
-  "count": 2,
+  "generated_at": "2026-09-18T07:55:32.743911+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -22,15 +22,6 @@
     }
   ],
   "jobs": [
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Head of Partner Programs, Strategy and Operations",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/apolloio/jobs/6178921004",
-      "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/apolloio/jobs/6178921004"
-    },
     {
       "firm": "Thrive",
       "company": "Thrive",
