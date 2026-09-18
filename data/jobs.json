@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-18T13:29:59.999696+00:00",
-  "count": 1,
+  "generated_at": "2026-09-18T22:56:30.877952+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -22,6 +22,15 @@
     }
   ],
   "jobs": [
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Head of Partner Programs, Strategy and Operations",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/apolloio/jobs/6178921004",
+      "cos": false,
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/apolloio/jobs/6178921004"
+    },
     {
       "firm": "a16z",
       "company": "World Labs",
