@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T07:55:32.743911+00:00",
+  "generated_at": "2026-09-18T13:29:59.999696+00:00",
   "count": 1,
   "firms": [
     "Sequoia",
@@ -23,13 +23,13 @@
   ],
   "jobs": [
     {
-      "firm": "Thrive",
-      "company": "Thrive",
-      "title": "Business Operations & Strategy",
-      "location": "San Francisco, CA, USA",
-      "url": "https://jobs.thrivecap.com/companies/notion-2/jobs/93519834-business-operations-strategy#content",
-      "cos": false,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/notion-2/jobs/93519834-business-operations-strategy#content"
+      "firm": "a16z",
+      "company": "World Labs",
+      "title": "Executive Business Partner (Office of the CEO)",
+      "location": "Salary range USD 200,000 - 250,000 / yearSan Francisco, California, United States, San FranciscoPosted less than 1 day a",
+      "url": "https://portfoliojobs.a16z.com/jobs/world-labs",
+      "cos": true,
+      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/world-labs"
     }
   ]
 }
