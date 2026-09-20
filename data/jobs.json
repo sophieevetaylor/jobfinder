@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-20T08:13:40.133113+00:00",
-  "count": 1,
+  "generated_at": "2026-09-20T13:32:03.933223+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -30,6 +30,15 @@
       "url": "https://greylock.com/jobs/portfolio-jobs/?job=4d76e0e8e291d1eaa1bde27d099a789c0d7d73f8f575881bfa50364cfc51a8c6",
       "cos": false,
       "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=4d76e0e8e291d1eaa1bde27d099a789c0d7d73f8f575881bfa50364cfc51a8c6"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Head of Partner Programs, Strategy and Operations",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/apolloio/jobs/6178921004",
+      "cos": false,
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/apolloio/jobs/6178921004"
     }
   ]
 }
