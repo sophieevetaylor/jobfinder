@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-22T08:11:49.310960+00:00",
-  "count": 1,
+  "generated_at": "2026-09-22T13:58:37.721453+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -22,6 +22,15 @@
     }
   ],
   "jobs": [
+    {
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
+      "title": "Senior Analyst, Strategic Finance",
+      "location": "",
+      "url": "https://jobs.generalcatalyst.com/companies/ophelia-2/jobs/94262928-senior-analyst-strategic-finance#content",
+      "cos": false,
+      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/ophelia-2/jobs/94262928-senior-analyst-strategic-finance#content"
+    },
     {
       "firm": "Greylock",
       "company": "Greylock",
