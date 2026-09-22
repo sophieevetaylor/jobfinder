@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T13:58:37.721453+00:00",
+  "generated_at": "2026-09-22T23:24:12.695704+00:00",
   "count": 2,
   "firms": [
     "Sequoia",
@@ -23,15 +23,6 @@
   ],
   "jobs": [
     {
-      "firm": "General Catalyst",
-      "company": "General Catalyst",
-      "title": "Senior Analyst, Strategic Finance",
-      "location": "",
-      "url": "https://jobs.generalcatalyst.com/companies/ophelia-2/jobs/94262928-senior-analyst-strategic-finance#content",
-      "cos": false,
-      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/ophelia-2/jobs/94262928-senior-analyst-strategic-finance#content"
-    },
-    {
       "firm": "Greylock",
       "company": "Greylock",
       "title": "Strategy & Operations Associate",
@@ -39,6 +30,15 @@
       "url": "https://greylock.com/jobs/portfolio-jobs/?job=4d76e0e8e291d1eaa1bde27d099a789c0d7d73f8f575881bfa50364cfc51a8c6",
       "cos": false,
       "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=4d76e0e8e291d1eaa1bde27d099a789c0d7d73f8f575881bfa50364cfc51a8c6"
+    },
+    {
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Business Value Strategy and Operations",
+      "location": "San Francisco, CA, USA",
+      "url": "https://jobs.thrivecap.com/companies/sierra-2-90e5d64d-40bb-415e-bbca-4108552c8ee9/jobs/94297188-business-value-strategy-and-operations#content",
+      "cos": false,
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/sierra-2-90e5d64d-40bb-415e-bbca-4108552c8ee9/jobs/94297188-business-value-strategy-and-operations#content"
     }
   ]
 }
