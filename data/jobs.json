@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-23T08:13:51.350998+00:00",
-  "count": 2,
+  "generated_at": "2026-09-23T14:08:44.234648+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -23,22 +23,13 @@
   ],
   "jobs": [
     {
-      "firm": "General Catalyst",
-      "company": "General Catalyst",
-      "title": "Revenue Strategy & Operations Associate",
-      "location": "United States; Remote",
-      "url": "https://jobs.generalcatalyst.com/companies/thatch-2-be6cac0b-2b33-40c1-929b-1717167d1df1/jobs/94303648-revenue-strategy-operations-associate#content",
+      "firm": "a16z",
+      "company": "Headway",
+      "title": "Director, Business Operations",
+      "location": "Salary range USD 169,000 - 265,000 / yearRemoteUnited States, RemotePosted less than 1 day ago",
+      "url": "https://portfoliojobs.a16z.com/jobs/headway",
       "cos": false,
-      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/thatch-2-be6cac0b-2b33-40c1-929b-1717167d1df1/jobs/94303648-revenue-strategy-operations-associate#content"
-    },
-    {
-      "firm": "Thrive",
-      "company": "Thrive",
-      "title": "Business Value Strategy and Operations",
-      "location": "San Francisco, CA, USA",
-      "url": "https://jobs.thrivecap.com/companies/sierra-2-90e5d64d-40bb-415e-bbca-4108552c8ee9/jobs/94297188-business-value-strategy-and-operations#content",
-      "cos": false,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/sierra-2-90e5d64d-40bb-415e-bbca-4108552c8ee9/jobs/94297188-business-value-strategy-and-operations#content"
+      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/headway"
     }
   ]
 }
