@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T23:24:12.695704+00:00",
+  "generated_at": "2026-09-23T08:13:51.350998+00:00",
   "count": 2,
   "firms": [
     "Sequoia",
@@ -23,13 +23,13 @@
   ],
   "jobs": [
     {
-      "firm": "Greylock",
-      "company": "Greylock",
-      "title": "Strategy & Operations Associate",
-      "location": "NEW YORK, UNITED STATES",
-      "url": "https://greylock.com/jobs/portfolio-jobs/?job=4d76e0e8e291d1eaa1bde27d099a789c0d7d73f8f575881bfa50364cfc51a8c6",
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
+      "title": "Revenue Strategy & Operations Associate",
+      "location": "United States; Remote",
+      "url": "https://jobs.generalcatalyst.com/companies/thatch-2-be6cac0b-2b33-40c1-929b-1717167d1df1/jobs/94303648-revenue-strategy-operations-associate#content",
       "cos": false,
-      "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=4d76e0e8e291d1eaa1bde27d099a789c0d7d73f8f575881bfa50364cfc51a8c6"
+      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/thatch-2-be6cac0b-2b33-40c1-929b-1717167d1df1/jobs/94303648-revenue-strategy-operations-associate#content"
     },
     {
       "firm": "Thrive",
