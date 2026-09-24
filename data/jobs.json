@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-24T08:04:15.012531+00:00",
-  "count": 1,
+  "generated_at": "2026-09-24T14:06:12.469663+00:00",
+  "count": 0,
   "firms": [
     "Sequoia",
     "a16z",
@@ -21,15 +21,5 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": [
-    {
-      "firm": "Lightspeed",
-      "company": "Lightspeed",
-      "title": "Product Strategy & Operations Associate",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/kodiak/jobs/4418166009",
-      "cos": false,
-      "id": "vc:Lightspeed:https://job-boards.greenhouse.io/kodiak/jobs/4418166009"
-    }
-  ]
+  "jobs": []
 }
