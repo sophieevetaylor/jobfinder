@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T23:23:05.300281+00:00",
+  "generated_at": "2026-09-24T08:04:15.012531+00:00",
   "count": 1,
   "firms": [
     "Sequoia",
@@ -23,13 +23,13 @@
   ],
   "jobs": [
     {
-      "firm": "a16z",
-      "company": "Headway",
-      "title": "Director, Business Operations",
-      "location": "Salary range USD 169,000 - 265,000 / yearRemoteUnited States, RemotePosted less than 1 day ago",
-      "url": "https://portfoliojobs.a16z.com/jobs/headway",
+      "firm": "Lightspeed",
+      "company": "Lightspeed",
+      "title": "Product Strategy & Operations Associate",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/kodiak/jobs/4418166009",
       "cos": false,
-      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/headway"
+      "id": "vc:Lightspeed:https://job-boards.greenhouse.io/kodiak/jobs/4418166009"
     }
   ]
 }
