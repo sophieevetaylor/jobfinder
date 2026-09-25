@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-24T23:42:31.477295+00:00",
-  "count": 0,
+  "generated_at": "2026-09-25T08:28:42.589768+00:00",
+  "count": 4,
   "firms": [
     "Sequoia",
     "a16z",
@@ -21,5 +21,42 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": []
+  "jobs": [
+    {
+      "firm": "a16z",
+      "company": "a16z",
+      "title": "Strategy & Operations Program Manager, Global Technical Enablement",
+      "location": "",
+      "url": "https://www.wiz.io/careers/job/4713219006/:title?gh_jid=4713219006",
+      "cos": false,
+      "id": "vc:a16z:https://www.wiz.io/careers/job/4713219006/:title?gh_jid=4713219006"
+    },
+    {
+      "firm": "Lightspeed",
+      "company": "Lightspeed",
+      "title": "Strategy & Operations Program Manager, Global Technical Enablement",
+      "location": "",
+      "url": "https://www.wiz.io/careers/job/4713219006/:title?gh_jid=4713219006",
+      "cos": false,
+      "id": "vc:Lightspeed:https://www.wiz.io/careers/job/4713219006/:title?gh_jid=4713219006"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Strategy & Operations Program Manager, Global Technical Enablement",
+      "location": "",
+      "url": "https://www.wiz.io/careers/job/4713219006/:title?gh_jid=4713219006",
+      "cos": false,
+      "id": "vc:Sequoia:https://www.wiz.io/careers/job/4713219006/:title?gh_jid=4713219006"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Strategy & Operations Senior Associate",
+      "location": "",
+      "url": "https://boards.greenhouse.io/faire/jobs/8842311002?gh_jid=8842311002",
+      "cos": false,
+      "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8842311002?gh_jid=8842311002"
+    }
+  ]
 }
