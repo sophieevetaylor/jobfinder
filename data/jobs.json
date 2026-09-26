@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-25T23:44:05.511221+00:00",
-  "count": 3,
+  "generated_at": "2026-09-26T08:15:58.975721+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -23,31 +23,13 @@
   ],
   "jobs": [
     {
-      "firm": "a16z",
-      "company": "a16z",
-      "title": "Strategy & Operations Program Manager, Global Technical Enablement",
-      "location": "",
-      "url": "https://www.wiz.io/careers/job/4713219006/:title?gh_jid=4713219006",
-      "cos": false,
-      "id": "vc:a16z:https://www.wiz.io/careers/job/4713219006/:title?gh_jid=4713219006"
-    },
-    {
       "firm": "Sequoia",
       "company": "Sequoia",
-      "title": "Strategy & Operations Program Manager, Global Technical Enablement",
+      "title": "Strategy & Operations Senior Associate",
       "location": "",
-      "url": "https://www.wiz.io/careers/job/4713219006/:title?gh_jid=4713219006",
+      "url": "https://boards.greenhouse.io/faire/jobs/8842311002?gh_jid=8842311002",
       "cos": false,
-      "id": "vc:Sequoia:https://www.wiz.io/careers/job/4713219006/:title?gh_jid=4713219006"
-    },
-    {
-      "firm": "Thrive",
-      "company": "Thrive",
-      "title": "Strategy & Operations Program Manager, Global Technical Enablement",
-      "location": "United States; Remote",
-      "url": "https://jobs.thrivecap.com/companies/wiz-2/jobs/94747196-strategy-operations-program-manager-global-technical-enablement#content",
-      "cos": false,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/wiz-2/jobs/94747196-strategy-operations-program-manager-global-technical-enablement#content"
+      "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8842311002?gh_jid=8842311002"
     }
   ]
 }
