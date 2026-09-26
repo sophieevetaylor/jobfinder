@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-26T08:15:58.975721+00:00",
-  "count": 1,
+  "generated_at": "2026-09-26T13:40:03.765930+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -22,6 +22,15 @@
     }
   ],
   "jobs": [
+    {
+      "firm": "Lightspeed",
+      "company": "Lightspeed",
+      "title": "Chief of Staff to the GM of Housing",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/flex/jobs/4738246005",
+      "cos": true,
+      "id": "vc:Lightspeed:https://job-boards.greenhouse.io/flex/jobs/4738246005"
+    },
     {
       "firm": "Sequoia",
       "company": "Sequoia",
