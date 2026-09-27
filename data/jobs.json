@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-26T23:16:58.599648+00:00",
-  "count": 4,
+  "generated_at": "2026-09-27T08:52:47.086654+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -23,15 +23,6 @@
   ],
   "jobs": [
     {
-      "firm": "a16z",
-      "company": "a16z",
-      "title": "Senior Strategic Finance Analyst, AD&S",
-      "location": "",
-      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5121416007?gh_jid=5121416007",
-      "cos": false,
-      "id": "vc:a16z:https://boards.greenhouse.io/andurilindustries/jobs/5121416007?gh_jid=5121416007"
-    },
-    {
       "firm": "Lightspeed",
       "company": "Lightspeed",
       "title": "Chief of Staff to the GM of Housing",
@@ -39,24 +30,6 @@
       "url": "https://job-boards.greenhouse.io/flex/jobs/4738246005",
       "cos": true,
       "id": "vc:Lightspeed:https://job-boards.greenhouse.io/flex/jobs/4738246005"
-    },
-    {
-      "firm": "Lightspeed",
-      "company": "Lightspeed",
-      "title": "Senior Strategic Finance Analyst, AD&S",
-      "location": "",
-      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5121416007?gh_jid=5121416007",
-      "cos": false,
-      "id": "vc:Lightspeed:https://boards.greenhouse.io/andurilindustries/jobs/5121416007?gh_jid=5121416007"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Strategy & Operations Senior Associate",
-      "location": "",
-      "url": "https://boards.greenhouse.io/faire/jobs/8842311002?gh_jid=8842311002",
-      "cos": false,
-      "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8842311002?gh_jid=8842311002"
     }
   ]
 }
