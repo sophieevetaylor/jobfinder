@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-27T14:37:01.386388+00:00",
-  "count": 4,
+  "generated_at": "2026-09-27T23:31:41.304630+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -23,15 +23,6 @@
   ],
   "jobs": [
     {
-      "firm": "General Catalyst",
-      "company": "General Catalyst",
-      "title": "Senior Strategic Finance Analyst, AD&S",
-      "location": "Costa Mesa, CA, USA",
-      "url": "https://jobs.generalcatalyst.com/companies/anduril/jobs/94968379-senior-strategic-finance-analyst-ad-s#content",
-      "cos": false,
-      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/anduril/jobs/94968379-senior-strategic-finance-analyst-ad-s#content"
-    },
-    {
       "firm": "Lightspeed",
       "company": "Lightspeed",
       "title": "Chief of Staff to the GM of Housing",
@@ -39,15 +30,6 @@
       "url": "https://job-boards.greenhouse.io/flex/jobs/4738246005",
       "cos": true,
       "id": "vc:Lightspeed:https://job-boards.greenhouse.io/flex/jobs/4738246005"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Strategy & Operations Senior Associate",
-      "location": "",
-      "url": "https://boards.greenhouse.io/faire/jobs/8842311002?gh_jid=8842311002",
-      "cos": false,
-      "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8842311002?gh_jid=8842311002"
     },
     {
       "firm": "Thrive",
