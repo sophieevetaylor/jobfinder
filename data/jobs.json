@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-27T23:31:41.304630+00:00",
-  "count": 2,
+  "generated_at": "2026-09-28T09:17:00.537495+00:00",
+  "count": 4,
   "firms": [
     "Sequoia",
     "a16z",
@@ -30,6 +30,24 @@
       "url": "https://job-boards.greenhouse.io/flex/jobs/4738246005",
       "cos": true,
       "id": "vc:Lightspeed:https://job-boards.greenhouse.io/flex/jobs/4738246005"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Manager, Business Operations",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/pilothq/jobs/8618505002",
+      "cos": false,
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/pilothq/jobs/8618505002"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Strategy & Operations Senior Associate",
+      "location": "",
+      "url": "https://boards.greenhouse.io/faire/jobs/8842311002?gh_jid=8842311002",
+      "cos": false,
+      "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8842311002?gh_jid=8842311002"
     },
     {
       "firm": "Thrive",
