@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-28T09:17:00.537495+00:00",
-  "count": 4,
+  "generated_at": "2026-09-28T17:27:26.734992+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -30,33 +30,6 @@
       "url": "https://job-boards.greenhouse.io/flex/jobs/4738246005",
       "cos": true,
       "id": "vc:Lightspeed:https://job-boards.greenhouse.io/flex/jobs/4738246005"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Manager, Business Operations",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/pilothq/jobs/8618505002",
-      "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/pilothq/jobs/8618505002"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Strategy & Operations Senior Associate",
-      "location": "",
-      "url": "https://boards.greenhouse.io/faire/jobs/8842311002?gh_jid=8842311002",
-      "cos": false,
-      "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8842311002?gh_jid=8842311002"
-    },
-    {
-      "firm": "Thrive",
-      "company": "Thrive",
-      "title": "Senior Strategic Finance Analyst, AD&S",
-      "location": "Costa Mesa, CA, USA",
-      "url": "https://jobs.thrivecap.com/companies/anduril/jobs/94968379-senior-strategic-finance-analyst-ad-s#content",
-      "cos": false,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/anduril/jobs/94968379-senior-strategic-finance-analyst-ad-s#content"
     }
   ]
 }
