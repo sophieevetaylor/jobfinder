@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-29T09:24:53.379968+00:00",
-  "count": 1,
+  "generated_at": "2026-09-29T15:28:57.365937+00:00",
+  "count": 4,
   "firms": [
     "Sequoia",
     "a16z",
@@ -13,6 +13,10 @@
   ],
   "failures": [
     {
+      "firm": "Lightspeed",
+      "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
+    },
+    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
@@ -24,12 +28,39 @@
   "jobs": [
     {
       "firm": "a16z",
-      "company": "a16z",
-      "title": "Senior Strategic Finance Associate, G&A",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/mixpanel/jobs/8222166?gh_src=6994f9f01us",
+      "company": "Decagon",
+      "title": "Strategy and Operations, Customers",
+      "location": "Salary range USD 190,000 - 265,000 / yearSan Francisco, CA, United States, San FranciscoPosted less than 1 day ago",
+      "url": "https://portfoliojobs.a16z.com/jobs/decagon",
       "cos": false,
-      "id": "vc:a16z:https://job-boards.greenhouse.io/mixpanel/jobs/8222166?gh_src=6994f9f01us"
+      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/decagon"
+    },
+    {
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
+      "title": "Chief of Staff / Director CEO Office",
+      "location": "",
+      "url": "https://jobs.generalcatalyst.com/companies/hypersonica-2-b916a41e-19ab-4c51-80bd-8b7182d2690d/jobs/95177607-chief-of-staff-director-ceo-office#content",
+      "cos": true,
+      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/hypersonica-2-b916a41e-19ab-4c51-80bd-8b7182d2690d/jobs/95177607-chief-of-staff-director-ceo-office#content"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Strategy & Operations Program Manager, Global Technical Enablement",
+      "location": "",
+      "url": "https://www.wiz.io/careers/job/4713219006/:title?gh_jid=4713219006",
+      "cos": false,
+      "id": "vc:Sequoia:https://www.wiz.io/careers/job/4713219006/:title?gh_jid=4713219006"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Strategy & Operations Senior Associate",
+      "location": "",
+      "url": "https://boards.greenhouse.io/faire/jobs/8842311002?gh_jid=8842311002",
+      "cos": false,
+      "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8842311002?gh_jid=8842311002"
     }
   ]
 }
