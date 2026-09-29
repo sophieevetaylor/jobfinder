@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-28T17:27:26.734992+00:00",
-  "count": 1,
+  "generated_at": "2026-09-29T00:47:05.380793+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -23,13 +23,22 @@
   ],
   "jobs": [
     {
-      "firm": "Lightspeed",
-      "company": "Lightspeed",
-      "title": "Chief of Staff to the GM of Housing",
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Strategy & Operations Program Manager, Global Technical Enablement",
       "location": "",
-      "url": "https://job-boards.greenhouse.io/flex/jobs/4738246005",
-      "cos": true,
-      "id": "vc:Lightspeed:https://job-boards.greenhouse.io/flex/jobs/4738246005"
+      "url": "https://www.wiz.io/careers/job/4713219006/:title?gh_jid=4713219006",
+      "cos": false,
+      "id": "vc:Sequoia:https://www.wiz.io/careers/job/4713219006/:title?gh_jid=4713219006"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Strategy & Operations Senior Associate",
+      "location": "",
+      "url": "https://boards.greenhouse.io/faire/jobs/8842311002?gh_jid=8842311002",
+      "cos": false,
+      "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8842311002?gh_jid=8842311002"
     }
   ]
 }
