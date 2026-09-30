@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-30T09:14:57.996499+00:00",
-  "count": 2,
+  "generated_at": "2026-09-30T15:44:43.307775+00:00",
+  "count": 0,
   "firms": [
     "Sequoia",
     "a16z",
@@ -21,24 +21,5 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": [
-    {
-      "firm": "General Catalyst",
-      "company": "General Catalyst",
-      "title": "GCC Content Strategy Lead",
-      "location": "",
-      "url": "https://jobs.generalcatalyst.com/companies/canva/jobs/95208801-gcc-content-strategy-lead#content",
-      "cos": false,
-      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/canva/jobs/95208801-gcc-content-strategy-lead#content"
-    },
-    {
-      "firm": "General Catalyst",
-      "company": "General Catalyst",
-      "title": "Sub-Saharan Africa Content Strategy Lead (12 month contract)",
-      "location": "",
-      "url": "https://jobs.generalcatalyst.com/companies/canva/jobs/95208802-sub-saharan-africa-content-strategy-lead-12-month-contract#content",
-      "cos": false,
-      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/canva/jobs/95208802-sub-saharan-africa-content-strategy-lead-12-month-contract#content"
-    }
-  ]
+  "jobs": []
 }
