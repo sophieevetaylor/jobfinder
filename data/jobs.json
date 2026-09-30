@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-29T15:28:57.365937+00:00",
-  "count": 4,
+  "generated_at": "2026-09-30T00:01:18.083514+00:00",
+  "count": 3,
   "firms": [
     "Sequoia",
     "a16z",
@@ -13,10 +13,6 @@
   ],
   "failures": [
     {
-      "firm": "Lightspeed",
-      "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
-    },
-    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
@@ -28,39 +24,30 @@
   "jobs": [
     {
       "firm": "a16z",
-      "company": "Decagon",
-      "title": "Strategy and Operations, Customers",
-      "location": "Salary range USD 190,000 - 265,000 / yearSan Francisco, CA, United States, San FranciscoPosted less than 1 day ago",
-      "url": "https://portfoliojobs.a16z.com/jobs/decagon",
-      "cos": false,
-      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/decagon"
-    },
-    {
-      "firm": "General Catalyst",
-      "company": "General Catalyst",
-      "title": "Chief of Staff / Director CEO Office",
+      "company": "a16z",
+      "title": "Chief of Staff, Production",
       "location": "",
-      "url": "https://jobs.generalcatalyst.com/companies/hypersonica-2-b916a41e-19ab-4c51-80bd-8b7182d2690d/jobs/95177607-chief-of-staff-director-ceo-office#content",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5251746007?gh_jid=5251746007",
       "cos": true,
-      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/hypersonica-2-b916a41e-19ab-4c51-80bd-8b7182d2690d/jobs/95177607-chief-of-staff-director-ceo-office#content"
+      "id": "vc:a16z:https://boards.greenhouse.io/andurilindustries/jobs/5251746007?gh_jid=5251746007"
     },
     {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Strategy & Operations Program Manager, Global Technical Enablement",
-      "location": "",
-      "url": "https://www.wiz.io/careers/job/4713219006/:title?gh_jid=4713219006",
+      "firm": "Lightspeed",
+      "company": "Granola",
+      "title": "Strategic Finance Lead",
+      "location": "Salary range USD 170,000 - 200,000 / yearSan Francisco , California , United States, San Francisco Office Posted 1 day a",
+      "url": "https://jobs.lsvp.com/jobs/granola",
       "cos": false,
-      "id": "vc:Sequoia:https://www.wiz.io/careers/job/4713219006/:title?gh_jid=4713219006"
+      "id": "vc:Lightspeed:https://jobs.lsvp.com/jobs/granola"
     },
     {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Strategy & Operations Senior Associate",
+      "firm": "Lightspeed",
+      "company": "Lightspeed",
+      "title": "Chief of Staff, Production",
       "location": "",
-      "url": "https://boards.greenhouse.io/faire/jobs/8842311002?gh_jid=8842311002",
-      "cos": false,
-      "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8842311002?gh_jid=8842311002"
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5251746007?gh_jid=5251746007",
+      "cos": true,
+      "id": "vc:Lightspeed:https://boards.greenhouse.io/andurilindustries/jobs/5251746007?gh_jid=5251746007"
     }
   ]
 }
