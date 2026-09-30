@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-30T00:01:18.083514+00:00",
-  "count": 3,
+  "generated_at": "2026-09-30T09:14:57.996499+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -23,31 +23,22 @@
   ],
   "jobs": [
     {
-      "firm": "a16z",
-      "company": "a16z",
-      "title": "Chief of Staff, Production",
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
+      "title": "GCC Content Strategy Lead",
       "location": "",
-      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5251746007?gh_jid=5251746007",
-      "cos": true,
-      "id": "vc:a16z:https://boards.greenhouse.io/andurilindustries/jobs/5251746007?gh_jid=5251746007"
-    },
-    {
-      "firm": "Lightspeed",
-      "company": "Granola",
-      "title": "Strategic Finance Lead",
-      "location": "Salary range USD 170,000 - 200,000 / yearSan Francisco , California , United States, San Francisco Office Posted 1 day a",
-      "url": "https://jobs.lsvp.com/jobs/granola",
+      "url": "https://jobs.generalcatalyst.com/companies/canva/jobs/95208801-gcc-content-strategy-lead#content",
       "cos": false,
-      "id": "vc:Lightspeed:https://jobs.lsvp.com/jobs/granola"
+      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/canva/jobs/95208801-gcc-content-strategy-lead#content"
     },
     {
-      "firm": "Lightspeed",
-      "company": "Lightspeed",
-      "title": "Chief of Staff, Production",
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
+      "title": "Sub-Saharan Africa Content Strategy Lead (12 month contract)",
       "location": "",
-      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5251746007?gh_jid=5251746007",
-      "cos": true,
-      "id": "vc:Lightspeed:https://boards.greenhouse.io/andurilindustries/jobs/5251746007?gh_jid=5251746007"
+      "url": "https://jobs.generalcatalyst.com/companies/canva/jobs/95208802-sub-saharan-africa-content-strategy-lead-12-month-contract#content",
+      "cos": false,
+      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/canva/jobs/95208802-sub-saharan-africa-content-strategy-lead-12-month-contract#content"
     }
   ]
 }
