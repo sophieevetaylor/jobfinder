@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-30T15:44:43.307775+00:00",
-  "count": 0,
+  "generated_at": "2026-10-01T00:18:16.453698+00:00",
+  "count": 3,
   "firms": [
     "Sequoia",
     "a16z",
@@ -21,5 +21,33 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": []
+  "jobs": [
+    {
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
+      "title": "Chargeback Strategy & Operations Lead",
+      "location": "Miami, FL, USA",
+      "url": "https://www.linkedin.com/jobs/view/chargeback-strategy-operations-lead-at-f%C3%A9lix-4471952309?utm_source=General+Catalyst+job+board&utm_medium=getro.com&gh_src=General+Catalyst+job+board",
+      "cos": false,
+      "id": "vc:General Catalyst:https://www.linkedin.com/jobs/view/chargeback-strategy-operations-lead-at-f%C3%A9lix-4471952309?utm_source=General+Catalyst+job+board&utm_medium=getro.com&gh_src=General+Catalyst+job+board"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Business Operations Manager (Starlink Growth)",
+      "location": "",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8857387002?gh_jid=8857387002",
+      "cos": false,
+      "id": "vc:Sequoia:https://boards.greenhouse.io/spacex/jobs/8857387002?gh_jid=8857387002"
+    },
+    {
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Strategy & Operations Business Partner, Solution Architecture",
+      "location": "United States; Remote",
+      "url": "https://jobs.thrivecap.com/companies/stripe/jobs/95325234-strategy-operations-business-partner-solution-architecture#content",
+      "cos": false,
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/stripe/jobs/95325234-strategy-operations-business-partner-solution-architecture#content"
+    }
+  ]
 }
