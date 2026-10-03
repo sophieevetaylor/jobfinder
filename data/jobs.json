@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-02T15:37:35.538345+00:00",
-  "count": 0,
+  "generated_at": "2026-10-03T00:06:25.101171+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -13,10 +13,6 @@
   ],
   "failures": [
     {
-      "firm": "Lightspeed",
-      "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
-    },
-    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
@@ -25,5 +21,15 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": []
+  "jobs": [
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Strategic Finance Senior Manager",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8244067",
+      "cos": false,
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/reddit/jobs/8244067"
+    }
+  ]
 }
