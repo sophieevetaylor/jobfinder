@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T08:49:39.649231+00:00",
+  "generated_at": "2026-10-03T14:11:26.374145+00:00",
   "count": 2,
   "firms": [
     "Sequoia",
@@ -23,13 +23,13 @@
   ],
   "jobs": [
     {
-      "firm": "a16z",
+      "firm": "Lightspeed",
       "company": "Databricks",
       "title": "Associate I, Business Operations",
       "location": "",
-      "url": "https://portfoliojobs.a16z.com/jobs/databricks",
+      "url": "https://jobs.lsvp.com/jobs/databricks",
       "cos": false,
-      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/databricks"
+      "id": "vc:Lightspeed:https://jobs.lsvp.com/jobs/databricks"
     },
     {
       "firm": "Sequoia",
