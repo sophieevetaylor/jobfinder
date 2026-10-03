@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-03T00:06:25.101171+00:00",
-  "count": 1,
+  "generated_at": "2026-10-03T08:49:39.649231+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -23,13 +23,22 @@
   ],
   "jobs": [
     {
+      "firm": "a16z",
+      "company": "Databricks",
+      "title": "Associate I, Business Operations",
+      "location": "",
+      "url": "https://portfoliojobs.a16z.com/jobs/databricks",
+      "cos": false,
+      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/databricks"
+    },
+    {
       "firm": "Sequoia",
       "company": "Sequoia",
-      "title": "Strategic Finance Senior Manager",
+      "title": "Chief of Staff, Global Sales",
       "location": "",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8244067",
-      "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/reddit/jobs/8244067"
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8187521",
+      "cos": true,
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/reddit/jobs/8187521"
     }
   ]
 }
