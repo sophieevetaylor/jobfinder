@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-04T23:45:52.417927+00:00",
-  "count": 2,
+  "generated_at": "2026-10-05T09:55:59.159136+00:00",
+  "count": 3,
   "firms": [
     "Sequoia",
     "a16z",
@@ -30,6 +30,15 @@
       "url": "https://jobs.lsvp.com/jobs/databricks",
       "cos": false,
       "id": "vc:Lightspeed:https://jobs.lsvp.com/jobs/databricks"
+    },
+    {
+      "firm": "Lightspeed",
+      "company": "Eagle",
+      "title": "Chief of Staff",
+      "location": "Salary range USD 200,000 - 250,000 / yearNew York City, New York, United States, New York CityPosted 1 day ago",
+      "url": "https://jobs.lsvp.com/jobs/eagle",
+      "cos": true,
+      "id": "vc:Lightspeed:https://jobs.lsvp.com/jobs/eagle"
     },
     {
       "firm": "Sequoia",
