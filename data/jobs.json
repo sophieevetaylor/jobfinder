@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-06T01:37:52.650206+00:00",
-  "count": 3,
+  "generated_at": "2026-10-06T09:43:32.036727+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -22,15 +22,6 @@
     }
   ],
   "jobs": [
-    {
-      "firm": "Lightspeed",
-      "company": "Lightspeed",
-      "title": "Chief of Staff, Data Science & Analytics",
-      "location": "",
-      "url": "https://careers.vinted.com/jobs/4987121101?gh_jid=4987121101",
-      "cos": true,
-      "id": "vc:Lightspeed:https://careers.vinted.com/jobs/4987121101?gh_jid=4987121101"
-    },
     {
       "firm": "Lightspeed",
       "company": "Navan",
