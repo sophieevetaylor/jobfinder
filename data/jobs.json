@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T18:04:51.176623+00:00",
+  "generated_at": "2026-10-06T01:37:52.650206+00:00",
   "count": 3,
   "firms": [
     "Sequoia",
@@ -24,21 +24,21 @@
   "jobs": [
     {
       "firm": "Lightspeed",
-      "company": "Databricks",
-      "title": "Associate I, Business Operations",
+      "company": "Lightspeed",
+      "title": "Chief of Staff, Data Science & Analytics",
       "location": "",
-      "url": "https://jobs.lsvp.com/jobs/databricks",
-      "cos": false,
-      "id": "vc:Lightspeed:https://jobs.lsvp.com/jobs/databricks"
+      "url": "https://careers.vinted.com/jobs/4987121101?gh_jid=4987121101",
+      "cos": true,
+      "id": "vc:Lightspeed:https://careers.vinted.com/jobs/4987121101?gh_jid=4987121101"
     },
     {
       "firm": "Lightspeed",
-      "company": "Eagle",
-      "title": "Chief of Staff",
-      "location": "Salary range USD 200,000 - 250,000 / yearNew York City, New York, United States, New York CityPosted 1 day ago",
-      "url": "https://jobs.lsvp.com/jobs/eagle",
-      "cos": true,
-      "id": "vc:Lightspeed:https://jobs.lsvp.com/jobs/eagle"
+      "company": "Navan",
+      "title": "Manager, Business Operations, Specialty Travel & Events",
+      "location": "Salary range USD 81,000 - 180,000 / yearBoston, MAPosted less than 1 day ago",
+      "url": "https://jobs.lsvp.com/jobs/navan",
+      "cos": false,
+      "id": "vc:Lightspeed:https://jobs.lsvp.com/jobs/navan"
     },
     {
       "firm": "Sequoia",
