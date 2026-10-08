@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-08T09:51:17.781441+00:00",
-  "count": 2,
+  "generated_at": "2026-10-08T16:12:38.525144+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -22,15 +22,6 @@
     }
   ],
   "jobs": [
-    {
-      "firm": "Lightspeed",
-      "company": "Lightspeed",
-      "title": "Product Strategy & Operations Lead",
-      "location": "",
-      "url": "https://www.wiz.io/careers/job/4719614006/:title?gh_jid=4719614006",
-      "cos": false,
-      "id": "vc:Lightspeed:https://www.wiz.io/careers/job/4719614006/:title?gh_jid=4719614006"
-    },
     {
       "firm": "Sequoia",
       "company": "Sequoia",
