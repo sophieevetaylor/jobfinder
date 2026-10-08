@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-07T16:10:51.824590+00:00",
-  "count": 2,
+  "generated_at": "2026-10-08T00:38:20.645216+00:00",
+  "count": 0,
   "firms": [
     "Sequoia",
     "a16z",
@@ -13,6 +13,10 @@
   ],
   "failures": [
     {
+      "firm": "Lightspeed",
+      "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
+    },
+    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
@@ -21,24 +25,5 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": [
-    {
-      "firm": "Lightspeed",
-      "company": "Lightspeed",
-      "title": "Senior Director, Consumer Protection Team (Strategy & Operations)",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/flex/jobs/4741158005",
-      "cos": false,
-      "id": "vc:Lightspeed:https://job-boards.greenhouse.io/flex/jobs/4741158005"
-    },
-    {
-      "firm": "Lightspeed",
-      "company": "Suno",
-      "title": "Performance Creative Strategy Lead, Paid Media",
-      "location": "",
-      "url": "https://jobs.lsvp.com/jobs/suno",
-      "cos": false,
-      "id": "vc:Lightspeed:https://jobs.lsvp.com/jobs/suno"
-    }
-  ]
+  "jobs": []
 }
