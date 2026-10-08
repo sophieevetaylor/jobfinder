@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-08T00:38:20.645216+00:00",
-  "count": 0,
+  "generated_at": "2026-10-08T09:51:17.781441+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -13,10 +13,6 @@
   ],
   "failures": [
     {
-      "firm": "Lightspeed",
-      "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
-    },
-    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
@@ -25,5 +21,24 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": []
+  "jobs": [
+    {
+      "firm": "Lightspeed",
+      "company": "Lightspeed",
+      "title": "Product Strategy & Operations Lead",
+      "location": "",
+      "url": "https://www.wiz.io/careers/job/4719614006/:title?gh_jid=4719614006",
+      "cos": false,
+      "id": "vc:Lightspeed:https://www.wiz.io/careers/job/4719614006/:title?gh_jid=4719614006"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Product Strategy & Operations Lead",
+      "location": "",
+      "url": "https://www.wiz.io/careers/job/4719614006/:title?gh_jid=4719614006",
+      "cos": false,
+      "id": "vc:Sequoia:https://www.wiz.io/careers/job/4719614006/:title?gh_jid=4719614006"
+    }
+  ]
 }
