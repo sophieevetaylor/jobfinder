@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T09:55:49.550503+00:00",
+  "generated_at": "2026-10-09T15:54:56.793409+00:00",
   "count": 1,
   "firms": [
     "Sequoia",
@@ -13,6 +13,10 @@
   ],
   "failures": [
     {
+      "firm": "Lightspeed",
+      "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
+    },
+    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
@@ -23,13 +27,13 @@
   ],
   "jobs": [
     {
-      "firm": "Lightspeed",
-      "company": "Lightspeed",
+      "firm": "Sequoia",
+      "company": "Sequoia",
       "title": "Strategy & Operations Senior Associate",
       "location": "",
       "url": "https://boards.greenhouse.io/faire/jobs/8880835002?gh_jid=8880835002",
       "cos": false,
-      "id": "vc:Lightspeed:https://boards.greenhouse.io/faire/jobs/8880835002?gh_jid=8880835002"
+      "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8880835002?gh_jid=8880835002"
     }
   ]
 }
