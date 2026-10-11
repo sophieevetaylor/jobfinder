@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-11T09:37:37.688700+00:00",
-  "count": 5,
+  "generated_at": "2026-10-11T15:24:43.865011+00:00",
+  "count": 4,
   "firms": [
     "Sequoia",
     "a16z",
@@ -22,15 +22,6 @@
     }
   ],
   "jobs": [
-    {
-      "firm": "General Catalyst",
-      "company": "General Catalyst",
-      "title": "Director, Business Operations",
-      "location": "United States; Remote",
-      "url": "https://jobs.generalcatalyst.com/companies/equip-2/jobs/96615740-director-business-operations#content",
-      "cos": false,
-      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/equip-2/jobs/96615740-director-business-operations#content"
-    },
     {
       "firm": "Greylock",
       "company": "Greylock",
