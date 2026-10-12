@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-12T00:08:54.389569+00:00",
-  "count": 2,
+  "generated_at": "2026-10-12T10:08:47.591212+00:00",
+  "count": 4,
   "firms": [
     "Sequoia",
     "a16z",
@@ -39,6 +39,24 @@
       "url": "https://jobs.lsvp.com/jobs/plug-motors",
       "cos": true,
       "id": "vc:Lightspeed:https://jobs.lsvp.com/jobs/plug-motors"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Product Strategy & Operations Lead",
+      "location": "",
+      "url": "https://www.wiz.io/careers/job/4719614006/:title?gh_jid=4719614006",
+      "cos": false,
+      "id": "vc:Sequoia:https://www.wiz.io/careers/job/4719614006/:title?gh_jid=4719614006"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Strategy & Operations Senior Associate",
+      "location": "",
+      "url": "https://boards.greenhouse.io/faire/jobs/8880835002?gh_jid=8880835002",
+      "cos": false,
+      "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8880835002?gh_jid=8880835002"
     }
   ]
 }
