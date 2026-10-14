@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-14T00:03:06.298800+00:00",
-  "count": 1,
+  "generated_at": "2026-10-14T08:19:55.074117+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -22,6 +22,15 @@
     }
   ],
   "jobs": [
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Senior Strategy & Operations Lead, US Tax Operations",
+      "location": "",
+      "url": "https://ats.rippling.com/rippling/jobs/3008b599-4506-467d-9d21-62aa561794b7",
+      "cos": false,
+      "id": "vc:Sequoia:https://ats.rippling.com/rippling/jobs/3008b599-4506-467d-9d21-62aa561794b7"
+    },
     {
       "firm": "Sequoia",
       "company": "Sequoia",
