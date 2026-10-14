@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-13T16:47:15.041936+00:00",
-  "count": 2,
+  "generated_at": "2026-10-14T00:03:06.298800+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -22,15 +22,6 @@
     }
   ],
   "jobs": [
-    {
-      "firm": "Greylock",
-      "company": "Greylock",
-      "title": "Enterprise Strategy Lead",
-      "location": "NEW YORK, UNITED STATES",
-      "url": "https://greylock.com/jobs/portfolio-jobs/?job=bdff5c08ea2f314cb7f51f7daf4b92e52b9611164bb502f0a663412b9054ef18",
-      "cos": false,
-      "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=bdff5c08ea2f314cb7f51f7daf4b92e52b9611164bb502f0a663412b9054ef18"
-    },
     {
       "firm": "Sequoia",
       "company": "Sequoia",
