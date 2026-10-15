@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-14T23:35:11.601871+00:00",
-  "count": 2,
+  "generated_at": "2026-10-15T07:56:52.873481+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -13,6 +13,10 @@
   ],
   "failures": [
     {
+      "firm": "a16z",
+      "error": "Page.goto: net::ERR_TIMED_OUT at https://portfoliojobs.a16z.com/jobs\nCall log:\nnavigating to \"https://portfoliojobs.a16z.com/jobs\", waiting until \"domcontentloaded\"\n"
+    },
+    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
@@ -23,22 +27,13 @@
   ],
   "jobs": [
     {
-      "firm": "a16z",
-      "company": "OpenAI",
-      "title": "Strategic Finance Partner, GPT Infra",
-      "location": "Salary range USD 293,000 - 325,000 / yearHybridSan Francisco, California, United States, San FranciscoPosted less than 1",
-      "url": "https://portfoliojobs.a16z.com/jobs/openai",
-      "cos": false,
-      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/openai"
-    },
-    {
       "firm": "Sequoia",
       "company": "Sequoia",
-      "title": "Strategy & Operations Manager",
+      "title": "Senior Manager, Strategic Finance",
       "location": "",
-      "url": "https://job-boards.greenhouse.io/ethoslife/jobs/8883076002",
+      "url": "https://job-boards.greenhouse.io/machindustries/jobs/4451505009",
       "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/ethoslife/jobs/8883076002"
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/machindustries/jobs/4451505009"
     }
   ]
 }
