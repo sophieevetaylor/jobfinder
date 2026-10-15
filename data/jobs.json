@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-15T07:56:52.873481+00:00",
-  "count": 1,
+  "generated_at": "2026-10-15T14:01:56.460997+00:00",
+  "count": 0,
   "firms": [
     "Sequoia",
     "a16z",
@@ -13,10 +13,6 @@
   ],
   "failures": [
     {
-      "firm": "a16z",
-      "error": "Page.goto: net::ERR_TIMED_OUT at https://portfoliojobs.a16z.com/jobs\nCall log:\nnavigating to \"https://portfoliojobs.a16z.com/jobs\", waiting until \"domcontentloaded\"\n"
-    },
-    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
@@ -25,15 +21,5 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": [
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Senior Manager, Strategic Finance",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/machindustries/jobs/4451505009",
-      "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/machindustries/jobs/4451505009"
-    }
-  ]
+  "jobs": []
 }
