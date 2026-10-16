@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-15T23:28:12.285342+00:00",
-  "count": 1,
+  "generated_at": "2026-10-16T07:50:16.232704+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -13,6 +13,10 @@
   ],
   "failures": [
     {
+      "firm": "Lightspeed",
+      "error": "Page.goto: net::ERR_TIMED_OUT at https://jobs.lsvp.com/jobs\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
+    },
+    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
@@ -22,6 +26,15 @@
     }
   ],
   "jobs": [
+    {
+      "firm": "a16z",
+      "company": "Greenlight",
+      "title": "Strategic Finance Manager",
+      "location": "Salary range USD 125,000 - 170,000 / yearRemoteAtlanta (Remote Friendly)Posted less than 1 day ago",
+      "url": "https://portfoliojobs.a16z.com/jobs/greenlight",
+      "cos": false,
+      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/greenlight"
+    },
     {
       "firm": "Sequoia",
       "company": "Sequoia",
