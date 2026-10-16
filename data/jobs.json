@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-16T07:50:16.232704+00:00",
-  "count": 2,
+  "generated_at": "2026-10-16T13:48:29.952821+00:00",
+  "count": 4,
   "firms": [
     "Sequoia",
     "a16z",
@@ -13,10 +13,6 @@
   ],
   "failures": [
     {
-      "firm": "Lightspeed",
-      "error": "Page.goto: net::ERR_TIMED_OUT at https://jobs.lsvp.com/jobs\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
-    },
-    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
@@ -27,6 +23,15 @@
   ],
   "jobs": [
     {
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
+      "title": "Director of Investor Relations",
+      "location": "San Francisco, CA, USA",
+      "url": "https://jobs.generalcatalyst.com/companies/together-ai-2/jobs/97208168-director-of-investor-relations#content",
+      "cos": false,
+      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/together-ai-2/jobs/97208168-director-of-investor-relations#content"
+    },
+    {
       "firm": "a16z",
       "company": "Greenlight",
       "title": "Strategic Finance Manager",
@@ -36,13 +41,22 @@
       "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/greenlight"
     },
     {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Senior Manager, Strategic Finance",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/machindustries/jobs/4451505009",
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Chief of Staff",
+      "location": "San Francisco, CA, USA",
+      "url": "https://jobs.thrivecap.com/companies/abby-care/jobs/97201063-chief-of-staff#content",
+      "cos": true,
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/abby-care/jobs/97201063-chief-of-staff#content"
+    },
+    {
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Director, Business Operations & Strategy",
+      "location": "New York, NY, USA",
+      "url": "https://jobs.thrivecap.com/companies/oscar-health/jobs/97191401-director-business-operations-strategy#content",
       "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/machindustries/jobs/4451505009"
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/oscar-health/jobs/97191401-director-business-operations-strategy#content"
     }
   ]
 }
