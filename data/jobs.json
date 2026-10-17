@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-17T12:46:38.943936+00:00",
-  "count": 3,
+  "generated_at": "2026-10-17T22:48:22.878246+00:00",
+  "count": 0,
   "firms": [
     "Sequoia",
     "a16z",
@@ -13,6 +13,10 @@
   ],
   "failures": [
     {
+      "firm": "a16z",
+      "error": "Page.goto: net::ERR_TIMED_OUT at https://portfoliojobs.a16z.com/jobs\nCall log:\nnavigating to \"https://portfoliojobs.a16z.com/jobs\", waiting until \"domcontentloaded\"\n"
+    },
+    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
@@ -21,33 +25,5 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": [
-    {
-      "firm": "a16z",
-      "company": "Fivetran",
-      "title": "Senior Strategic Finance Analyst",
-      "location": "Salary range USD 118,331.5 - 142,003.5 / yearHybridDenver, Colorado, United States, AMERPosted less than 1 day ago",
-      "url": "https://portfoliojobs.a16z.com/jobs/fivetran",
-      "cos": false,
-      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/fivetran"
-    },
-    {
-      "firm": "General Catalyst",
-      "company": "General Catalyst",
-      "title": "Corporate Development Manager",
-      "location": "United States; Remote",
-      "url": "https://jobs.generalcatalyst.com/companies/h1/jobs/97324753-corporate-development-manager#content",
-      "cos": false,
-      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/h1/jobs/97324753-corporate-development-manager#content"
-    },
-    {
-      "firm": "Thrive",
-      "company": "Thrive",
-      "title": "Strategic Finance, Emerging B2B Products",
-      "location": "San Francisco, CA, USA",
-      "url": "https://jobs.thrivecap.com/companies/openai-3-3b1ed8d5-5b3a-45b4-af49-e30a27910b3b/jobs/97300796-strategic-finance-emerging-b2b-products#content",
-      "cos": false,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/openai-3-3b1ed8d5-5b3a-45b4-af49-e30a27910b3b/jobs/97300796-strategic-finance-emerging-b2b-products#content"
-    }
-  ]
+  "jobs": []
 }
