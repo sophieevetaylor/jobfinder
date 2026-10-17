@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-17T07:27:20.990922+00:00",
-  "count": 1,
+  "generated_at": "2026-10-17T12:46:38.943936+00:00",
+  "count": 3,
   "firms": [
     "Sequoia",
     "a16z",
@@ -23,13 +23,31 @@
   ],
   "jobs": [
     {
+      "firm": "a16z",
+      "company": "Fivetran",
+      "title": "Senior Strategic Finance Analyst",
+      "location": "Salary range USD 118,331.5 - 142,003.5 / yearHybridDenver, Colorado, United States, AMERPosted less than 1 day ago",
+      "url": "https://portfoliojobs.a16z.com/jobs/fivetran",
+      "cos": false,
+      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/fivetran"
+    },
+    {
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
+      "title": "Corporate Development Manager",
+      "location": "United States; Remote",
+      "url": "https://jobs.generalcatalyst.com/companies/h1/jobs/97324753-corporate-development-manager#content",
+      "cos": false,
+      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/h1/jobs/97324753-corporate-development-manager#content"
+    },
+    {
       "firm": "Thrive",
       "company": "Thrive",
-      "title": "Chief of Staff",
+      "title": "Strategic Finance, Emerging B2B Products",
       "location": "San Francisco, CA, USA",
-      "url": "https://jobs.thrivecap.com/companies/abby-care/jobs/97201063-chief-of-staff#content",
-      "cos": true,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/abby-care/jobs/97201063-chief-of-staff#content"
+      "url": "https://jobs.thrivecap.com/companies/openai-3-3b1ed8d5-5b3a-45b4-af49-e30a27910b3b/jobs/97300796-strategic-finance-emerging-b2b-products#content",
+      "cos": false,
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/openai-3-3b1ed8d5-5b3a-45b4-af49-e30a27910b3b/jobs/97300796-strategic-finance-emerging-b2b-products#content"
     }
   ]
 }
