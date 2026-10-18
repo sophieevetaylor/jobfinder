@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-18T07:43:26.034232+00:00",
-  "count": 1,
+  "generated_at": "2026-10-18T13:04:32.122415+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -26,10 +26,19 @@
       "firm": "a16z",
       "company": "Fivetran",
       "title": "Senior Strategic Finance Analyst",
-      "location": "Salary range USD 118,331.5 - 142,003.5 / yearHybridDenver, Colorado, United States, AMERPosted 1 day ago",
+      "location": "Salary range USD 126,220 - 151,470 / yearHybridUSA - New York (dbt)Posted 1 day ago",
       "url": "https://portfoliojobs.a16z.com/jobs/fivetran",
       "cos": false,
       "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/fivetran"
+    },
+    {
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
+      "title": "Corporate Development Manager",
+      "location": "United States; Remote",
+      "url": "https://jobs.generalcatalyst.com/companies/ribbon-health/jobs/97367453-corporate-development-manager#content",
+      "cos": false,
+      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/ribbon-health/jobs/97367453-corporate-development-manager#content"
     }
   ]
 }
