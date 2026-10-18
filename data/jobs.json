@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-17T22:48:22.878246+00:00",
-  "count": 0,
+  "generated_at": "2026-10-18T07:43:26.034232+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -13,10 +13,6 @@
   ],
   "failures": [
     {
-      "firm": "a16z",
-      "error": "Page.goto: net::ERR_TIMED_OUT at https://portfoliojobs.a16z.com/jobs\nCall log:\nnavigating to \"https://portfoliojobs.a16z.com/jobs\", waiting until \"domcontentloaded\"\n"
-    },
-    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
@@ -25,5 +21,15 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": []
+  "jobs": [
+    {
+      "firm": "a16z",
+      "company": "Fivetran",
+      "title": "Senior Strategic Finance Analyst",
+      "location": "Salary range USD 118,331.5 - 142,003.5 / yearHybridDenver, Colorado, United States, AMERPosted 1 day ago",
+      "url": "https://portfoliojobs.a16z.com/jobs/fivetran",
+      "cos": false,
+      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/fivetran"
+    }
+  ]
 }
