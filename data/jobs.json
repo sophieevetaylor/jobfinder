@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-19T08:24:38.974661+00:00",
-  "count": 1,
+  "generated_at": "2026-10-19T16:17:58.796232+00:00",
+  "count": 0,
   "firms": [
     "Sequoia",
     "a16z",
@@ -21,15 +21,5 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": [
-    {
-      "firm": "a16z",
-      "company": "Fivetran",
-      "title": "Senior Strategic Finance Analyst",
-      "location": "Salary range USD 118,331.5 - 142,003.5 / yearHybridDenver, Colorado, United States, AMERPosted 2 days ago",
-      "url": "https://portfoliojobs.a16z.com/jobs/fivetran",
-      "cos": false,
-      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/fivetran"
-    }
-  ]
+  "jobs": []
 }
