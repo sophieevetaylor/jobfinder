@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-20T00:04:40.668027+00:00",
-  "count": 0,
+  "generated_at": "2026-10-20T08:08:24.421473+00:00",
+  "count": 5,
   "firms": [
     "Sequoia",
     "a16z",
@@ -13,10 +13,6 @@
   ],
   "failures": [
     {
-      "firm": "Lightspeed",
-      "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
-    },
-    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
@@ -25,5 +21,51 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": []
+  "jobs": [
+    {
+      "firm": "a16z",
+      "company": "a16z",
+      "title": "Chief of Staff - Office of the Chief Security Sales Officer",
+      "location": "",
+      "url": "https://www.wiz.io/careers/job/4719423006/:title?gh_jid=4719423006",
+      "cos": true,
+      "id": "vc:a16z:https://www.wiz.io/careers/job/4719423006/:title?gh_jid=4719423006"
+    },
+    {
+      "firm": "a16z",
+      "company": "Flow",
+      "title": "Associate, Strategic Finance",
+      "location": "Salary range USD 110,000 - 130,000 / yearNew York, NYPosted less than 1 day ago",
+      "url": "https://portfoliojobs.a16z.com/jobs/flow-life",
+      "cos": false,
+      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/flow-life"
+    },
+    {
+      "firm": "Lightspeed",
+      "company": "Lightspeed",
+      "title": "Chief of Staff - Office of the Chief Security Sales Officer",
+      "location": "",
+      "url": "https://www.wiz.io/careers/job/4719423006/:title?gh_jid=4719423006",
+      "cos": true,
+      "id": "vc:Lightspeed:https://www.wiz.io/careers/job/4719423006/:title?gh_jid=4719423006"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Chief of Staff - Office of the Chief Security Sales Officer",
+      "location": "",
+      "url": "https://www.wiz.io/careers/job/4719423006/:title?gh_jid=4719423006",
+      "cos": true,
+      "id": "vc:Sequoia:https://www.wiz.io/careers/job/4719423006/:title?gh_jid=4719423006"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Revenue Strategy & Operations Manager",
+      "location": "",
+      "url": "https://ats.rippling.com/rippling/jobs/7c0d39c5-9f8d-48a7-93f1-e07ed89dc5c2",
+      "cos": false,
+      "id": "vc:Sequoia:https://ats.rippling.com/rippling/jobs/7c0d39c5-9f8d-48a7-93f1-e07ed89dc5c2"
+    }
+  ]
 }
