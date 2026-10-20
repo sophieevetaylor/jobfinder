@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-20T14:10:32.801655+00:00",
-  "count": 8,
+  "generated_at": "2026-10-20T23:33:31.565240+00:00",
+  "count": 3,
   "firms": [
     "Sequoia",
     "a16z",
@@ -23,42 +23,6 @@
   ],
   "jobs": [
     {
-      "firm": "a16z",
-      "company": "a16z",
-      "title": "Chief of Staff",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/pindropsecurity/jobs/8239746",
-      "cos": true,
-      "id": "vc:a16z:https://job-boards.greenhouse.io/pindropsecurity/jobs/8239746"
-    },
-    {
-      "firm": "a16z",
-      "company": "a16z",
-      "title": "Chief of Staff - Office of the Chief Security Sales Officer",
-      "location": "",
-      "url": "https://www.wiz.io/careers/job/4719423006/:title?gh_jid=4719423006",
-      "cos": true,
-      "id": "vc:a16z:https://www.wiz.io/careers/job/4719423006/:title?gh_jid=4719423006"
-    },
-    {
-      "firm": "a16z",
-      "company": "Flow",
-      "title": "Associate, Strategic Finance",
-      "location": "Salary range USD 110,000 - 130,000 / yearNew York, NYPosted less than 1 day ago",
-      "url": "https://portfoliojobs.a16z.com/jobs/flow-life",
-      "cos": false,
-      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/flow-life"
-    },
-    {
-      "firm": "General Catalyst",
-      "company": "General Catalyst",
-      "title": "Strategic Real Estate, Portfolio Planning & Strategy Lead",
-      "location": "Costa Mesa, CA, USA",
-      "url": "https://jobs.generalcatalyst.com/companies/anduril/jobs/97561432-strategic-real-estate-portfolio-planning-strategy-lead#content",
-      "cos": false,
-      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/anduril/jobs/97561432-strategic-real-estate-portfolio-planning-strategy-lead#content"
-    },
-    {
       "firm": "Greylock",
       "company": "Greylock",
       "title": "Population Health Strategy & Operations Senior Manager",
@@ -75,15 +39,6 @@
       "url": "https://www.wiz.io/careers/job/4719423006/:title?gh_jid=4719423006",
       "cos": true,
       "id": "vc:Lightspeed:https://www.wiz.io/careers/job/4719423006/:title?gh_jid=4719423006"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Chief of Staff - Office of the Chief Security Sales Officer",
-      "location": "",
-      "url": "https://www.wiz.io/careers/job/4719423006/:title?gh_jid=4719423006",
-      "cos": true,
-      "id": "vc:Sequoia:https://www.wiz.io/careers/job/4719423006/:title?gh_jid=4719423006"
     },
     {
       "firm": "Thrive",
