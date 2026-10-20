@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-20T08:08:24.421473+00:00",
-  "count": 5,
+  "generated_at": "2026-10-20T14:10:32.801655+00:00",
+  "count": 8,
   "firms": [
     "Sequoia",
     "a16z",
@@ -25,6 +25,15 @@
     {
       "firm": "a16z",
       "company": "a16z",
+      "title": "Chief of Staff",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/pindropsecurity/jobs/8239746",
+      "cos": true,
+      "id": "vc:a16z:https://job-boards.greenhouse.io/pindropsecurity/jobs/8239746"
+    },
+    {
+      "firm": "a16z",
+      "company": "a16z",
       "title": "Chief of Staff - Office of the Chief Security Sales Officer",
       "location": "",
       "url": "https://www.wiz.io/careers/job/4719423006/:title?gh_jid=4719423006",
@@ -39,6 +48,24 @@
       "url": "https://portfoliojobs.a16z.com/jobs/flow-life",
       "cos": false,
       "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/flow-life"
+    },
+    {
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
+      "title": "Strategic Real Estate, Portfolio Planning & Strategy Lead",
+      "location": "Costa Mesa, CA, USA",
+      "url": "https://jobs.generalcatalyst.com/companies/anduril/jobs/97561432-strategic-real-estate-portfolio-planning-strategy-lead#content",
+      "cos": false,
+      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/anduril/jobs/97561432-strategic-real-estate-portfolio-planning-strategy-lead#content"
+    },
+    {
+      "firm": "Greylock",
+      "company": "Greylock",
+      "title": "Population Health Strategy & Operations Senior Manager",
+      "location": "REMOTE",
+      "url": "https://greylock.com/jobs/portfolio-jobs/?job=2e4049be5fee8ec2344a3340dd139a41890e653f62c207f309f0fe9cd386dd57",
+      "cos": false,
+      "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=2e4049be5fee8ec2344a3340dd139a41890e653f62c207f309f0fe9cd386dd57"
     },
     {
       "firm": "Lightspeed",
@@ -59,13 +86,13 @@
       "id": "vc:Sequoia:https://www.wiz.io/careers/job/4719423006/:title?gh_jid=4719423006"
     },
     {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Revenue Strategy & Operations Manager",
-      "location": "",
-      "url": "https://ats.rippling.com/rippling/jobs/7c0d39c5-9f8d-48a7-93f1-e07ed89dc5c2",
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Strategic Real Estate, Portfolio Planning & Strategy Lead",
+      "location": "Costa Mesa, CA, USA",
+      "url": "https://jobs.thrivecap.com/companies/anduril/jobs/97561432-strategic-real-estate-portfolio-planning-strategy-lead#content",
       "cos": false,
-      "id": "vc:Sequoia:https://ats.rippling.com/rippling/jobs/7c0d39c5-9f8d-48a7-93f1-e07ed89dc5c2"
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/anduril/jobs/97561432-strategic-real-estate-portfolio-planning-strategy-lead#content"
     }
   ]
 }
