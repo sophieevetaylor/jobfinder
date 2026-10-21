@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-21T08:13:27.798375+00:00",
-  "count": 1,
+  "generated_at": "2026-10-21T14:23:39.829468+00:00",
+  "count": 3,
   "firms": [
     "Sequoia",
     "a16z",
@@ -23,13 +23,31 @@
   ],
   "jobs": [
     {
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
+      "title": "Senior Strategic Finance Analyst",
+      "location": "",
+      "url": "https://jobs.generalcatalyst.com/companies/travelperk/jobs/97671530-senior-strategic-finance-analyst#content",
+      "cos": false,
+      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/travelperk/jobs/97671530-senior-strategic-finance-analyst#content"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Strategic Finance Associate (FP&A)",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/machindustries/jobs/4461156009",
+      "cos": false,
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/machindustries/jobs/4461156009"
+    },
+    {
       "firm": "Thrive",
       "company": "Thrive",
-      "title": "Strategic Real Estate, Portfolio Planning & Strategy Lead",
-      "location": "Costa Mesa, CA, USA",
-      "url": "https://jobs.thrivecap.com/companies/anduril/jobs/97561432-strategic-real-estate-portfolio-planning-strategy-lead#content",
-      "cos": false,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/anduril/jobs/97561432-strategic-real-estate-portfolio-planning-strategy-lead#content"
+      "title": "Chief of Staff",
+      "location": "Remote",
+      "url": "https://jobs.thrivecap.com/companies/vetcove/jobs/97663593-chief-of-staff#content",
+      "cos": true,
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/vetcove/jobs/97663593-chief-of-staff#content"
     }
   ]
 }
