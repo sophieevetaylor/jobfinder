@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T14:23:39.829468+00:00",
+  "generated_at": "2026-10-21T23:51:07.598020+00:00",
   "count": 3,
   "firms": [
     "Sequoia",
@@ -13,6 +13,10 @@
   ],
   "failures": [
     {
+      "firm": "Lightspeed",
+      "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
+    },
+    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
@@ -23,13 +27,13 @@
   ],
   "jobs": [
     {
-      "firm": "General Catalyst",
-      "company": "General Catalyst",
-      "title": "Senior Strategic Finance Analyst",
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Chief of Staff - Office of the Chief Security Sales Officer",
       "location": "",
-      "url": "https://jobs.generalcatalyst.com/companies/travelperk/jobs/97671530-senior-strategic-finance-analyst#content",
-      "cos": false,
-      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/travelperk/jobs/97671530-senior-strategic-finance-analyst#content"
+      "url": "https://www.wiz.io/careers/job/4719423006/:title?gh_jid=4719423006",
+      "cos": true,
+      "id": "vc:Sequoia:https://www.wiz.io/careers/job/4719423006/:title?gh_jid=4719423006"
     },
     {
       "firm": "Sequoia",
