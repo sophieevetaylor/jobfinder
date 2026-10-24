@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T23:46:57.718431+00:00",
+  "generated_at": "2026-10-24T07:50:41.273948+00:00",
   "count": 1,
   "firms": [
     "Sequoia",
@@ -23,13 +23,13 @@
   ],
   "jobs": [
     {
-      "firm": "a16z",
-      "company": "Backstory",
-      "title": "Senior Director of Business Operations",
-      "location": "Salary range USD 225,000 - 270,000 / yearRemoteRemotePosted 1 day ago",
-      "url": "https://portfoliojobs.a16z.com/jobs/people.ai",
+      "firm": "Lightspeed",
+      "company": "Lightspeed",
+      "title": "Senior Manager, Strategy & Operations (Consumer Protection Team)",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/flex/jobs/4747374005",
       "cos": false,
-      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/people.ai"
+      "id": "vc:Lightspeed:https://job-boards.greenhouse.io/flex/jobs/4747374005"
     }
   ]
 }
