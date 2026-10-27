@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-26T15:57:37.068390+00:00",
-  "count": 1,
+  "generated_at": "2026-10-27T00:14:37.578569+00:00",
+  "count": 0,
   "firms": [
     "Sequoia",
     "a16z",
@@ -21,15 +21,5 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": [
-    {
-      "firm": "Lightspeed",
-      "company": "Lightspeed",
-      "title": "Senior Manager, Strategy & Operations (Consumer Protection Team)",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/flex/jobs/4747374005",
-      "cos": false,
-      "id": "vc:Lightspeed:https://job-boards.greenhouse.io/flex/jobs/4747374005"
-    }
-  ]
+  "jobs": []
 }
