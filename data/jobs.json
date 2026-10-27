@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27T00:14:37.578569+00:00",
-  "count": 0,
+  "generated_at": "2026-10-27T08:44:59.031133+00:00",
+  "count": 3,
   "firms": [
     "Sequoia",
     "a16z",
@@ -21,5 +21,33 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": []
+  "jobs": [
+    {
+      "firm": "Lightspeed",
+      "company": "Lightspeed",
+      "title": "Strategy & Operations Senior Manager (Security and Technology)",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/chainguard/jobs/4708770006",
+      "cos": false,
+      "id": "vc:Lightspeed:https://job-boards.greenhouse.io/chainguard/jobs/4708770006"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Revenue Strategy & Operations Partner",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8289304",
+      "cos": false,
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/reddit/jobs/8289304"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Strategy & Operations Senior Manager (Security and Technology)",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/chainguard/jobs/4708770006",
+      "cos": false,
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/chainguard/jobs/4708770006"
+    }
+  ]
 }
