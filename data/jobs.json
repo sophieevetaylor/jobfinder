@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-28T09:14:29.788887+00:00",
-  "count": 1,
+  "generated_at": "2026-10-28T15:47:43.142624+00:00",
+  "count": 4,
   "firms": [
     "Sequoia",
     "a16z",
@@ -23,6 +23,15 @@
   ],
   "jobs": [
     {
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
+      "title": "Senior Manager, GTM Strategy & Operations",
+      "location": "New York, NY, USA",
+      "url": "https://jobs.generalcatalyst.com/companies/tabs-2/jobs/98313441-senior-manager-gtm-strategy-operations#content",
+      "cos": false,
+      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/tabs-2/jobs/98313441-senior-manager-gtm-strategy-operations#content"
+    },
+    {
       "firm": "Sequoia",
       "company": "Sequoia",
       "title": "Strategy & Operations Senior Manager (Security and Technology)",
@@ -30,6 +39,24 @@
       "url": "https://job-boards.greenhouse.io/chainguard/jobs/4708770006",
       "cos": false,
       "id": "vc:Sequoia:https://job-boards.greenhouse.io/chainguard/jobs/4708770006"
+    },
+    {
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Strategic Finance, Workloads",
+      "location": "San Francisco, CA, USA",
+      "url": "https://jobs.thrivecap.com/companies/openai-3-3b1ed8d5-5b3a-45b4-af49-e30a27910b3b/jobs/98322905-strategic-finance-workloads#content",
+      "cos": false,
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/openai-3-3b1ed8d5-5b3a-45b4-af49-e30a27910b3b/jobs/98322905-strategic-finance-workloads#content"
+    },
+    {
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Strategy and Operations Lead, Creative Partnerships",
+      "location": "San Francisco, CA, USA",
+      "url": "https://jobs.thrivecap.com/companies/openai-3-3b1ed8d5-5b3a-45b4-af49-e30a27910b3b/jobs/98322899-strategy-and-operations-lead-creative-partnerships#content",
+      "cos": false,
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/openai-3-3b1ed8d5-5b3a-45b4-af49-e30a27910b3b/jobs/98322899-strategy-and-operations-lead-creative-partnerships#content"
     }
   ]
 }
