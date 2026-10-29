@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T09:15:09.020939+00:00",
-  "count": 4,
+  "generated_at": "2026-10-29T15:55:52.710167+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -23,40 +23,22 @@
   ],
   "jobs": [
     {
-      "firm": "General Catalyst",
-      "company": "General Catalyst",
-      "title": "Senior Manager, GTM Strategy & Operations",
-      "location": "New York, NY, USA",
-      "url": "https://jobs.generalcatalyst.com/companies/tabs-2/jobs/98313441-senior-manager-gtm-strategy-operations#content",
+      "firm": "Lightspeed",
+      "company": "Lightspeed",
+      "title": "Strategy & Operations Senior Lead",
+      "location": "",
+      "url": "https://boards.greenhouse.io/faire/jobs/8923085002?gh_jid=8923085002",
       "cos": false,
-      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/tabs-2/jobs/98313441-senior-manager-gtm-strategy-operations#content"
+      "id": "vc:Lightspeed:https://boards.greenhouse.io/faire/jobs/8923085002?gh_jid=8923085002"
     },
     {
       "firm": "Sequoia",
       "company": "Sequoia",
-      "title": "Revenue Strategy & Operations Partner",
+      "title": "Strategy & Operations Senior Lead",
       "location": "",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8289304",
+      "url": "https://boards.greenhouse.io/faire/jobs/8923085002?gh_jid=8923085002",
       "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/reddit/jobs/8289304"
-    },
-    {
-      "firm": "Thrive",
-      "company": "Thrive",
-      "title": "Strategic Finance, Workloads",
-      "location": "San Francisco, CA, USA",
-      "url": "https://jobs.thrivecap.com/companies/openai-3-3b1ed8d5-5b3a-45b4-af49-e30a27910b3b/jobs/98322905-strategic-finance-workloads#content",
-      "cos": false,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/openai-3-3b1ed8d5-5b3a-45b4-af49-e30a27910b3b/jobs/98322905-strategic-finance-workloads#content"
-    },
-    {
-      "firm": "Thrive",
-      "company": "Thrive",
-      "title": "Strategy and Operations Lead, Creative Partnerships",
-      "location": "San Francisco, CA, USA",
-      "url": "https://jobs.thrivecap.com/companies/openai-3-3b1ed8d5-5b3a-45b4-af49-e30a27910b3b/jobs/98322899-strategy-and-operations-lead-creative-partnerships#content",
-      "cos": false,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/openai-3-3b1ed8d5-5b3a-45b4-af49-e30a27910b3b/jobs/98322899-strategy-and-operations-lead-creative-partnerships#content"
+      "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8923085002?gh_jid=8923085002"
     }
   ]
 }
