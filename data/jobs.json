@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T15:55:52.710167+00:00",
+  "generated_at": "2026-10-30T00:32:33.426866+00:00",
   "count": 2,
   "firms": [
     "Sequoia",
@@ -23,13 +23,13 @@
   ],
   "jobs": [
     {
-      "firm": "Lightspeed",
-      "company": "Lightspeed",
-      "title": "Strategy & Operations Senior Lead",
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "MBA Full-Time Hire - Strategic Finance & Business Operations",
       "location": "",
-      "url": "https://boards.greenhouse.io/faire/jobs/8923085002?gh_jid=8923085002",
+      "url": "https://job-boards.greenhouse.io/verkada/jobs/5275085007",
       "cos": false,
-      "id": "vc:Lightspeed:https://boards.greenhouse.io/faire/jobs/8923085002?gh_jid=8923085002"
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/verkada/jobs/5275085007"
     },
     {
       "firm": "Sequoia",
