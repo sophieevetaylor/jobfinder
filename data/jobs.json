@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-30T09:29:05.603683+00:00",
-  "count": 1,
+  "generated_at": "2026-10-30T15:40:39.185731+00:00",
+  "count": 0,
   "firms": [
     "Sequoia",
     "a16z",
@@ -21,15 +21,5 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": [
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Strategy & Operations Senior Lead",
-      "location": "",
-      "url": "https://boards.greenhouse.io/faire/jobs/8923085002?gh_jid=8923085002",
-      "cos": false,
-      "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8923085002?gh_jid=8923085002"
-    }
-  ]
+  "jobs": []
 }
