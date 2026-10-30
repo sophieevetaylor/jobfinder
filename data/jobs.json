@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-30T00:32:33.426866+00:00",
-  "count": 2,
+  "generated_at": "2026-10-30T09:29:05.603683+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -22,15 +22,6 @@
     }
   ],
   "jobs": [
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "MBA Full-Time Hire - Strategic Finance & Business Operations",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/verkada/jobs/5275085007",
-      "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/verkada/jobs/5275085007"
-    },
     {
       "firm": "Sequoia",
       "company": "Sequoia",
