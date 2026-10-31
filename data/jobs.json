@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-31T09:13:04.394990+00:00",
-  "count": 0,
+  "generated_at": "2026-10-31T15:10:20.400118+00:00",
+  "count": 4,
   "firms": [
     "Sequoia",
     "a16z",
@@ -21,5 +21,42 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": []
+  "jobs": [
+    {
+      "firm": "a16z",
+      "company": "Ambience Healthcare",
+      "title": "Chief of Staff, Office of the President",
+      "location": "Salary range USD 185,000 - 275,000 / yearSan Francisco, California, United States, San FranciscoPosted less than 1 day a",
+      "url": "https://portfoliojobs.a16z.com/jobs/ambience-healthcare",
+      "cos": true,
+      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/ambience-healthcare"
+    },
+    {
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
+      "title": "Strategy & BizOps Manager",
+      "location": "",
+      "url": "https://jobs.generalcatalyst.com/companies/airslate/jobs/98653441-strategy-bizops-manager#content",
+      "cos": false,
+      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/airslate/jobs/98653441-strategy-bizops-manager#content"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Senior Analyst, Marketing Strategy & Operations",
+      "location": "",
+      "url": "https://servicetitan.wd1.myworkdayjobs.com/ServiceTitan/job/US-Remote/Senior-Analyst--Marketing-Strategy---Operations_JR116342",
+      "cos": false,
+      "id": "vc:Sequoia:https://servicetitan.wd1.myworkdayjobs.com/ServiceTitan/job/US-Remote/Senior-Analyst--Marketing-Strategy---Operations_JR116342"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Strategy & Operations Senior Lead",
+      "location": "",
+      "url": "https://boards.greenhouse.io/faire/jobs/8923085002?gh_jid=8923085002",
+      "cos": false,
+      "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8923085002?gh_jid=8923085002"
+    }
+  ]
 }
