@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T09:59:34.272847+00:00",
+  "generated_at": "2026-11-01T15:52:42.877350+00:00",
   "count": 3,
   "firms": [
     "Sequoia",
@@ -32,22 +32,22 @@
       "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/ambience-healthcare"
     },
     {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Senior Analyst, Marketing Strategy & Operations",
-      "location": "",
-      "url": "https://servicetitan.wd1.myworkdayjobs.com/ServiceTitan/job/US-Remote/Senior-Analyst--Marketing-Strategy---Operations_JR116342",
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Startup Products Strategy & Operations, Insights & Analytics",
+      "location": "United States; Remote",
+      "url": "https://jobs.thrivecap.com/companies/stripe/jobs/98658573-startup-products-strategy-operations-insights-analytics#content",
       "cos": false,
-      "id": "vc:Sequoia:https://servicetitan.wd1.myworkdayjobs.com/ServiceTitan/job/US-Remote/Senior-Analyst--Marketing-Strategy---Operations_JR116342"
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/stripe/jobs/98658573-startup-products-strategy-operations-insights-analytics#content"
     },
     {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Strategy & Operations Senior Lead",
-      "location": "",
-      "url": "https://boards.greenhouse.io/faire/jobs/8923085002?gh_jid=8923085002",
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Startup Products Strategy & Operations, Product Strategy",
+      "location": "United States; Remote",
+      "url": "https://jobs.thrivecap.com/companies/stripe/jobs/98658575-startup-products-strategy-operations-product-strategy#content",
       "cos": false,
-      "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8923085002?gh_jid=8923085002"
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/stripe/jobs/98658575-startup-products-strategy-operations-product-strategy#content"
     }
   ]
 }
