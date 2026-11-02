@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T00:05:37.258539+00:00",
+  "generated_at": "2026-11-02T10:28:06.365802+00:00",
   "count": 5,
   "firms": [
     "Sequoia",
@@ -14,7 +14,7 @@
   "failures": [
     {
       "firm": "Lightspeed",
-      "error": "Page.goto: net::ERR_TIMED_OUT at https://jobs.lsvp.com/jobs\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
+      "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
     {
       "firm": "Index Ventures",
