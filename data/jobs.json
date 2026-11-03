@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-03T02:44:17.789340+00:00",
-  "count": 1,
+  "generated_at": "2026-11-03T10:25:29.373692+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -22,6 +22,15 @@
     }
   ],
   "jobs": [
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Senior Analyst, Business Operations & Strategy",
+      "location": "",
+      "url": "https://servicetitan.wd1.myworkdayjobs.com/ServiceTitan/job/US-Remote/Senior-Analyst--Business-Operations---Strategy_JR116409",
+      "cos": false,
+      "id": "vc:Sequoia:https://servicetitan.wd1.myworkdayjobs.com/ServiceTitan/job/US-Remote/Senior-Analyst--Business-Operations---Strategy_JR116409"
+    },
     {
       "firm": "Sequoia",
       "company": "Sequoia",
