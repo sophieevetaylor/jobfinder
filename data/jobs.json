@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T00:59:39.224912+00:00",
+  "generated_at": "2026-11-04T16:56:31.733331+00:00",
   "count": 3,
   "firms": [
     "Sequoia",
@@ -25,29 +25,29 @@
     {
       "firm": "General Catalyst",
       "company": "General Catalyst",
-      "title": "Strategic Finance",
+      "title": "Strategic Finance Lead",
       "location": "New York, NY, USA",
-      "url": "https://jobs.generalcatalyst.com/companies/birches-health/jobs/98863041-strategic-finance#content",
+      "url": "https://jobs.generalcatalyst.com/companies/traba-2/jobs/98967984-strategic-finance-lead#content",
       "cos": false,
-      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/birches-health/jobs/98863041-strategic-finance#content"
+      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/traba-2/jobs/98967984-strategic-finance-lead#content"
+    },
+    {
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
+      "title": "Strategic Finance Manager, Operations",
+      "location": "New York, NY, USA",
+      "url": "https://jobs.generalcatalyst.com/companies/cookunity/jobs/98967294-strategic-finance-manager-operations#content",
+      "cos": false,
+      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/cookunity/jobs/98967294-strategic-finance-manager-operations#content"
     },
     {
       "firm": "Sequoia",
       "company": "Sequoia",
-      "title": "Senior Analyst, Business Operations & Strategy",
+      "title": "Investor Relations Manager",
       "location": "",
-      "url": "https://servicetitan.wd1.myworkdayjobs.com/ServiceTitan/job/US-Remote/Senior-Analyst--Business-Operations---Strategy_JR116409",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8929378002?gh_jid=8929378002",
       "cos": false,
-      "id": "vc:Sequoia:https://servicetitan.wd1.myworkdayjobs.com/ServiceTitan/job/US-Remote/Senior-Analyst--Business-Operations---Strategy_JR116409"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Strategy & Operations Senior Lead",
-      "location": "",
-      "url": "https://boards.greenhouse.io/faire/jobs/8923085002?gh_jid=8923085002",
-      "cos": false,
-      "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8923085002?gh_jid=8923085002"
+      "id": "vc:Sequoia:https://boards.greenhouse.io/spacex/jobs/8929378002?gh_jid=8929378002"
     }
   ]
 }
