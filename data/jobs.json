@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-04T16:56:31.733331+00:00",
-  "count": 3,
+  "generated_at": "2026-11-05T01:12:35.070939+00:00",
+  "count": 0,
   "firms": [
     "Sequoia",
     "a16z",
@@ -21,33 +21,5 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": [
-    {
-      "firm": "General Catalyst",
-      "company": "General Catalyst",
-      "title": "Strategic Finance Lead",
-      "location": "New York, NY, USA",
-      "url": "https://jobs.generalcatalyst.com/companies/traba-2/jobs/98967984-strategic-finance-lead#content",
-      "cos": false,
-      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/traba-2/jobs/98967984-strategic-finance-lead#content"
-    },
-    {
-      "firm": "General Catalyst",
-      "company": "General Catalyst",
-      "title": "Strategic Finance Manager, Operations",
-      "location": "New York, NY, USA",
-      "url": "https://jobs.generalcatalyst.com/companies/cookunity/jobs/98967294-strategic-finance-manager-operations#content",
-      "cos": false,
-      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/cookunity/jobs/98967294-strategic-finance-manager-operations#content"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Investor Relations Manager",
-      "location": "",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8929378002?gh_jid=8929378002",
-      "cos": false,
-      "id": "vc:Sequoia:https://boards.greenhouse.io/spacex/jobs/8929378002?gh_jid=8929378002"
-    }
-  ]
+  "jobs": []
 }
