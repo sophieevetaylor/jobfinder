@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T17:11:36.447238+00:00",
+  "generated_at": "2026-11-06T01:17:44.254184+00:00",
   "count": 2,
   "firms": [
     "Sequoia",
@@ -32,13 +32,13 @@
       "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=d3f381acc4a10897c73ab4578b1cd0dc97a121922fad3e85dfeaf2891f6e88d6"
     },
     {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Strategic Finance Manager",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/mavenclinic/jobs/8930894002",
+      "firm": "Lightspeed",
+      "company": "Profound",
+      "title": "Corporate Development Lead",
+      "location": "Salary range USD 225,000 - 280,000 / yearNew York, New York, United States, San Francisco, California, United States, Ne",
+      "url": "https://jobs.lsvp.com/jobs/profound",
       "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/mavenclinic/jobs/8930894002"
+      "id": "vc:Lightspeed:https://jobs.lsvp.com/jobs/profound"
     }
   ]
 }
