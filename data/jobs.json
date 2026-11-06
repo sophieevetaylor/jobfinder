@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-06T10:16:55.341891+00:00",
-  "count": 6,
+  "generated_at": "2026-11-06T16:39:26.759325+00:00",
+  "count": 5,
   "firms": [
     "Sequoia",
     "a16z",
@@ -24,18 +24,9 @@
   "jobs": [
     {
       "firm": "a16z",
-      "company": "a16z",
-      "title": "Staff Strategic Operations Program Manager - GTM",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/mercury/jobs/6238497004",
-      "cos": false,
-      "id": "vc:a16z:https://job-boards.greenhouse.io/mercury/jobs/6238497004"
-    },
-    {
-      "firm": "a16z",
       "company": "Fivetran",
       "title": "Global Head of Deal Strategy and Operations",
-      "location": "Salary range USD 208,051 - 260,064 / yearUSA - New York (dbt)Posted less than 1 day ago",
+      "location": "Salary range USD 200,793.5 - 250,992 / yearUSA - Austin (dbt)Posted less than 1 day ago",
       "url": "https://portfoliojobs.a16z.com/jobs/fivetran",
       "cos": false,
       "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/fivetran"
