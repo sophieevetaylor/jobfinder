@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-07T00:32:01.523826+00:00",
-  "count": 5,
+  "generated_at": "2026-11-07T09:32:48.742681+00:00",
+  "count": 0,
   "firms": [
     "Sequoia",
     "a16z",
@@ -21,51 +21,5 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": [
-    {
-      "firm": "Greylock",
-      "company": "Greylock",
-      "title": "Senior Manager, Customer Experience Strategy & Operations",
-      "location": "NEW YORK, SAN FRANCISCO, UNITED STATES",
-      "url": "https://greylock.com/jobs/portfolio-jobs/?job=d3f381acc4a10897c73ab4578b1cd0dc97a121922fad3e85dfeaf2891f6e88d6",
-      "cos": false,
-      "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=d3f381acc4a10897c73ab4578b1cd0dc97a121922fad3e85dfeaf2891f6e88d6"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Corporate Development Lead",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/mercury/jobs/6250477004",
-      "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/mercury/jobs/6250477004"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Staff Strategic Operations Program Manager - GTM",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/mercury/jobs/6238497004",
-      "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/mercury/jobs/6238497004"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Strategic Finance Manager",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/mavenclinic/jobs/8930894002",
-      "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/mavenclinic/jobs/8930894002"
-    },
-    {
-      "firm": "a16z",
-      "company": "SpotOn",
-      "title": "Business Operations Analyst (Afternoon Shift)",
-      "location": "Salary range PLN 9,800 - 13,500 / monthHybridKrak\u00f3w, Lesser Poland Voivodeship, Poland, Krak\u00f3w, Lesser Poland Voivodeshi",
-      "url": "https://portfoliojobs.a16z.com/jobs/spoton",
-      "cos": false,
-      "id": "vc:a16z:https://portfoliojobs.a16z.com/jobs/spoton"
-    }
-  ]
+  "jobs": []
 }
