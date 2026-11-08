@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-07T15:31:01.505938+00:00",
-  "count": 2,
+  "generated_at": "2026-11-08T00:06:42.215556+00:00",
+  "count": 3,
   "firms": [
     "Sequoia",
     "a16z",
@@ -23,15 +23,6 @@
   ],
   "jobs": [
     {
-      "firm": "General Catalyst",
-      "company": "General Catalyst",
-      "title": "Principal, Corporate Strategy - Corporate Development",
-      "location": "Austin, TX, USA",
-      "url": "https://jobs.generalcatalyst.com/companies/saronic-technologies-2/jobs/99308027-principal-corporate-strategy-corporate-development#content",
-      "cos": false,
-      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/saronic-technologies-2/jobs/99308027-principal-corporate-strategy-corporate-development#content"
-    },
-    {
       "firm": "Greylock",
       "company": "Greylock",
       "title": "Chief of Staff - CFO",
@@ -39,6 +30,24 @@
       "url": "https://greylock.com/jobs/portfolio-jobs/?job=0315058409b36a10f6fbde047b9ff11bc3026a9ef950e34df4d2136aac98211b",
       "cos": true,
       "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=0315058409b36a10f6fbde047b9ff11bc3026a9ef950e34df4d2136aac98211b"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Chief of Staff, CEO",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/attentive/jobs/4480576009",
+      "cos": true,
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/attentive/jobs/4480576009"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Strategic Finance Manager",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/mavenclinic/jobs/8930894002",
+      "cos": false,
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/mavenclinic/jobs/8930894002"
     }
   ]
 }
