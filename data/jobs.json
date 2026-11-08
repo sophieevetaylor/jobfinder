@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-08T09:48:16.186599+00:00",
-  "count": 3,
+  "generated_at": "2026-11-08T15:51:38.929341+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -12,6 +12,10 @@
     "Founders Fund"
   ],
   "failures": [
+    {
+      "firm": "Lightspeed",
+      "error": "Page.goto: net::ERR_TIMED_OUT at https://jobs.lsvp.com/jobs\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
+    },
     {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
@@ -30,24 +34,6 @@
       "url": "https://greylock.com/jobs/portfolio-jobs/?job=0315058409b36a10f6fbde047b9ff11bc3026a9ef950e34df4d2136aac98211b",
       "cos": true,
       "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=0315058409b36a10f6fbde047b9ff11bc3026a9ef950e34df4d2136aac98211b"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Chief of Staff, CEO",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/attentive/jobs/4480576009",
-      "cos": true,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/attentive/jobs/4480576009"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Strategic Finance Manager",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/mavenclinic/jobs/8930894002",
-      "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/mavenclinic/jobs/8930894002"
     }
   ]
 }
