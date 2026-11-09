@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T10:49:12.714630+00:00",
+  "generated_at": "2026-11-09T19:36:19.644389+00:00",
   "count": 2,
   "firms": [
     "Sequoia",
@@ -32,13 +32,13 @@
       "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=0315058409b36a10f6fbde047b9ff11bc3026a9ef950e34df4d2136aac98211b"
     },
     {
-      "firm": "Thrive",
-      "company": "Thrive",
-      "title": "Business Operations Associate",
-      "location": "New York, NY, USA",
-      "url": "https://jobs.thrivecap.com/companies/fortell-2-56c1069d-1a7b-45ac-a04c-d7702914e65a/jobs/99341031-business-operations-associate#content",
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Strategic Finance Manager",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/mavenclinic/jobs/8930894002",
       "cos": false,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/fortell-2-56c1069d-1a7b-45ac-a04c-d7702914e65a/jobs/99341031-business-operations-associate#content"
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/mavenclinic/jobs/8930894002"
     }
   ]
 }
