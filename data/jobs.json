@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-09T00:22:42.607530+00:00",
-  "count": 4,
+  "generated_at": "2026-11-09T10:49:12.714630+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -32,31 +32,13 @@
       "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=0315058409b36a10f6fbde047b9ff11bc3026a9ef950e34df4d2136aac98211b"
     },
     {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Chief of Staff, CEO",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/attentive/jobs/4480576009",
-      "cos": true,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/attentive/jobs/4480576009"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Strategic Finance Manager",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/mavenclinic/jobs/8930894002",
-      "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/mavenclinic/jobs/8930894002"
-    },
-    {
       "firm": "Thrive",
       "company": "Thrive",
       "title": "Business Operations Associate",
       "location": "New York, NY, USA",
-      "url": "https://www.linkedin.com/jobs/view/business-operations-associate-at-fortell-4485004639?utm_source=Thrive+Capital+job+board&utm_medium=getro.com&gh_src=Thrive+Capital+job+board",
+      "url": "https://jobs.thrivecap.com/companies/fortell-2-56c1069d-1a7b-45ac-a04c-d7702914e65a/jobs/99341031-business-operations-associate#content",
       "cos": false,
-      "id": "vc:Thrive:https://www.linkedin.com/jobs/view/business-operations-associate-at-fortell-4485004639?utm_source=Thrive+Capital+job+board&utm_medium=getro.com&gh_src=Thrive+Capital+job+board"
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/fortell-2-56c1069d-1a7b-45ac-a04c-d7702914e65a/jobs/99341031-business-operations-associate#content"
     }
   ]
 }
