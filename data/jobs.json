@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-10T10:42:21.691553+00:00",
-  "count": 1,
+  "generated_at": "2026-11-10T16:52:33.437188+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -30,6 +30,15 @@
       "url": "https://greylock.com/jobs/portfolio-jobs/?job=0315058409b36a10f6fbde047b9ff11bc3026a9ef950e34df4d2136aac98211b",
       "cos": true,
       "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=0315058409b36a10f6fbde047b9ff11bc3026a9ef950e34df4d2136aac98211b"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Strategic Finance Manager",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/mavenclinic/jobs/8930894002",
+      "cos": false,
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/mavenclinic/jobs/8930894002"
     }
   ]
 }
