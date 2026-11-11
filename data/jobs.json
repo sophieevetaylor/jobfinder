@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-11T00:59:19.885769+00:00",
-  "count": 3,
+  "generated_at": "2026-11-11T10:12:50.576743+00:00",
+  "count": 0,
   "firms": [
     "Sequoia",
     "a16z",
@@ -21,33 +21,5 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": [
-    {
-      "firm": "a16z",
-      "company": "a16z",
-      "title": "Strategy & Operations Associate, GTM",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/setpoint/jobs/5291391007",
-      "cos": false,
-      "id": "vc:a16z:https://job-boards.greenhouse.io/setpoint/jobs/5291391007"
-    },
-    {
-      "firm": "Greylock",
-      "company": "Greylock",
-      "title": "Chief of Staff - CFO",
-      "location": "REMOTE",
-      "url": "https://greylock.com/jobs/portfolio-jobs/?job=0315058409b36a10f6fbde047b9ff11bc3026a9ef950e34df4d2136aac98211b",
-      "cos": true,
-      "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=0315058409b36a10f6fbde047b9ff11bc3026a9ef950e34df4d2136aac98211b"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Strategic Finance",
-      "location": "",
-      "url": "https://boards.greenhouse.io/figma/jobs/6251998004?gh_jid=6251998004",
-      "cos": false,
-      "id": "vc:Sequoia:https://boards.greenhouse.io/figma/jobs/6251998004?gh_jid=6251998004"
-    }
-  ]
+  "jobs": []
 }
