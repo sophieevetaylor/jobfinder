@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-10T16:52:33.437188+00:00",
-  "count": 2,
+  "generated_at": "2026-11-11T00:59:19.885769+00:00",
+  "count": 3,
   "firms": [
     "Sequoia",
     "a16z",
@@ -23,6 +23,15 @@
   ],
   "jobs": [
     {
+      "firm": "a16z",
+      "company": "a16z",
+      "title": "Strategy & Operations Associate, GTM",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/setpoint/jobs/5291391007",
+      "cos": false,
+      "id": "vc:a16z:https://job-boards.greenhouse.io/setpoint/jobs/5291391007"
+    },
+    {
       "firm": "Greylock",
       "company": "Greylock",
       "title": "Chief of Staff - CFO",
@@ -34,11 +43,11 @@
     {
       "firm": "Sequoia",
       "company": "Sequoia",
-      "title": "Strategic Finance Manager",
+      "title": "Strategic Finance",
       "location": "",
-      "url": "https://job-boards.greenhouse.io/mavenclinic/jobs/8930894002",
+      "url": "https://boards.greenhouse.io/figma/jobs/6251998004?gh_jid=6251998004",
       "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/mavenclinic/jobs/8930894002"
+      "id": "vc:Sequoia:https://boards.greenhouse.io/figma/jobs/6251998004?gh_jid=6251998004"
     }
   ]
 }
