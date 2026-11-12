@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T16:58:37.959695+00:00",
+  "generated_at": "2026-11-12T02:04:53.412079+00:00",
   "count": 2,
   "firms": [
     "Sequoia",
@@ -23,22 +23,22 @@
   ],
   "jobs": [
     {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Strategic Finance",
-      "location": "",
-      "url": "https://boards.greenhouse.io/figma/jobs/6251998004?gh_jid=6251998004",
-      "cos": false,
-      "id": "vc:Sequoia:https://boards.greenhouse.io/figma/jobs/6251998004?gh_jid=6251998004"
+      "firm": "Greylock",
+      "company": "Greylock",
+      "title": "Staff Program Manager, Office of the CEO",
+      "location": "ON-SITE",
+      "url": "https://greylock.com/jobs/portfolio-jobs/?job=4a1cfeccd2e5c467b63af98e6bd6faf3be357da462e4d0075948655f5dbd72e6",
+      "cos": true,
+      "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=4a1cfeccd2e5c467b63af98e6bd6faf3be357da462e4d0075948655f5dbd72e6"
     },
     {
       "firm": "Sequoia",
       "company": "Sequoia",
-      "title": "Strategic Finance Senior Associate",
+      "title": "Chief of Staff, CEO",
       "location": "",
-      "url": "https://job-boards.greenhouse.io/ethoslife/jobs/8933579002",
-      "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/ethoslife/jobs/8933579002"
+      "url": "https://job-boards.greenhouse.io/attentive/jobs/4480576009",
+      "cos": true,
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/attentive/jobs/4480576009"
     }
   ]
 }
