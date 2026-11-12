@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-12T10:35:34.609183+00:00",
-  "count": 2,
+  "generated_at": "2026-11-12T17:26:04.194943+00:00",
+  "count": 4,
   "firms": [
     "Sequoia",
     "a16z",
@@ -32,6 +32,15 @@
       "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=4a1cfeccd2e5c467b63af98e6bd6faf3be357da462e4d0075948655f5dbd72e6"
     },
     {
+      "firm": "Greylock",
+      "company": "Greylock",
+      "title": "Strategic Finance",
+      "location": "SAN FRANCISCO, NEW YORK, UNITED STATES",
+      "url": "https://greylock.com/jobs/portfolio-jobs/?job=439c5e7bc9b3caf3a69b9d2bc3837a5144de10065d112e0adcec5523998a9129",
+      "cos": false,
+      "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=439c5e7bc9b3caf3a69b9d2bc3837a5144de10065d112e0adcec5523998a9129"
+    },
+    {
       "firm": "Sequoia",
       "company": "Sequoia",
       "title": "Chief of Staff, CEO",
@@ -39,6 +48,15 @@
       "url": "https://job-boards.greenhouse.io/attentive/jobs/4480576009",
       "cos": true,
       "id": "vc:Sequoia:https://job-boards.greenhouse.io/attentive/jobs/4480576009"
+    },
+    {
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Strategic Operations Senior Associate",
+      "location": "Phoenix, AZ, USA",
+      "url": "https://jobs.thrivecap.com/companies/abby-care/jobs/99697864-strategic-operations-senior-associate#content",
+      "cos": false,
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/abby-care/jobs/99697864-strategic-operations-senior-associate#content"
     }
   ]
 }
