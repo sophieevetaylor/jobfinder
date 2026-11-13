@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-13T10:27:17.082427+00:00",
-  "count": 3,
+  "generated_at": "2026-11-13T17:00:45.408201+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -25,15 +25,6 @@
     {
       "firm": "Greylock",
       "company": "Greylock",
-      "title": "Staff Program Manager, Office of the CEO",
-      "location": "ON-SITE",
-      "url": "https://greylock.com/jobs/portfolio-jobs/?job=4a1cfeccd2e5c467b63af98e6bd6faf3be357da462e4d0075948655f5dbd72e6",
-      "cos": true,
-      "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=4a1cfeccd2e5c467b63af98e6bd6faf3be357da462e4d0075948655f5dbd72e6"
-    },
-    {
-      "firm": "Greylock",
-      "company": "Greylock",
       "title": "Strategic Finance",
       "location": "SAN FRANCISCO, NEW YORK, UNITED STATES",
       "url": "https://greylock.com/jobs/portfolio-jobs/?job=439c5e7bc9b3caf3a69b9d2bc3837a5144de10065d112e0adcec5523998a9129",
@@ -41,13 +32,13 @@
       "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=439c5e7bc9b3caf3a69b9d2bc3837a5144de10065d112e0adcec5523998a9129"
     },
     {
-      "firm": "Thrive",
-      "company": "Thrive",
-      "title": "Strategic Operations Senior Associate",
-      "location": "Phoenix, AZ, USA",
-      "url": "https://jobs.thrivecap.com/companies/abby-care/jobs/99697864-strategic-operations-senior-associate#content",
+      "firm": "Greylock",
+      "company": "Greylock",
+      "title": "Strategic Finance Analyst",
+      "location": "SAN FRANCISCO, UNITED STATES",
+      "url": "https://greylock.com/jobs/portfolio-jobs/?job=6b81e6fbfe623ab2201f97da6da6d481508b78d55c02b220cb033bb0bf7b5df6",
       "cos": false,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/abby-care/jobs/99697864-strategic-operations-senior-associate#content"
+      "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=6b81e6fbfe623ab2201f97da6da6d481508b78d55c02b220cb033bb0bf7b5df6"
     }
   ]
 }
