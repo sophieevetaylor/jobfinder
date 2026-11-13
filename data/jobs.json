@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-12T17:26:04.194943+00:00",
-  "count": 4,
+  "generated_at": "2026-11-13T01:36:19.470570+00:00",
+  "count": 3,
   "firms": [
     "Sequoia",
     "a16z",
@@ -39,15 +39,6 @@
       "url": "https://greylock.com/jobs/portfolio-jobs/?job=439c5e7bc9b3caf3a69b9d2bc3837a5144de10065d112e0adcec5523998a9129",
       "cos": false,
       "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=439c5e7bc9b3caf3a69b9d2bc3837a5144de10065d112e0adcec5523998a9129"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Chief of Staff, CEO",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/attentive/jobs/4480576009",
-      "cos": true,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/attentive/jobs/4480576009"
     },
     {
       "firm": "Thrive",
