@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-14T01:09:24.240184+00:00",
-  "count": 5,
+  "generated_at": "2026-11-14T09:45:30.143980+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -23,15 +23,6 @@
   ],
   "jobs": [
     {
-      "firm": "a16z",
-      "company": "a16z",
-      "title": "Manager, Strategic Finance",
-      "location": "",
-      "url": "https://boards.greenhouse.io/figma/jobs/6252853004?gh_jid=6252853004",
-      "cos": false,
-      "id": "vc:a16z:https://boards.greenhouse.io/figma/jobs/6252853004?gh_jid=6252853004"
-    },
-    {
       "firm": "Greylock",
       "company": "Greylock",
       "title": "Strategic Finance Analyst",
@@ -39,33 +30,6 @@
       "url": "https://greylock.com/jobs/portfolio-jobs/?job=6b81e6fbfe623ab2201f97da6da6d481508b78d55c02b220cb033bb0bf7b5df6",
       "cos": false,
       "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=6b81e6fbfe623ab2201f97da6da6d481508b78d55c02b220cb033bb0bf7b5df6"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Manager, Strategic Finance",
-      "location": "",
-      "url": "https://boards.greenhouse.io/figma/jobs/6252853004?gh_jid=6252853004",
-      "cos": false,
-      "id": "vc:Sequoia:https://boards.greenhouse.io/figma/jobs/6252853004?gh_jid=6252853004"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Strategic Finance Manager",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/mavenclinic/jobs/8930894002",
-      "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/mavenclinic/jobs/8930894002"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Strategic Finance Senior Associate",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/ethoslife/jobs/8933579002",
-      "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/ethoslife/jobs/8933579002"
     }
   ]
 }
