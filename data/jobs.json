@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T00:34:18.986270+00:00",
+  "generated_at": "2026-11-15T10:18:02.443583+00:00",
   "count": 2,
   "firms": [
     "Sequoia",
@@ -23,22 +23,22 @@
   ],
   "jobs": [
     {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Manager, Strategic Finance",
-      "location": "",
-      "url": "https://boards.greenhouse.io/figma/jobs/6252853004?gh_jid=6252853004",
+      "firm": "Lightspeed",
+      "company": "1Password",
+      "title": "Strategic Finance Analyst - 15 Month Contract",
+      "location": "Salary range USD 84,000 - 150,000 / yearRemote, Remote (United States | Canada)Posted 1 day ago",
+      "url": "https://jobs.lsvp.com/jobs/1password",
       "cos": false,
-      "id": "vc:Sequoia:https://boards.greenhouse.io/figma/jobs/6252853004?gh_jid=6252853004"
+      "id": "vc:Lightspeed:https://jobs.lsvp.com/jobs/1password"
     },
     {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Strategic Finance Senior Associate",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/ethoslife/jobs/8933579002",
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Capital Markets Compliance Lead",
+      "location": "United States; Remote",
+      "url": "https://jobs.thrivecap.com/companies/collectors/jobs/99899056-capital-markets-compliance-lead#content",
       "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/ethoslife/jobs/8933579002"
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/collectors/jobs/99899056-capital-markets-compliance-lead#content"
     }
   ]
 }
