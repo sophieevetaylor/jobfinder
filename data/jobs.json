@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T16:08:42.542546+00:00",
-  "count": 4,
+  "generated_at": "2026-11-16T00:35:04.140890+00:00",
+  "count": 3,
   "firms": [
     "Sequoia",
     "a16z",
@@ -26,7 +26,7 @@
       "firm": "Lightspeed",
       "company": "1Password",
       "title": "Strategic Finance Analyst - 15 Month Contract",
-      "location": "Salary range USD 84,000 - 150,000 / yearRemote, Remote (United States | Canada)Posted 1 day ago",
+      "location": "Salary range USD 84,000 - 150,000 / yearRemote, Remote (United States | Canada)Posted 2 days ago",
       "url": "https://jobs.lsvp.com/jobs/1password",
       "cos": false,
       "id": "vc:Lightspeed:https://jobs.lsvp.com/jobs/1password"
@@ -39,15 +39,6 @@
       "url": "https://boards.greenhouse.io/figma/jobs/6252853004?gh_jid=6252853004",
       "cos": false,
       "id": "vc:Sequoia:https://boards.greenhouse.io/figma/jobs/6252853004?gh_jid=6252853004"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Strategic Finance Senior Associate",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/ethoslife/jobs/8933579002",
-      "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/ethoslife/jobs/8933579002"
     },
     {
       "firm": "Thrive",
