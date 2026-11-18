@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T02:41:51.524460+00:00",
-  "count": 5,
+  "generated_at": "2026-11-18T10:59:47.418049+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -12,10 +12,6 @@
     "Founders Fund"
   ],
   "failures": [
-    {
-      "firm": "Lightspeed",
-      "error": "Page.goto: net::ERR_TIMED_OUT at https://jobs.lsvp.com/jobs\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
-    },
     {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
@@ -29,47 +25,11 @@
     {
       "firm": "Sequoia",
       "company": "Sequoia",
-      "title": "Manager, Strategic Finance",
-      "location": "",
-      "url": "https://boards.greenhouse.io/figma/jobs/6252853004?gh_jid=6252853004",
-      "cos": false,
-      "id": "vc:Sequoia:https://boards.greenhouse.io/figma/jobs/6252853004?gh_jid=6252853004"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Strategic Finance Associate",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/mavenclinic/jobs/8945207002",
-      "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/mavenclinic/jobs/8945207002"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Strategy & Operations Manager",
-      "location": "",
-      "url": "https://mt.linkedin.com/jobs/view/strategy-operations-manager-at-bolt-4490297351",
-      "cos": false,
-      "id": "vc:Sequoia:https://mt.linkedin.com/jobs/view/strategy-operations-manager-at-bolt-4490297351"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
       "title": "Strategy & Operations Senior Lead, Fulfillment",
       "location": "",
       "url": "https://boards.greenhouse.io/faire/jobs/8945997002?gh_jid=8945997002",
       "cos": false,
       "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8945997002?gh_jid=8945997002"
-    },
-    {
-      "firm": "Thrive",
-      "company": "Thrive",
-      "title": "Chief of Staff to the CEO",
-      "location": "San Francisco, CA, USA",
-      "url": "https://jobs.thrivecap.com/companies/abby-care/jobs/100046734-chief-of-staff-to-the-ceo#content",
-      "cos": true,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/abby-care/jobs/100046734-chief-of-staff-to-the-ceo#content"
     }
   ]
 }
