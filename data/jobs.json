@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19T02:09:36.158669+00:00",
-  "count": 2,
+  "generated_at": "2026-11-19T11:02:27.065171+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -30,15 +30,6 @@
       "url": "https://greylock.com/jobs/portfolio-jobs/?job=4a9ed5b38ad755b8bde0bc210723696641d84c9a4c76d188831ef60f9e98f371",
       "cos": false,
       "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=4a9ed5b38ad755b8bde0bc210723696641d84c9a4c76d188831ef60f9e98f371"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Strategy & Operations Senior Lead, Fulfillment",
-      "location": "",
-      "url": "https://boards.greenhouse.io/faire/jobs/8945997002?gh_jid=8945997002",
-      "cos": false,
-      "id": "vc:Sequoia:https://boards.greenhouse.io/faire/jobs/8945997002?gh_jid=8945997002"
     }
   ]
 }
