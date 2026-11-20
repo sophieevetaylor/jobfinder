@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T01:58:29.085212+00:00",
+  "generated_at": "2026-11-20T10:51:23.957351+00:00",
   "count": 1,
   "firms": [
     "Sequoia",
@@ -13,6 +13,10 @@
   ],
   "failures": [
     {
+      "firm": "a16z",
+      "error": "Page.goto: net::ERR_TIMED_OUT at https://portfoliojobs.a16z.com/jobs\nCall log:\nnavigating to \"https://portfoliojobs.a16z.com/jobs\", waiting until \"domcontentloaded\"\n"
+    },
+    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
@@ -23,13 +27,13 @@
   ],
   "jobs": [
     {
-      "firm": "Greylock",
-      "company": "Greylock",
-      "title": "GTM Strategy and Operations Manager",
-      "location": "REMOTE",
-      "url": "https://greylock.com/jobs/portfolio-jobs/?job=4a9ed5b38ad755b8bde0bc210723696641d84c9a4c76d188831ef60f9e98f371",
+      "firm": "Lightspeed",
+      "company": "Lightspeed",
+      "title": "Director, Strategy & Operations",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/flex/jobs/4757109005",
       "cos": false,
-      "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=4a9ed5b38ad755b8bde0bc210723696641d84c9a4c76d188831ef60f9e98f371"
+      "id": "vc:Lightspeed:https://job-boards.greenhouse.io/flex/jobs/4757109005"
     }
   ]
 }
