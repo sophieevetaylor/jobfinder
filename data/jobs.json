@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T17:38:25.992792+00:00",
+  "generated_at": "2026-11-21T01:54:23.000337+00:00",
   "count": 1,
   "firms": [
     "Sequoia",
@@ -23,13 +23,13 @@
   ],
   "jobs": [
     {
-      "firm": "Lightspeed",
-      "company": "Lightspeed",
-      "title": "Director, Strategy & Operations",
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Senior Analyst, Private Equity & Alliances Strategy & Operations",
       "location": "",
-      "url": "https://job-boards.greenhouse.io/flex/jobs/4757109005",
+      "url": "https://servicetitan.wd1.myworkdayjobs.com/ServiceTitan/job/Glendale-CA/Senior-Analyst--Private-Equity---Alliances-Strategy---Operations_JR116468",
       "cos": false,
-      "id": "vc:Lightspeed:https://job-boards.greenhouse.io/flex/jobs/4757109005"
+      "id": "vc:Sequoia:https://servicetitan.wd1.myworkdayjobs.com/ServiceTitan/job/Glendale-CA/Senior-Analyst--Private-Equity---Alliances-Strategy---Operations_JR116468"
     }
   ]
 }
