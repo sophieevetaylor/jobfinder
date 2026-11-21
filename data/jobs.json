@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-21T10:35:11.009096+00:00",
-  "count": 3,
+  "generated_at": "2026-11-21T16:39:43.711728+00:00",
+  "count": 4,
   "firms": [
     "Sequoia",
     "a16z",
@@ -32,13 +32,13 @@
       "id": "vc:a16z:https://job-boards.greenhouse.io/komodohealth/jobs/8950363002"
     },
     {
-      "firm": "Lightspeed",
-      "company": "Lightspeed",
-      "title": "Senior Program Manager, Business Operations",
-      "location": "",
-      "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8353/",
+      "firm": "Greylock",
+      "company": "Greylock",
+      "title": "Revenue Strategy & Operations (AI Natives, AI Strategics, Labs)",
+      "location": "SAN FRANCISCO, UNITED STATES",
+      "url": "https://greylock.com/jobs/portfolio-jobs/?job=ce2d6ddd54cc2d8b80e38a55ae78720379635c1cb58772d62910490e022147ce",
       "cos": false,
-      "id": "vc:Lightspeed:https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8353/"
+      "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=ce2d6ddd54cc2d8b80e38a55ae78720379635c1cb58772d62910490e022147ce"
     },
     {
       "firm": "Sequoia",
@@ -48,6 +48,15 @@
       "url": "https://boards.greenhouse.io/spacex/jobs/8957456002?gh_jid=8957456002",
       "cos": false,
       "id": "vc:Sequoia:https://boards.greenhouse.io/spacex/jobs/8957456002?gh_jid=8957456002"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Senior Analyst, Private Equity & Alliances Strategy & Operations",
+      "location": "",
+      "url": "https://servicetitan.wd1.myworkdayjobs.com/ServiceTitan/job/Glendale-CA/Senior-Analyst--Private-Equity---Alliances-Strategy---Operations_JR116468",
+      "cos": false,
+      "id": "vc:Sequoia:https://servicetitan.wd1.myworkdayjobs.com/ServiceTitan/job/Glendale-CA/Senior-Analyst--Private-Equity---Alliances-Strategy---Operations_JR116468"
     }
   ]
 }
