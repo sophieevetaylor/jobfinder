@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T16:57:36.772020+00:00",
+  "generated_at": "2026-11-23T01:16:23.437475+00:00",
   "count": 3,
   "firms": [
     "Sequoia",
@@ -41,13 +41,13 @@
       "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=ce2d6ddd54cc2d8b80e38a55ae78720379635c1cb58772d62910490e022147ce"
     },
     {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Senior Analyst, Private Equity & Alliances Strategy & Operations",
+      "firm": "Lightspeed",
+      "company": "Lightspeed",
+      "title": "Senior Program Manager, Business Operations",
       "location": "",
-      "url": "https://servicetitan.wd1.myworkdayjobs.com/ServiceTitan/job/Glendale-CA/Senior-Analyst--Private-Equity---Alliances-Strategy---Operations_JR116468",
+      "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8353/",
       "cos": false,
-      "id": "vc:Sequoia:https://servicetitan.wd1.myworkdayjobs.com/ServiceTitan/job/Glendale-CA/Senior-Analyst--Private-Equity---Alliances-Strategy---Operations_JR116468"
+      "id": "vc:Lightspeed:https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8353/"
     }
   ]
 }
