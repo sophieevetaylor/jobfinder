@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T11:40:38.928320+00:00",
-  "count": 3,
+  "generated_at": "2026-11-23T20:57:21.505965+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -23,15 +23,6 @@
   ],
   "jobs": [
     {
-      "firm": "a16z",
-      "company": "a16z",
-      "title": "Business Operations Manager, Revenue",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/komodohealth/jobs/8950363002",
-      "cos": false,
-      "id": "vc:a16z:https://job-boards.greenhouse.io/komodohealth/jobs/8950363002"
-    },
-    {
       "firm": "Greylock",
       "company": "Greylock",
       "title": "Revenue Strategy & Operations (AI Natives, AI Strategics, Labs)",
@@ -39,15 +30,6 @@
       "url": "https://greylock.com/jobs/portfolio-jobs/?job=ce2d6ddd54cc2d8b80e38a55ae78720379635c1cb58772d62910490e022147ce",
       "cos": false,
       "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=ce2d6ddd54cc2d8b80e38a55ae78720379635c1cb58772d62910490e022147ce"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Senior Analyst, Private Equity & Alliances Strategy & Operations",
-      "location": "",
-      "url": "https://servicetitan.wd1.myworkdayjobs.com/ServiceTitan/job/Glendale-CA/Senior-Analyst--Private-Equity---Alliances-Strategy---Operations_JR116468",
-      "cos": false,
-      "id": "vc:Sequoia:https://servicetitan.wd1.myworkdayjobs.com/ServiceTitan/job/Glendale-CA/Senior-Analyst--Private-Equity---Alliances-Strategy---Operations_JR116468"
     }
   ]
 }
