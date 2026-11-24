@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-24T05:05:09.490287+00:00",
-  "count": 3,
+  "generated_at": "2026-11-24T13:13:47.015104+00:00",
+  "count": 0,
   "firms": [
     "Sequoia",
     "a16z",
@@ -21,33 +21,5 @@
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.foundersfund.com/jobs\nCall log:\nnavigating to \"https://jobs.foundersfund.com/jobs\", waiting until \"domcontentloaded\"\n"
     }
   ],
-  "jobs": [
-    {
-      "firm": "Greylock",
-      "company": "Greylock",
-      "title": "Revenue Strategy & Operations (AI Natives, AI Strategics, Labs)",
-      "location": "SAN FRANCISCO, UNITED STATES",
-      "url": "https://greylock.com/jobs/portfolio-jobs/?job=ce2d6ddd54cc2d8b80e38a55ae78720379635c1cb58772d62910490e022147ce",
-      "cos": false,
-      "id": "vc:Greylock:https://greylock.com/jobs/portfolio-jobs/?job=ce2d6ddd54cc2d8b80e38a55ae78720379635c1cb58772d62910490e022147ce"
-    },
-    {
-      "firm": "Lightspeed",
-      "company": "Rain",
-      "title": "Strategy and Operations, Europe",
-      "location": "",
-      "url": "https://jobs.lsvp.com/jobs/rain-xyz",
-      "cos": false,
-      "id": "vc:Lightspeed:https://jobs.lsvp.com/jobs/rain-xyz"
-    },
-    {
-      "firm": "Sequoia",
-      "company": "Sequoia",
-      "title": "Senior Analyst, Private Equity & Alliances Strategy & Operations",
-      "location": "",
-      "url": "https://servicetitan.wd1.myworkdayjobs.com/ServiceTitan/job/Glendale-CA/Senior-Analyst--Private-Equity---Alliances-Strategy---Operations_JR116468",
-      "cos": false,
-      "id": "vc:Sequoia:https://servicetitan.wd1.myworkdayjobs.com/ServiceTitan/job/Glendale-CA/Senior-Analyst--Private-Equity---Alliances-Strategy---Operations_JR116468"
-    }
-  ]
+  "jobs": []
 }
