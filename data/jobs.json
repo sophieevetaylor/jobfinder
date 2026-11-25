@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T03:54:04.151739+00:00",
+  "generated_at": "2026-11-25T12:01:17.474285+00:00",
   "count": 1,
   "firms": [
     "Sequoia",
@@ -23,13 +23,13 @@
   ],
   "jobs": [
     {
-      "firm": "Lightspeed",
-      "company": "Sierra",
-      "title": "RFP Strategy & Operations, Public Sector",
-      "location": "Salary range USD 180,000 - 220,000 / yearSan Francisco, CA, United StatesPosted 1 day ago",
-      "url": "https://jobs.lsvp.com/jobs/sierra",
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "(Sr) Associate / Manager, Corporate Finance - Capital Markets",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/verkada/jobs/5308613007",
       "cos": false,
-      "id": "vc:Lightspeed:https://jobs.lsvp.com/jobs/sierra"
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/verkada/jobs/5308613007"
     }
   ]
 }
