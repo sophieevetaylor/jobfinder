@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-25T12:01:17.474285+00:00",
-  "count": 1,
+  "generated_at": "2026-11-25T19:00:57.191694+00:00",
+  "count": 2,
   "firms": [
     "Sequoia",
     "a16z",
@@ -30,6 +30,15 @@
       "url": "https://job-boards.greenhouse.io/verkada/jobs/5308613007",
       "cos": false,
       "id": "vc:Sequoia:https://job-boards.greenhouse.io/verkada/jobs/5308613007"
+    },
+    {
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "RFP Strategy & Operations, Public Sector",
+      "location": "San Francisco, CA, USA",
+      "url": "https://jobs.thrivecap.com/companies/sierra-2-90e5d64d-40bb-415e-bbca-4108552c8ee9/jobs/100750030-rfp-strategy-operations-public-sector#content",
+      "cos": false,
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/sierra-2-90e5d64d-40bb-415e-bbca-4108552c8ee9/jobs/100750030-rfp-strategy-operations-public-sector#content"
     }
   ]
 }
