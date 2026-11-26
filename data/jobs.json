@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T03:19:55.075847+00:00",
+  "generated_at": "2026-11-26T11:49:32.507537+00:00",
   "count": 1,
   "firms": [
     "Sequoia",
@@ -13,10 +13,6 @@
   ],
   "failures": [
     {
-      "firm": "a16z",
-      "error": "Page.goto: net::ERR_TIMED_OUT at https://portfoliojobs.a16z.com/jobs\nCall log:\nnavigating to \"https://portfoliojobs.a16z.com/jobs\", waiting until \"domcontentloaded\"\n"
-    },
-    {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
     },
@@ -27,13 +23,13 @@
   ],
   "jobs": [
     {
-      "firm": "Thrive",
-      "company": "Thrive",
-      "title": "RFP Strategy & Operations, Public Sector",
-      "location": "San Francisco, CA, USA",
-      "url": "https://jobs.thrivecap.com/companies/sierra-2-90e5d64d-40bb-415e-bbca-4108552c8ee9/jobs/100750030-rfp-strategy-operations-public-sector#content",
+      "firm": "a16z",
+      "company": "a16z",
+      "title": "Sr. Business Operations Analyst",
+      "location": "",
+      "url": "https://job-boards.greenhouse.io/yubico/jobs/4517129009",
       "cos": false,
-      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/sierra-2-90e5d64d-40bb-415e-bbca-4108552c8ee9/jobs/100750030-rfp-strategy-operations-public-sector#content"
+      "id": "vc:a16z:https://job-boards.greenhouse.io/yubico/jobs/4517129009"
     }
   ]
 }
