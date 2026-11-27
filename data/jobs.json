@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T03:24:46.060718+00:00",
+  "generated_at": "2026-11-27T11:42:37.009365+00:00",
   "count": 1,
   "firms": [
     "Sequoia",
@@ -12,6 +12,10 @@
     "Founders Fund"
   ],
   "failures": [
+    {
+      "firm": "Lightspeed",
+      "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\nnavigating to \"https://jobs.lsvp.com/jobs\", waiting until \"domcontentloaded\"\n"
+    },
     {
       "firm": "Index Ventures",
       "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jobs.indexventures.com/jobs\nCall log:\nnavigating to \"https://jobs.indexventures.com/jobs\", waiting until \"domcontentloaded\"\n"
