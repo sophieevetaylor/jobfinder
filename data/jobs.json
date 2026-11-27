@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-26T18:53:28.769022+00:00",
-  "count": 2,
+  "generated_at": "2026-11-27T03:24:46.060718+00:00",
+  "count": 1,
   "firms": [
     "Sequoia",
     "a16z",
@@ -23,22 +23,13 @@
   ],
   "jobs": [
     {
-      "firm": "a16z",
-      "company": "a16z",
-      "title": "GTM Strategy & Business Operations",
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "(Sr) Associate / Manager, Corporate Finance - Capital Markets",
       "location": "",
-      "url": "https://job-boards.greenhouse.io/tanium/jobs/8417386",
+      "url": "https://job-boards.greenhouse.io/verkada/jobs/5308613007",
       "cos": false,
-      "id": "vc:a16z:https://job-boards.greenhouse.io/tanium/jobs/8417386"
-    },
-    {
-      "firm": "a16z",
-      "company": "a16z",
-      "title": "Sr. Business Operations Analyst",
-      "location": "",
-      "url": "https://job-boards.greenhouse.io/yubico/jobs/4517129009",
-      "cos": false,
-      "id": "vc:a16z:https://job-boards.greenhouse.io/yubico/jobs/4517129009"
+      "id": "vc:Sequoia:https://job-boards.greenhouse.io/verkada/jobs/5308613007"
     }
   ]
 }
