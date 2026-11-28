@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-28T11:16:31.637819+00:00",
-  "count": 3,
+  "generated_at": "2026-11-28T17:25:42.111377+00:00",
+  "count": 7,
   "firms": [
     "Sequoia",
     "a16z",
@@ -22,6 +22,24 @@
     }
   ],
   "jobs": [
+    {
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
+      "title": "Business Operations",
+      "location": "South San Francisco, CA, USA",
+      "url": "https://jobs.generalcatalyst.com/companies/stripe/jobs/100962399-business-operations#content",
+      "cos": false,
+      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/stripe/jobs/100962399-business-operations#content"
+    },
+    {
+      "firm": "General Catalyst",
+      "company": "General Catalyst",
+      "title": "Product Strategy & Operations, Crypto S&O",
+      "location": "New York, NY, USA",
+      "url": "https://jobs.generalcatalyst.com/companies/stripe/jobs/100962402-product-strategy-operations-crypto-s-o#content",
+      "cos": false,
+      "id": "vc:General Catalyst:https://jobs.generalcatalyst.com/companies/stripe/jobs/100962402-product-strategy-operations-crypto-s-o#content"
+    },
     {
       "firm": "Lightspeed",
       "company": "Lightspeed",
@@ -48,6 +66,24 @@
       "url": "https://stripe.com/jobs/search?gh_jid=8421263",
       "cos": false,
       "id": "vc:Sequoia:https://stripe.com/jobs/search?gh_jid=8421263"
+    },
+    {
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Business Operations",
+      "location": "South San Francisco, CA, USA",
+      "url": "https://jobs.thrivecap.com/companies/stripe/jobs/100962399-business-operations#content",
+      "cos": false,
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/stripe/jobs/100962399-business-operations#content"
+    },
+    {
+      "firm": "Thrive",
+      "company": "Thrive",
+      "title": "Product Strategy & Operations, Crypto S&O",
+      "location": "New York, NY, USA",
+      "url": "https://jobs.thrivecap.com/companies/stripe/jobs/100962402-product-strategy-operations-crypto-s-o#content",
+      "cos": false,
+      "id": "vc:Thrive:https://jobs.thrivecap.com/companies/stripe/jobs/100962402-product-strategy-operations-crypto-s-o#content"
     }
   ]
 }
