@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-28T03:02:21.869616+00:00",
-  "count": 1,
+  "generated_at": "2026-11-28T11:16:31.637819+00:00",
+  "count": 3,
   "firms": [
     "Sequoia",
     "a16z",
@@ -23,13 +23,31 @@
   ],
   "jobs": [
     {
+      "firm": "Lightspeed",
+      "company": "Lightspeed",
+      "title": "Business Operations",
+      "location": "",
+      "url": "https://stripe.com/jobs/search?gh_jid=8421413",
+      "cos": false,
+      "id": "vc:Lightspeed:https://stripe.com/jobs/search?gh_jid=8421413"
+    },
+    {
       "firm": "Sequoia",
       "company": "Sequoia",
-      "title": "(Sr) Associate / Manager, Corporate Finance - Capital Markets",
+      "title": "Business Operations",
       "location": "",
-      "url": "https://job-boards.greenhouse.io/verkada/jobs/5308613007",
+      "url": "https://stripe.com/jobs/search?gh_jid=8421413",
       "cos": false,
-      "id": "vc:Sequoia:https://job-boards.greenhouse.io/verkada/jobs/5308613007"
+      "id": "vc:Sequoia:https://stripe.com/jobs/search?gh_jid=8421413"
+    },
+    {
+      "firm": "Sequoia",
+      "company": "Sequoia",
+      "title": "Product Strategy & Operations, Crypto S&O",
+      "location": "",
+      "url": "https://stripe.com/jobs/search?gh_jid=8421263",
+      "cos": false,
+      "id": "vc:Sequoia:https://stripe.com/jobs/search?gh_jid=8421263"
     }
   ]
 }
